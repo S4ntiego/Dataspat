@@ -32,14 +32,14 @@ export function SidebarNav({ categories }: string[]) {
 
   return (
     <div className="w-full">
-      <div className="p-1">
+      <div className="">
         <Input
           type="text"
           placeholder="Search..."
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-      <Separator className="mt-4" />
+      <Separator className="mt-3" />
       <Accordion type="single" defaultValue="item-1" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>
@@ -85,7 +85,7 @@ export function SidebarNav({ categories }: string[]) {
             </div>
           </AccordionTrigger>
           <AccordionContent>
-            <div className="flex justify-between items-center p-1">
+            <div className="flex justify-between items-center">
               <Input
                 type="number"
                 placeholder="from"
@@ -117,7 +117,7 @@ export function SidebarNav({ categories }: string[]) {
         <AccordionItem value="item-1">
           <AccordionTrigger>Release Year</AccordionTrigger>
           <AccordionContent>
-            <div className="flex justify-between items-center p-1">
+            <div className="flex justify-between items-center">
               <Input
                 id="minReleaseYear"
                 type="number"

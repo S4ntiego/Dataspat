@@ -6,10 +6,10 @@ import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Jura } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
 const inter = Inter({variable: "--font-inter", subsets: ["latin"] });
-const jura = Jura({variable: "--font-jura", subsets: ["latin"]})
+const space = Space_Grotesk({variable: "--font-space-grotesk", subsets: ["latin"]})
 
 export const metadata: Metadata = {
   title: {
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "dark min-h-screen bg-background font-inter antialiased", inter.variable, jura.variable
+          "dark min-h-screen bg-background font-inter antialiased", inter.variable, space.variable
         )}
       >
         <ThemeProvider
