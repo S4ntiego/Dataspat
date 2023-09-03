@@ -16,16 +16,16 @@ function getGames() {
 }
 
 export default function Page() {
-  const { games, categories } = getGames();
+  const { categories } = getGames();
   return (
     <div className="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] lg:grid-cols-[300px_minmax(0,1fr)]">
       <aside className="fixed top-14 py-3 z-30 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block">
         <ScrollArea className="h-full">
-          <SidebarNav games={games} categories={categories} />
+          <SidebarNav categories={categories} />
         </ScrollArea>
       </aside>
       <div className="flex h-full flex-col py-4 pl-4 border-l !overflow-auto">
-        <Games data={games} />
+        <Games />
       </div>
     </div>
   );
