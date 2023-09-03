@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/accordion";
 import { Checkbox } from "./ui/checkbox";
 
-export function SidebarNav({ categories, games }: any) {
+export function SidebarNav({ categories }: any) {
   const {
     scoreMin,
     scoreMax,
@@ -19,7 +19,6 @@ export function SidebarNav({ categories, games }: any) {
     criticMin,
     criticMax,
     categoriesFilter,
-    filteredGames,
     setScoreMin,
     setScoreMax,
     setDateMin,
@@ -31,7 +30,6 @@ export function SidebarNav({ categories, games }: any) {
 
   return (
     <div className="w-full pr-4">
-      <div className="text-muted-foreground">{filteredGames.length} items</div>
       <Separator className="mt-3" />
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
@@ -47,11 +45,7 @@ export function SidebarNav({ categories, games }: any) {
                 placeholder="from"
                 value={scoreMin}
                 aria-label="Min User Score"
-                onChange={(e) =>
-                  setScoreMin(
-                    e.target.value !== "" ? Number(e.target.value) : null
-                  )
-                }
+                onChange={(e: any) => setScoreMin(e.target.value)}
               />
               <span className="mx-2">{`-`}</span>
               <Input
@@ -140,7 +134,7 @@ export function SidebarNav({ categories, games }: any) {
           <AccordionTrigger>Category</AccordionTrigger>
           <AccordionContent>
             <div className="flex flex-col space-y-2">
-              {categories.map((category) => (
+              {categories.map((category: any) => (
                 <div className="flex items-center space-x-2" key={category}>
                   <Checkbox
                     id={category}
@@ -149,7 +143,7 @@ export function SidebarNav({ categories, games }: any) {
                         setCategoriesFilter([...categoriesFilter, category]);
                       } else {
                         setCategoriesFilter(
-                          categoriesFilter.filter((c) => c !== category)
+                          categoriesFilter.filter((c: any) => c !== category)
                         );
                       }
                     }}

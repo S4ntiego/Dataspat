@@ -37,9 +37,8 @@ const Games = ({ data }: GamesProps) => {
     categoriesFilter,
     searchTerm,
     sortOption,
-    games,
-    setGames,
   } = useFilterStore();
+  const [games, setGames] = useState<Game[]>(data);
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -70,7 +69,7 @@ const Games = ({ data }: GamesProps) => {
 
     // Apply sorting
     const [field, order] = sortOption.split("-");
-    filteredGames.sort((a, b) => {
+    filteredGames.sort((a: any, b: any) => {
       let valA, valB;
 
       if (field === "OriginalReleaseDate") {
