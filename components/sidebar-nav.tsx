@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/accordion";
 import { Checkbox } from "./ui/checkbox";
 
-export function SidebarNav({ categories }: string[]) {
+export function SidebarNav({ categories, games }: any) {
   const {
     scoreMin,
     scoreMax,
@@ -19,7 +19,7 @@ export function SidebarNav({ categories }: string[]) {
     criticMin,
     criticMax,
     categoriesFilter,
-    searchTerm,
+    filteredGames,
     setScoreMin,
     setScoreMax,
     setDateMin,
@@ -27,20 +27,13 @@ export function SidebarNav({ categories }: string[]) {
     setCriticMin,
     setCriticMax,
     setCategoriesFilter,
-    setSearchTerm,
   } = useFilterStore();
 
   return (
-    <div className="w-full">
-      <div className="">
-        <Input
-          type="text"
-          placeholder="Search..."
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
+    <div className="w-full pr-4">
+      <div className="text-muted-foreground">{filteredGames.length} items</div>
       <Separator className="mt-3" />
-      <Accordion type="single" defaultValue="item-1" collapsible>
+      <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>
             <div>
@@ -48,7 +41,7 @@ export function SidebarNav({ categories }: string[]) {
             </div>
           </AccordionTrigger>
           <AccordionContent>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center p-[1px]">
               <Input
                 type="number"
                 placeholder="from"
@@ -76,7 +69,7 @@ export function SidebarNav({ categories }: string[]) {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <Accordion type="single" defaultValue="item-1" collapsible>
+      <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>
             <div>
@@ -85,7 +78,7 @@ export function SidebarNav({ categories }: string[]) {
             </div>
           </AccordionTrigger>
           <AccordionContent>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center p-[1px]">
               <Input
                 type="number"
                 placeholder="from"
@@ -113,11 +106,11 @@ export function SidebarNav({ categories }: string[]) {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <Accordion type="single" defaultValue="item-1" collapsible>
+      <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>Release Year</AccordionTrigger>
           <AccordionContent>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center p-[1px]">
               <Input
                 id="minReleaseYear"
                 type="number"
@@ -142,7 +135,7 @@ export function SidebarNav({ categories }: string[]) {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <Accordion type="single" defaultValue="item-1" collapsible>
+      <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>Category</AccordionTrigger>
           <AccordionContent>

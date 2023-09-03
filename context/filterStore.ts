@@ -1,5 +1,21 @@
 import { create } from "zustand";
 
+interface Game {
+  ProductId: string;
+  DeveloperName: string;
+  PublisherName: string;
+  ProductTitle: string;
+  ShortTitle: string;
+  ShortDescription: string;
+  MainImgUrl: string;
+  Category: string;
+  OriginalReleaseDate: string;
+  ProductGroupName: string;
+  XboxConsoleGenOptimized: string;
+  UserScore: number;
+  MetaScore: number;
+}
+
 type FilterState = {
   scoreMin: number | null;
   scoreMax: number | null;
@@ -10,6 +26,9 @@ type FilterState = {
   categoriesFilter: string[];
   searchTerm: string;
   sortOption: string;
+  filteredGames: Game[];
+  games: Game[];
+  setFilteredGames: (games: Game[]) => void;
   setScoreMin: (value: number) => void;
   setScoreMax: (value: number) => void;
   setDateMin: (value: number) => void;
@@ -31,6 +50,10 @@ export const useFilterStore = create<FilterState>((set) => ({
   categoriesFilter: [],
   searchTerm: "",
   sortOption: "",
+  filteredGames: [],
+  games: [],
+  setGames: (value) => set(() => ({ games: value })),
+  setFilteredGames: (games: Game[]) => set(() => ({ filteredGames: games })),
   setScoreMin: (value) => set(() => ({ scoreMin: value })),
   setScoreMax: (value) => set(() => ({ scoreMax: value })),
   setDateMin: (value) => set(() => ({ dateMin: value })),

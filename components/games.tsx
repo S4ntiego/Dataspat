@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useFilterStore } from "@/context/filterStore";
 import { cn } from "@/lib/utils";
+import { ScrollArea } from "./ui/scroll-area";
 
 interface Game {
   ProductId: string;
@@ -36,8 +37,9 @@ const Games = ({ data }: GamesProps) => {
     categoriesFilter,
     searchTerm,
     sortOption,
+    games,
+    setGames,
   } = useFilterStore();
-  const [games, setGames] = useState<Game[]>(data);
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -101,7 +103,7 @@ const Games = ({ data }: GamesProps) => {
   ]);
 
   return (
-    <div>
+    <ScrollArea>
       <div className="grid grid-cols-6 gap-4 gap-y-8">
         {games.map((game) => (
           <div className="flex flex-col">
@@ -157,7 +159,7 @@ const Games = ({ data }: GamesProps) => {
           </div>
         ))}
       </div>
-    </div>
+    </ScrollArea>
   );
 };
 
