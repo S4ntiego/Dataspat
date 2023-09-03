@@ -31,8 +31,10 @@ export function SidebarNav({ categories }: any) {
   } = useFilterStore();
 
   return (
-    <div className="w-full pr-4">
-      <p>{filteredGames.length} games</p>
+    <div className="w-full pr-8">
+      <p className="text-muted-foreground text-sm">
+        {filteredGames.length} {filteredGames.length === 1 ? "game" : "games"}
+      </p>
       <Separator className="mt-3" />
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">

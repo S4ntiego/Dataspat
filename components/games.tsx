@@ -101,63 +101,61 @@ const Games = () => {
   ]);
 
   return (
-    <ScrollArea>
-      <div className="grid grid-cols-6 gap-4 gap-y-8">
-        {filteredGames.map((game: any) => (
-          <div className="flex flex-col" key={game.ProductId}>
-            <div className="relative">
-              <Image
-                key={game.ProductId}
-                src={`/resized_images/${game.ProductId}_resized.jpg`}
-                alt={game.ProductTitle}
-                width={360}
-                height={540}
-                className="rounded-[4px]"
-              />
-              <div className="absolute bottom-1.5 right-1.5 w-full flex justify-end space-x-1">
-                <div
-                  className={cn(
-                    "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
-                    game.MetaScore >= 75
-                      ? "bg-[#65CC33]"
-                      : game.MetaScore >= 50
-                      ? "bg-[#FFCC33]"
-                      : game.MetaScore >= 0
-                      ? "bg-[#FF0000]"
-                      : "bg-accent text-foreground"
-                  )}
-                >
-                  {game.MetaScore === -1 ? "tbd" : game.MetaScore}
-                </div>
-                <div
-                  className={cn(
-                    "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
-                    game.UserScore >= 7.5
-                      ? "bg-[#65CC33]"
-                      : game.UserScore >= 5.0
-                      ? "bg-[#FFCC33]"
-                      : game.UserScore >= 0.0
-                      ? "bg-[#FF0000]"
-                      : "bg-accent text-foreground"
-                  )}
-                >
-                  {game.UserScore === -1 ? "tbd" : game.UserScore.toFixed(1)}
-                </div>
+    <div className="grid grid-cols-6 gap-4 gap-y-8">
+      {filteredGames.map((game: any) => (
+        <div className="flex flex-col" key={game.ProductId}>
+          <div className="relative">
+            <Image
+              key={game.ProductId}
+              src={`/resized_images/${game.ProductId}_resized.jpg`}
+              alt={game.ProductTitle}
+              width={360}
+              height={540}
+              className="rounded-[4px]"
+            />
+            <div className="absolute bottom-1.5 right-1.5 w-full flex justify-end space-x-1">
+              <div
+                className={cn(
+                  "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
+                  game.MetaScore >= 75
+                    ? "bg-[#65CC33]"
+                    : game.MetaScore >= 50
+                    ? "bg-[#FFCC33]"
+                    : game.MetaScore >= 0
+                    ? "bg-[#FF0000]"
+                    : "bg-accent text-foreground"
+                )}
+              >
+                {game.MetaScore === -1 ? "tbd" : game.MetaScore}
+              </div>
+              <div
+                className={cn(
+                  "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
+                  game.UserScore >= 7.5
+                    ? "bg-[#65CC33]"
+                    : game.UserScore >= 5.0
+                    ? "bg-[#FFCC33]"
+                    : game.UserScore >= 0.0
+                    ? "bg-[#FF0000]"
+                    : "bg-accent text-foreground"
+                )}
+              >
+                {game.UserScore === -1 ? "tbd" : game.UserScore.toFixed(1)}
               </div>
             </div>
-            <div className="flex text-muted-foreground text-[10px] uppercase mt-2">
-              <div>
-                {new Date(game.OriginalReleaseDate) > today
-                  ? "tba"
-                  : game.OriginalReleaseDate.substring(0, 4)}
-              </div>
-              <div>, {game.Category}</div>
-            </div>
-            <div className="text-md">{game.ProductTitle}</div>
           </div>
-        ))}
-      </div>
-    </ScrollArea>
+          <div className="flex text-muted-foreground text-[10px] uppercase mt-2">
+            <div>
+              {new Date(game.OriginalReleaseDate) > today
+                ? "tba"
+                : game.OriginalReleaseDate.substring(0, 4)}
+            </div>
+            <div>, {game.Category}</div>
+          </div>
+          <div className="text-md">{game.ProductTitle}</div>
+        </div>
+      ))}
+    </div>
   );
 };
 
