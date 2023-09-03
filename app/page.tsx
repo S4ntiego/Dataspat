@@ -5,7 +5,7 @@ import Games from "@/components/games";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { SidebarNav } from "@/components/sidebar-nav";
 
-export function getGames() {
+function getGames() {
   const filePath = path.join(
     process.cwd(),
     "public",
@@ -15,7 +15,7 @@ export function getGames() {
   return JSON.parse(fileContent);
 }
 
-export default async function Page() {
+export default function Page() {
   const { games, categories } = getGames();
   return (
     <div className="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] lg:grid-cols-[300px_minmax(0,1fr)]">
