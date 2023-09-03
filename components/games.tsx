@@ -99,7 +99,7 @@ const Games = ({ data }: GamesProps) => {
     categoriesFilter,
     searchTerm,
     sortOption,
-    games,
+    data,
     setGames,
   ]);
 
