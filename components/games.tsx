@@ -99,13 +99,15 @@ const Games = ({ data }: GamesProps) => {
     categoriesFilter,
     searchTerm,
     sortOption,
+    games,
+    setGames,
   ]);
 
   return (
     <ScrollArea>
       <div className="grid grid-cols-6 gap-4 gap-y-8">
         {games.map((game) => (
-          <div className="flex flex-col">
+          <div className="flex flex-col" key={game.ProductId}>
             <div className="relative">
               <Image
                 key={game.ProductId}
