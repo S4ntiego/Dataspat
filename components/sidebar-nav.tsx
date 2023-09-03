@@ -26,10 +26,13 @@ export function SidebarNav({ categories }: any) {
     setCriticMin,
     setCriticMax,
     setCategoriesFilter,
+    filteredGames,
+    reset,
   } = useFilterStore();
 
   return (
     <div className="w-full pr-4">
+      <p>{filteredGames.length} games</p>
       <Separator className="mt-3" />
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">

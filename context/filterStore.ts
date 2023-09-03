@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import data from "@/public/updated_games_data.json";
 
 interface Game {
   ProductId: string;
@@ -24,6 +25,8 @@ type FilterState = {
   criticMin: any;
   criticMax: any;
   categoriesFilter: any;
+  originalGames: any;
+  filteredGames: any;
   searchTerm: any;
   sortOption: any;
   setScoreMin: any;
@@ -35,9 +38,26 @@ type FilterState = {
   setCategoriesFilter: any;
   setSortOption: any;
   setSearchTerm: any;
+  setOriginalGames: any;
+  setFilteredGames: any;
+  reset: any;
 };
 
 export const useFilterStore = create<FilterState>((set) => ({
+  reset: () =>
+    set({
+      scoreMin: null,
+      scoreMax: null,
+      dateMin: null,
+      dateMax: null,
+      criticMin: null,
+      criticMax: null,
+      categoriesFilter: [],
+      searchTerm: "",
+      sortOption: "",
+      originalGames: data.games,
+      filteredGames: data.games,
+    }),
   scoreMin: null,
   scoreMax: null,
   dateMin: null,
@@ -47,6 +67,10 @@ export const useFilterStore = create<FilterState>((set) => ({
   categoriesFilter: [],
   searchTerm: "",
   sortOption: "",
+  originalGames: data.games,
+  filteredGames: data.games,
+  setOriginalGames: (games: any) => set({ originalGames: games }),
+  setFilteredGames: (games: any) => set({ filteredGames: games }),
   setScoreMin: (value: any) => set(() => ({ scoreMin: value })),
   setScoreMax: (value: any) => set(() => ({ scoreMax: value })),
   setDateMin: (value: any) => set(() => ({ dateMin: value })),

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useFilterStore } from "@/context/filterStore";
 import { cn } from "@/lib/utils";
 import { ScrollArea } from "./ui/scroll-area";
@@ -22,11 +22,7 @@ interface Game {
   MetaScore: number;
 }
 
-interface GamesProps extends React.HTMLAttributes<HTMLDivElement> {
-  data: Game[];
-}
-
-const Games = ({ data }: GamesProps) => {
+const Games = () => {
   const {
     scoreMin,
     scoreMax,
@@ -37,17 +33,19 @@ const Games = ({ data }: GamesProps) => {
     categoriesFilter,
     searchTerm,
     sortOption,
+    originalGames,
+    filteredGames,
+    setFilteredGames,
   } = useFilterStore();
-  const [games, setGames] = useState<Game[]>(data);
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
   useEffect(() => {
-    let filteredGames = data;
+    let gamesToFilter = originalGames;
 
     // Apply filters
-    filteredGames = filteredGames.filter((game) => {
+    gamesToFilter = gamesToFilter.filter((game: any) => {
       const score = game.UserScore;
       const date = new Date(game.OriginalReleaseDate).getFullYear();
       const criticScore = game.MetaScore;
@@ -69,7 +67,7 @@ const Games = ({ data }: GamesProps) => {
 
     // Apply sorting
     const [field, order] = sortOption.split("-");
-    filteredGames.sort((a: any, b: any) => {
+    gamesToFilter.sort((a: any, b: any) => {
       let valA, valB;
 
       if (field === "OriginalReleaseDate") {
@@ -88,7 +86,7 @@ const Games = ({ data }: GamesProps) => {
       return 0;
     });
 
-    setGames(filteredGames);
+    setFilteredGames(gamesToFilter);
   }, [
     scoreMin,
     scoreMax,
@@ -99,14 +97,13 @@ const Games = ({ data }: GamesProps) => {
     categoriesFilter,
     searchTerm,
     sortOption,
-    data,
-    setGames,
+    setFilteredGames,
   ]);
 
   return (
     <ScrollArea>
       <div className="grid grid-cols-6 gap-4 gap-y-8">
-        {games.map((game) => (
+        {filteredGames.map((game: any) => (
           <div className="flex flex-col" key={game.ProductId}>
             <div className="relative">
               <Image
