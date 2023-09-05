@@ -101,7 +101,7 @@ const Games = () => {
   ]);
 
   return (
-    <div className="grid grid-cols-6 gap-4 gap-y-8">
+    <div className="grid grid-cols-6 gap-4 gap-y-8 py-4">
       {filteredGames.map((game: any) => (
         <div className="flex flex-col" key={game.ProductId}>
           <div className="relative">
@@ -144,7 +144,7 @@ const Games = () => {
               </div>
             </div>
           </div>
-          <div className="flex text-muted-foreground text-[10px] uppercase mt-2">
+          <div className="flex text-muted-foreground text-[10px] uppercase mt-2 tracking-wide">
             <div>
               {new Date(game.OriginalReleaseDate) > today
                 ? "tba"

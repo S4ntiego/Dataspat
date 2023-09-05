@@ -62,6 +62,8 @@ module.exports = {
       fontFamily: {
         lexend: ["var(--font-inter)"],
         space: ["var(--font-space-grotesk)"],
+        inter_tight: ["var(--font-inter-tight)"],
+        roboto_mono: ["var(--font-roboto-mono)"],
       },
       keyframes: {
         "accordion-down": {

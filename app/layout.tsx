@@ -1,4 +1,5 @@
 import { Analytics } from "@/components/analytics";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -7,9 +8,22 @@ import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Space_Grotesk } from "next/font/google";
+import { Roboto_Mono } from "next/font/google";
+import { Inter_Tight } from "next/font/google";
 
-const inter = Inter({variable: "--font-inter", subsets: ["latin"] });
-const space = Space_Grotesk({variable: "--font-space-grotesk", subsets: ["latin"]})
+const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
+const space = Space_Grotesk({
+  variable: "--font-space-grotesk",
+  subsets: ["latin"],
+});
+const roboto_mono = Roboto_Mono({
+  variable: "--font-roboto-mono",
+  subsets: ["latin"],
+});
+const inter_tight = Inter_Tight({
+  variable: "--font-inter-tight",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -62,7 +76,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "dark min-h-screen bg-background font-inter antialiased", inter.variable, space.variable
+          "min-h-screen bg-background font-inter_tight antialiased dark",
+          inter.variable,
+          space.variable,
+          roboto_mono.variable,
+          inter_tight.variable
         )}
       >
         <ThemeProvider
@@ -71,10 +89,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
-         <div className="relative flex min-h-screen flex-col">
-              <SiteHeader />
-              <div className="flex-1">{children}</div>
-            </div>
+          <div className="relative flex min-h-screen flex-col">
+            <SiteHeader />
+            <div className="flex-1">{children}</div>
+            <SiteFooter />
+          </div>
         </ThemeProvider>
         <TailwindIndicator />
         <Analytics />

@@ -24,11 +24,7 @@ export default function Page() {
           <SidebarNav categories={categories} />
         </ScrollArea>
       </aside>
-      <div className="fixed top-14 py-3 z-30 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block">
-        <ScrollArea className="h-full pr-8" type="auto">
-          <Games />
-        </ScrollArea>
-      </div>
+      <Games />
     </div>
   );
 }
