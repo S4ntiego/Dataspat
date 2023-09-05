@@ -72,11 +72,11 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background font-inter_tight antialiased dark",
+          "bg-background font-inter_tight antialiased dark",
           inter.variable,
           space.variable,
           roboto_mono.variable,
@@ -89,11 +89,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
-          <div className="relative flex min-h-screen flex-col">
-            <SiteHeader />
-            <div className="flex-1">{children}</div>
-            <SiteFooter />
-          </div>
+          <SiteHeader />
+          {children}
+          <SiteFooter />
         </ThemeProvider>
         <TailwindIndicator />
         <Analytics />

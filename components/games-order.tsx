@@ -14,7 +14,7 @@ export function GamesOrder() {
   const { setSortOption } = useFilterStore();
 
   return (
-    <div className="sticky top-0 z-30 flex justify-end items-center py-2 shrink-0 bg-background">
+    <div className="flex justify-end items-center py-2 shrink-0 bg-background">
       <Select onValueChange={(value) => setSortOption(value)}>
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Sort By" />

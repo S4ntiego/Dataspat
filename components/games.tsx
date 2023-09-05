@@ -101,7 +101,7 @@ const Games = () => {
   ]);
 
   return (
-    <div className="grid grid-cols-6 gap-4 gap-y-8 py-4">
+    <div className="grid grid-cols-2 lg:grid-cols-6 gap-4 gap-y-8 py-4">
       {filteredGames.map((game: any) => (
         <div className="flex flex-col" key={game.ProductId}>
           <div className="relative">

@@ -8,35 +8,48 @@ import { cn } from "@/lib/utils";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import { ScrollArea } from "./ui/scroll-area";
+import { Input } from "./ui/input";
+import { GamesOrder } from "@/components/games-order";
+import { useFilterStore } from "@/context/filterStore";
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false);
+  const { setSearchTerm } = useFilterStore();
 
   return (
-    <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger asChild>
-        <Button
-          variant="ghost"
-          className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
-        >
-          <ViewVerticalIcon className="h-5 w-5" />
-          <span className="sr-only">Toggle Menu</span>
-        </Button>
-      </SheetTrigger>
-      <SheetContent side="left" className="pr-0">
-        <MobileLink
-          href="/"
-          className="flex items-center"
-          onOpenChange={setOpen}
-        >
-          <span className="font-bold">Metapass</span>
-        </MobileLink>
-        <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
-          <div className="flex flex-col space-y-3"></div>
-          <div className="flex flex-col space-y-2"></div>
-        </ScrollArea>
-      </SheetContent>
-    </Sheet>
+    <div className="flex lg:hidden items-center">
+      <Sheet open={open} onOpenChange={setOpen}>
+        <SheetTrigger asChild>
+          <Button
+            variant="ghost"
+            className="mr-4 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+          >
+            <ViewVerticalIcon className="h-5 w-5" />
+            <span className="sr-only">Toggle Menu</span>
+          </Button>
+        </SheetTrigger>
+        <SheetContent side="left" className="pr-0">
+          <MobileLink
+            href="/"
+            className="flex items-center"
+            onOpenChange={setOpen}
+          >
+            <span className="font-bold">Metapass</span>
+          </MobileLink>
+          <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
+            <div className="flex flex-col space-y-3"></div>
+            <div className="flex flex-col space-y-2"></div>
+          </ScrollArea>
+        </SheetContent>
+      </Sheet>
+      <Input
+        type="text"
+        placeholder="Search..."
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className="w-full mr-2 lg:w-96"
+      />
+      <GamesOrder />
+    </div>
   );
 }
 

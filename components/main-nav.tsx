@@ -9,16 +9,19 @@ export function MainNav() {
   const { setSearchTerm } = useFilterStore();
 
   return (
-    <div className="flex justify-between items-center w-full bg-background gap-x-48">
-      <div className="mr-4 hidden md:flex font-semibold tracking-widest text-lg font-space text-zinc-100">
-        Gridtrain
+    <div className="hidden lg:flex py-4 border-b lg:border-0 lg:mx-0 w-full">
+      <div className="relative flex items-center justify-between w-full">
+        <p className="font-space text-xl">Gridtrain</p>
+        <div className="flex items-center gap-4">
+          <Input
+            type="text"
+            placeholder="Search..."
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full lg:w-96"
+          />
+          <GamesOrder />
+        </div>
       </div>
-      <Input
-        type="text"
-        placeholder="Search..."
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
-      <GamesOrder />
     </div>
   );
 }
