@@ -72,7 +72,7 @@ const Games = () => {
     gamesToFilter.sort((a: any, b: any) => {
       let valA, valB;
 
-      if (field === "OriginalReleaseDate") {
+      if (field === "OriginalReleaseDate" || field === "StartDate") {
         valA = new Date(a[field]).getTime();
         valB = new Date(b[field]).getTime();
       } else if (field === "title") {
@@ -104,7 +104,7 @@ const Games = () => {
   ]);
 
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 py-6">
+    <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-8 py-4 lg:py-6">
       {filteredGames.map((game: any) => (
         <div className="flex flex-col" key={game.ProductId}>
           <div className="relative">
@@ -116,34 +116,56 @@ const Games = () => {
               height={540}
               className="rounded-[4px]"
             />
-            <div className="absolute bottom-1.5 right-1.5 w-full flex justify-end space-x-1">
-              <div
-                className={cn(
-                  "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
-                  game.MetaScore >= 75
-                    ? "bg-[#65CC33]"
-                    : game.MetaScore >= 50
-                    ? "bg-[#FFCC33]"
-                    : game.MetaScore >= 0
-                    ? "bg-[#FF0000]"
-                    : "bg-accent text-foreground"
-                )}
-              >
-                {game.MetaScore === -1 ? "tbd" : game.MetaScore}
+            <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
+              <div className="">
+                <div
+                  className={cn(
+                    game.RecentlyAdded
+                      ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
+                      : ""
+                  )}
+                >
+                  {game.RecentlyAdded ? "Recently added" : ""}
+                </div>
+                <div
+                  className={cn(
+                    game.GoingToBeDeleted
+                      ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
+                      : ""
+                  )}
+                >
+                  {game.GoingToBeDeleted ? "To be removed" : ""}
+                </div>
               </div>
-              <div
-                className={cn(
-                  "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
-                  game.UserScore >= 7.5
-                    ? "bg-[#65CC33]"
-                    : game.UserScore >= 5.0
-                    ? "bg-[#FFCC33]"
-                    : game.UserScore >= 0.0
-                    ? "bg-[#FF0000]"
-                    : "bg-accent text-foreground"
-                )}
-              >
-                {game.UserScore === -1 ? "tbd" : game.UserScore.toFixed(1)}
+              <div className="flex space-x-1">
+                <div
+                  className={cn(
+                    "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
+                    game.MetaScore >= 75
+                      ? "bg-[#65CC33]"
+                      : game.MetaScore >= 50
+                      ? "bg-[#FFCC33]"
+                      : game.MetaScore >= 0
+                      ? "bg-[#FF0000]"
+                      : "bg-accent text-foreground"
+                  )}
+                >
+                  {game.MetaScore === -1 ? "tbd" : game.MetaScore}
+                </div>
+                <div
+                  className={cn(
+                    "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
+                    game.UserScore >= 7.5
+                      ? "bg-[#65CC33]"
+                      : game.UserScore >= 5.0
+                      ? "bg-[#FFCC33]"
+                      : game.UserScore >= 0.0
+                      ? "bg-[#FF0000]"
+                      : "bg-accent text-foreground"
+                  )}
+                >
+                  {game.UserScore === -1 ? "tbd" : game.UserScore.toFixed(1)}
+                </div>
               </div>
             </div>
           </div>
