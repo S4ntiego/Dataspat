@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { useFilterStore } from "@/context/filterStore";
 import { cn } from "@/lib/utils";
-import { ScrollArea } from "./ui/scroll-area";
 
 interface Game {
   ProductId: string;
@@ -35,6 +34,7 @@ const Games = () => {
     sortOption,
     originalGames,
     filteredGames,
+    releasePlatform,
     setFilteredGames,
   } = useFilterStore();
 
@@ -50,6 +50,7 @@ const Games = () => {
       const date = new Date(game.OriginalReleaseDate).getFullYear();
       const criticScore = game.MetaScore;
       const category = game.Category;
+      const platform = game.XboxConsoleGenOptimized;
 
       return (
         (scoreMin === null || score >= scoreMin) &&
@@ -60,6 +61,7 @@ const Games = () => {
         (criticMax === null || criticScore <= criticMax) &&
         (categoriesFilter.length === 0 ||
           categoriesFilter.includes(category)) &&
+        (releasePlatform.length === 0 || releasePlatform.includes(platform)) &&
         (searchTerm === "" ||
           game.ProductTitle.toLowerCase().includes(searchTerm.toLowerCase()))
       );
@@ -95,13 +97,14 @@ const Games = () => {
     criticMin,
     criticMax,
     categoriesFilter,
+    releasePlatform,
     searchTerm,
     sortOption,
     setFilteredGames,
   ]);
 
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-6 gap-4 gap-y-8 py-4">
+    <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 py-6">
       {filteredGames.map((game: any) => (
         <div className="flex flex-col" key={game.ProductId}>
           <div className="relative">

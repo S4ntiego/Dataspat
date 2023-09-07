@@ -19,6 +19,7 @@ export function SidebarNav({ categories }: any) {
     criticMin,
     criticMax,
     categoriesFilter,
+    releasePlatform,
     setScoreMin,
     setScoreMax,
     setDateMin,
@@ -26,9 +27,16 @@ export function SidebarNav({ categories }: any) {
     setCriticMin,
     setCriticMax,
     setCategoriesFilter,
+    setReleasePlatform,
     filteredGames,
     reset,
   } = useFilterStore();
+
+  const platforms = ["Xbox 360", "Xbox One", "Xbox Series X"];
+
+  function setPlatformsFilter(arg0: any[]) {
+    throw new Error("Function not implemented.");
+  }
 
   return (
     <div className="w-full pr-8">
@@ -158,6 +166,41 @@ export function SidebarNav({ categories }: any) {
                     className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                   >
                     {category}
+                  </label>
+                </div>
+              ))}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+      <Accordion type="single" collapsible>
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Release Platform</AccordionTrigger>
+          <AccordionContent>
+            <div className="flex flex-col space-y-2">
+              {platforms.map((platform: any) => (
+                <div className="flex items-center space-x-2" key={platform}>
+                  <Checkbox
+                    id={platform}
+                    onCheckedChange={(checked) => {
+                      if (checked) {
+                        setReleasePlatform([...releasePlatform, platform]);
+                      } else {
+                        setReleasePlatform(
+                          releasePlatform.filter((c: any) => c !== platform)
+                        );
+                      }
+                    }}
+                  />
+                  <label
+                    htmlFor={platform}
+                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  >
+                    {platform === "Xbox Series X"
+                      ? "Xbox Series X | S"
+                      : platform === "Xbox 360"
+                      ? "Xbox 360 | Xbox"
+                      : platform}
                   </label>
                 </div>
               ))}

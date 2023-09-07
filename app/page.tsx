@@ -19,7 +19,7 @@ export default function Page() {
   const { categories } = getGames();
   return (
     <div className="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] lg:grid-cols-[300px_minmax(0,1fr)]">
-      <aside className="fixed top-14 py-3 z-30 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block">
+      <aside className="fixed top-[85px] py-6 z-30 hidden h-[calc(100vh-5rem)] w-full shrink-0 md:sticky md:block">
         <ScrollArea className="h-full" type="auto">
           <SidebarNav categories={categories} />
         </ScrollArea>

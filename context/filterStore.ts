@@ -27,6 +27,7 @@ type FilterState = {
   categoriesFilter: any;
   originalGames: any;
   filteredGames: any;
+  releasePlatform: any;
   searchTerm: any;
   sortOption: any;
   setScoreMin: any;
@@ -40,6 +41,7 @@ type FilterState = {
   setSearchTerm: any;
   setOriginalGames: any;
   setFilteredGames: any;
+  setReleasePlatform: any;
   reset: any;
 };
 
@@ -52,6 +54,7 @@ export const useFilterStore = create<FilterState>((set) => ({
       dateMax: null,
       criticMin: null,
       criticMax: null,
+      releasePlatform: [],
       categoriesFilter: [],
       searchTerm: "",
       sortOption: "",
@@ -64,6 +67,7 @@ export const useFilterStore = create<FilterState>((set) => ({
   dateMax: null,
   criticMin: null,
   criticMax: null,
+  releasePlatform: [],
   categoriesFilter: [],
   searchTerm: "",
   sortOption: "",
@@ -78,6 +82,7 @@ export const useFilterStore = create<FilterState>((set) => ({
   setCriticMin: (value: any) => set(() => ({ criticMin: value })),
   setCriticMax: (value: any) => set(() => ({ criticMax: value })),
   setCategoriesFilter: (value: any) => set(() => ({ categoriesFilter: value })),
+  setReleasePlatform: (value: any) => set(() => ({ releasePlatform: value })),
   setSearchTerm: (value: any) => set(() => ({ searchTerm: value })),
   setSortOption: (value: any) => set(() => ({ sortOption: value })),
 }));

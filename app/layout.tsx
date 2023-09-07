@@ -76,7 +76,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "bg-background font-inter_tight antialiased dark",
+          "bg-background font-inter_tight antialiased",
           inter.variable,
           space.variable,
           roboto_mono.variable,
@@ -85,7 +85,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
