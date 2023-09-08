@@ -198,77 +198,7 @@ const Games = () => {
                 height={256}
                 className="rounded-[4px]"
               />
-              <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
-                <div className="">
-                  <div
-                    className={cn(
-                      game.RecentlyAdded
-                        ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
-                        : ""
-                    )}
-                  >
-                    {game.RecentlyAdded ? "Recently added" : ""}
-                  </div>
-                  <div
-                    className={cn(
-                      game.GoingToBeDeleted
-                        ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
-                        : ""
-                    )}
-                  >
-                    {game.GoingToBeDeleted ? "Leaving soon" : ""}
-                  </div>
-                  <div
-                    className={cn(
-                      game.ComingSoon
-                        ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
-                        : ""
-                    )}
-                  >
-                    {game.ComingSoon ? "Coming soon" : ""}
-                  </div>
-                </div>
-                <div className="flex space-x-1">
-                  <div
-                    className={cn(
-                      "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
-                      game.MetaScore >= 75
-                        ? "bg-[#65CC33]"
-                        : game.MetaScore >= 50
-                        ? "bg-[#FFCC33]"
-                        : game.MetaScore >= 0
-                        ? "bg-[#FF0000]"
-                        : "bg-accent text-foreground"
-                    )}
-                  >
-                    {game.MetaScore === -1 ? "tbd" : game.MetaScore}
-                  </div>
-                  <div
-                    className={cn(
-                      "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
-                      game.UserScore >= 7.5
-                        ? "bg-[#65CC33]"
-                        : game.UserScore >= 5.0
-                        ? "bg-[#FFCC33]"
-                        : game.UserScore >= 0.0
-                        ? "bg-[#FF0000]"
-                        : "bg-accent text-foreground"
-                    )}
-                  >
-                    {game.UserScore === -1 ? "tbd" : game.UserScore.toFixed(1)}
-                  </div>
-                </div>
-              </div>
             </div>
-            <div className="flex text-muted-foreground text-[10px] uppercase mt-2 tracking-wide">
-              <div>
-                {new Date(game.OriginalReleaseDate) > today
-                  ? "tba"
-                  : game.OriginalReleaseDate.substring(0, 4)}
-              </div>
-              <div>, {game.Category}</div>
-            </div>
-            <div className="text-md line-clamp-2">{game.ProductTitle}</div>
           </div>
         ))}
       </div>
