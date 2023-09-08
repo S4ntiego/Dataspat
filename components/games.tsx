@@ -21,19 +21,6 @@ interface Game {
   MetaScore: number;
 }
 
-const getTrueKeys = (game: any) => {
-  const keysOfInterest = ["RecentlyAdded", "GoingToBeDeleted", "ComingSoon"];
-  const trueKeys: any = [];
-
-  keysOfInterest.forEach((key) => {
-    if (game[key]) {
-      trueKeys.push(key);
-    }
-  });
-
-  return trueKeys;
-};
-
 const Games = () => {
   const {
     scoreMin,
@@ -156,7 +143,6 @@ const Games = () => {
               alt={game.ProductTitle}
               width={256}
               height={188}
-              quality={30}
               className="rounded-[4px]"
             />
             <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
