@@ -192,7 +192,7 @@ const Games = () => {
                 src={`/resized_images/${game.ProductId}_resized.jpg`}
                 alt={game.ProductTitle}
                 placeholder={`data:image/svg+xml;base64,${toBase64(
-                  shimmer(188, 256)
+                  shimmer(188, 280)
                 )}`}
                 width={188}
                 height={256}
