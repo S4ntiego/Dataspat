@@ -154,8 +154,8 @@ const Games = () => {
               key={game.ProductId}
               src={`/resized_images/${game.ProductId}_resized.jpg`}
               alt={game.ProductTitle}
-              width={180}
-              height={270}
+              width={300}
+              height={450}
               className="rounded-[4px]"
             />
             <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
@@ -176,7 +176,16 @@ const Games = () => {
                       : ""
                   )}
                 >
-                  {game.GoingToBeDeleted ? "To be removed" : ""}
+                  {game.GoingToBeDeleted ? "Leaving soon" : ""}
+                </div>
+                <div
+                  className={cn(
+                    game.ComingSoon
+                      ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
+                      : ""
+                  )}
+                >
+                  {game.ComingSoon ? "Coming soon" : ""}
                 </div>
               </div>
               <div className="flex space-x-1">
