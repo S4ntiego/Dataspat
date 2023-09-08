@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { useFilterStore } from "@/context/filterStore";
 import { cn } from "@/lib/utils";
+import { FixedSizeGrid as Grid } from "react-window";
 
 interface Game {
   ProductId: string;
@@ -132,14 +133,16 @@ const Games = () => {
     setFilteredGames,
   ]);
 
-  return (
-    <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-8 py-4 lg:py-6">
-      {filteredGames.map((game: any) => (
+  const Cell = ({ columnIndex, rowIndex, style }: any) => {
+    const game = filteredGames[rowIndex * 5 + columnIndex];
+
+    return (
+      <div className="p-1" style={style} key={game.ProductId}>
         <div className="flex flex-col" key={game.ProductId}>
           <div className="relative">
             <Image
               key={game.ProductId}
-              src={`https://f004.backblazeb2.com/file/gridtrain/${game.ProductId}_resized.jpg`}
+              src={`/resized_images/${game.ProductId}_resized.jpg`}
               alt={game.ProductTitle}
               width={256}
               height={188}
@@ -217,7 +220,22 @@ const Games = () => {
           </div>
           <div className="text-md">{game.ProductTitle}</div>
         </div>
-      ))}
+      </div>
+    );
+  };
+
+  return (
+    <div className="py-3">
+      <Grid
+        columnCount={5}
+        columnWidth={200} // adjust this based on your layout
+        height={700} // adjust this based on your layout
+        rowCount={Math.ceil(filteredGames.length / 5)}
+        rowHeight={380} // adjust this based on your layout
+        width={1100} // adjust this based on your layout
+      >
+        {Cell}
+      </Grid>
     </div>
   );
 };
