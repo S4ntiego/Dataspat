@@ -250,17 +250,16 @@ const Games = () => {
           </div>
         ))}
       </div>
-      {totalPages > 1 && (
-        <Pagination
-          currentPage={page}
-          totalPages={totalPages}
-          changePage={(newPage: any) => {
-            setPage(newPage, () => {
-              window.scrollTo({ top: 0 });
-            });
-          }}
-        />
-      )}
+
+      <Pagination
+        currentPage={page}
+        totalPages={totalPages()}
+        changePage={(newPage: any) => {
+          setPage(newPage, () => {
+            window.scrollTo({ top: 0 });
+          });
+        }}
+      />
     </div>
   );
 };

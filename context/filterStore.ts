@@ -68,7 +68,7 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
   scoreMin: null,
   gamesPerPage: 100,
   page: 1,
-  totalPages: Math.ceil(data.games.length / 100),
+
   scoreMax: null,
   comingSoon: null,
   recentlyAdded: null,
@@ -85,6 +85,7 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
   sortOption: "",
   originalGames: data.games,
   filteredGames: data.games,
+  totalPages: () => Math.ceil(get().filteredGames.length / get().gamesPerPage),
   getCurrentPageGames: () => {
     const { page, gamesPerPage, filteredGames } = get();
     const start = (page - 1) * gamesPerPage;
@@ -92,8 +93,8 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
     return filteredGames.slice(start, end);
   },
   setPage: (value: any, callback: any) => {
-    const { totalPages } = get();
-    const newPage = Math.max(1, Math.min(value, totalPages));
+    const current_total_pages = get().totalPages();
+    const newPage = Math.max(1, Math.min(value, current_total_pages));
     set({ page: newPage });
 
     // Call the callback function if it's provided
@@ -116,7 +117,7 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
   setGraphicsFilter: (value: any) => set(() => ({ graphicsFilter: value })),
   setCategoriesFilter: (value: any) => set(() => ({ categoriesFilter: value })),
   setReleasePlatform: (value: any) => set(() => ({ releasePlatform: value })),
-  setSearchTerm: (value: any) => set(() => ({ searchTerm: value })),
+  setSearchTerm: (value: any) => set(() => ({ searchTerm: value, page: 1 })),
   setSortOption: (value: any) => set(() => ({ sortOption: value })),
   setGamesPerPage: (value: any) => set(() => ({ gamesPerPage: value })),
 }));
