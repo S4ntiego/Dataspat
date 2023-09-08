@@ -152,13 +152,12 @@ const Games = () => {
           <div className="relative">
             <Image
               key={game.ProductId}
-              src={`/resized_images/${game.ProductId}_resized.jpg`}
+              src={`https://f004.backblazeb2.com/file/gridtrain/${game.ProductId}_resized.jpg`}
               alt={game.ProductTitle}
-              width={300}
-              height={450}
+              width={256}
+              height={188}
+              quality={30}
               className="rounded-[4px]"
-              quality={20}
-              sizes="(max-width: 768px) 33vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
               <div className="">
