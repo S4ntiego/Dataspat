@@ -91,7 +91,7 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
     const end = page * gamesPerPage;
     return filteredGames.slice(start, end);
   },
-  setPage: (value, callback) => {
+  setPage: (value: any, callback: any) => {
     const { totalPages } = get();
     const newPage = Math.max(1, Math.min(value, totalPages));
     set({ page: newPage });
