@@ -157,6 +157,7 @@ const Games = () => {
               width={300}
               height={450}
               className="rounded-[4px]"
+              sizes="(max-width: 768px) 33vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
               <div className="">
