@@ -39,7 +39,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 5.6,
+      "UserScore": 5.5,
       "MetaScore": 35
     },
     {
@@ -107,7 +107,7 @@
       "RecentlyAdded": true,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.7,
+      "UserScore": 8.3,
       "MetaScore": -1
     },
     {
@@ -171,7 +171,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.5,
+      "UserScore": 8.4,
       "MetaScore": 86
     },
     {
@@ -201,7 +201,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 9.2,
+      "UserScore": 8.8,
       "MetaScore": -1
     },
     {
@@ -617,7 +617,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.8,
+      "UserScore": 7.7,
       "MetaScore": 77
     },
     {
@@ -963,6 +963,40 @@
       "MetaScore": -1
     },
     {
+      "ProductId": "9PD5BFNZ4V7K",
+      "DeveloperName": "DICE",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "Battlefield 2042",
+      "ShortTitle": "Battlefield\u2122 2042",
+      "ShortDescription": "Never back down in Season 5: New Dawn. Battlefield\u2122 2042 is a first-person shooter that marks the return to the iconic all-out warfare of the franchise.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38194.14160631264571868.4e2a2194-8ea4-4266-ba92-577ebe02fd6b.63900eaf-50ab-41a9-8577-3ebaa902b98b",
+      "Category": "Shooter",
+      "OriginalReleaseDate": "2021-11-12",
+      "ProductGroupName": "Battlefield 2042 (XB1)",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblOnlineCoop": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "60fps": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "RecentlyAdded": false,
+      "GoingToBeDeleted": false,
+      "ComingSoon": false,
+      "UserScore": 1.4,
+      "MetaScore": -1
+    },
+    {
       "ProductId": "9P0T51BDDWVT",
       "DeveloperName": "DICE",
       "PublisherName": "Electronic Arts",
@@ -996,40 +1030,6 @@
       "ComingSoon": false,
       "UserScore": 2.4,
       "MetaScore": 64
-    },
-    {
-      "ProductId": "9PD5BFNZ4V7K",
-      "DeveloperName": "DICE",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "Battlefield 2042",
-      "ShortTitle": "Battlefield\u2122 2042",
-      "ShortDescription": "Never back down in Season 5: New Dawn. Battlefield\u2122 2042 is a first-person shooter that marks the return to the iconic all-out warfare of the franchise.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38194.14160631264571868.4e2a2194-8ea4-4266-ba92-577ebe02fd6b.63900eaf-50ab-41a9-8577-3ebaa902b98b",
-      "Category": "Shooter",
-      "OriginalReleaseDate": "2021-11-12",
-      "ProductGroupName": "Battlefield 2042 (XB1)",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblOnlineCoop": true,
-        "XblOnlineMultiPlayer": true,
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
-        "60fps": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 1.4,
-      "MetaScore": -1
     },
     {
       "ProductId": "BRN6BHDHB58J",
@@ -1493,7 +1493,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.2,
+      "UserScore": 8.3,
       "MetaScore": 83
     },
     {
@@ -1668,7 +1668,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": -1.0,
+      "UserScore": 8.5,
       "MetaScore": -1
     },
     {
@@ -1828,7 +1828,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 6.4,
+      "UserScore": 6.5,
       "MetaScore": 81
     },
     {
@@ -3749,7 +3749,7 @@
       "RecentlyAdded": true,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.2,
+      "UserScore": 8.1,
       "MetaScore": -1
     },
     {
@@ -3942,7 +3942,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 4.6,
+      "UserScore": 4.7,
       "MetaScore": 81
     },
     {
@@ -3982,7 +3982,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 3.7,
+      "UserScore": 4.5,
       "MetaScore": -1
     },
     {
@@ -4402,43 +4402,6 @@
       "MetaScore": -1
     },
     {
-      "ProductId": "9N4K3F9558RP",
-      "DeveloperName": "EA Canada",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "FIFA 23",
-      "ShortTitle": "FIFA 23 Standard Edition Xbox Series X|S",
-      "ShortDescription": "EA SPORTS\u2122 FIFA 23 brings The World\u2019s Game to the pitch, with both men\u2019s and women\u2019s FIFA World Cup\u2122 tournaments coming to the game during the season, the addition of women\u2019s club teams, cross-play features**, and new ways to play your favourite modes.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.28530.13981706901537608.82cbb8a4-4b3e-4b23-a32a-ab7e825c9944.ddf36d5f-89ba-4ef8-bd11-dfe066fd1b8f",
-      "Category": "Simulation",
-      "OriginalReleaseDate": "2022-09-27",
-      "ProductGroupName": "FIFA 23 [XBSX]",
-      "XboxConsoleGenOptimized": "Xbox Series X",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblLocalCoop": true,
-        "XblOnlineCoop": true,
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "SharedSplitScreen": true,
-        "60fps": true,
-        "ConsoleGen9Optimized": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 2.7,
-      "MetaScore": 79
-    },
-    {
       "ProductId": "9NDDMHZRZ0R6",
       "DeveloperName": "EA Canada",
       "PublisherName": "Electronic Arts",
@@ -4473,6 +4436,43 @@
       "ComingSoon": false,
       "UserScore": 2.5,
       "MetaScore": -1
+    },
+    {
+      "ProductId": "9N4K3F9558RP",
+      "DeveloperName": "EA Canada",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "FIFA 23",
+      "ShortTitle": "FIFA 23 Standard Edition Xbox Series X|S",
+      "ShortDescription": "EA SPORTS\u2122 FIFA 23 brings The World\u2019s Game to the pitch, with both men\u2019s and women\u2019s FIFA World Cup\u2122 tournaments coming to the game during the season, the addition of women\u2019s club teams, cross-play features**, and new ways to play your favourite modes.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.28530.13981706901537608.82cbb8a4-4b3e-4b23-a32a-ab7e825c9944.ddf36d5f-89ba-4ef8-bd11-dfe066fd1b8f",
+      "Category": "Simulation",
+      "OriginalReleaseDate": "2022-09-27",
+      "ProductGroupName": "FIFA 23 [XBSX]",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblLocalCoop": true,
+        "XblOnlineCoop": true,
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "SharedSplitScreen": true,
+        "60fps": true,
+        "ConsoleGen9Optimized": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "RecentlyAdded": false,
+      "GoingToBeDeleted": false,
+      "ComingSoon": false,
+      "UserScore": 2.8,
+      "MetaScore": 79
     },
     {
       "ProductId": "BQG162F04T2L",
@@ -4669,7 +4669,7 @@
       "ShortDescription": "Dynamic seasons change everything at the world\u2019s greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain in a shared open world. Collect, modify and drive over 450 cars. Race, stunt, create and explore \u2013 choose your own path to become a Horizon Superstar. The Forza Horizon 4 Standard Edition digital bundle includes the full game of Forza Horizon 4 and the Formula Drift Car Pack.",
       "MainImgUrl": "store-images.s-microsoft.com/image/apps.36093.14343301090572358.2000000000007864116.1feb0fed-abe9-4849-b638-8d7eca69cff4",
       "Category": "Racing & flying",
-      "OriginalReleaseDate": "2020-11-10",
+      "OriginalReleaseDate": "2018-09-28",
       "ProductGroupName": "Sunrise PG",
       "XboxConsoleGenOptimized": "Xbox Series X",
       "MSRP": 299.0,
@@ -4698,8 +4698,8 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.6,
-      "MetaScore": -1
+      "UserScore": 8.3,
+      "MetaScore": 92
     },
     {
       "ProductId": "9NKX70BBCDRN",
@@ -5404,7 +5404,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.2,
+      "UserScore": 8.0,
       "MetaScore": 82
     },
     {
@@ -5532,7 +5532,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 3.9,
+      "UserScore": 4.0,
       "MetaScore": 79
     },
     {
@@ -6252,7 +6252,7 @@
       "ProductTitle": "High on Life",
       "ShortTitle": "High On Life",
       "ShortDescription": "Humanity is being threatened by an alien cartel who wants to use them as drugs. It\u2019s up to you to rescue and partner with charismatic, talking guns, take down Garmantuous and his gang, and save the world!",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.24623.13714596773589453.b0e22fc5-f8b4-4b36-b12d-db5d42554c10.6f0900bc-34c9-486d-996b-89c8de1cc280",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.24623.14299588026783220.d9524e58-4503-4b50-bba1-c5f9df1f51b7.84ed0672-8bcd-45e1-bd06-62b568e1d669",
       "Category": "Action & adventure",
       "OriginalReleaseDate": "2022-12-13",
       "ProductGroupName": "",
@@ -7432,6 +7432,44 @@
       "MetaScore": 70
     },
     {
+      "ProductId": "9P0NV2LSS99C",
+      "DeveloperName": "Tiburon",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "Madden NFL 23",
+      "ShortTitle": "Madden NFL 23 Xbox One",
+      "ShortDescription": "Play your way into the history books in Madden NFL 23!\r\nControl your impact with every decision in all-new ways. Call the shots in Franchise with free agency and trade logic updates, play your way into the history books in Face of the Franchise: The League, and assemble the most powerful roster in all of Madden Ultimate Team\u2122.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.53819.14523016514306010.f789303b-5ec7-47a7-9e4f-d94c3fcd45b5.98661f78-19d7-45a5-8764-ebe61bb696aa",
+      "Category": "Sports",
+      "OriginalReleaseDate": "2022-08-16",
+      "ProductGroupName": "Madden NFL 23",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblLocalCoop": true,
+        "XblOnlineCoop": true,
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "60fps": true,
+        "SpatialSound": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "RecentlyAdded": false,
+      "GoingToBeDeleted": false,
+      "ComingSoon": false,
+      "UserScore": 1.1,
+      "MetaScore": -1
+    },
+    {
       "ProductId": "9MZKW7QMXQRV",
       "DeveloperName": "Tiburon",
       "PublisherName": "Electronic Arts",
@@ -7470,44 +7508,6 @@
       "ComingSoon": false,
       "UserScore": 2.0,
       "MetaScore": 70
-    },
-    {
-      "ProductId": "9P0NV2LSS99C",
-      "DeveloperName": "Tiburon",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "Madden NFL 23",
-      "ShortTitle": "Madden NFL 23 Xbox One",
-      "ShortDescription": "Play your way into the history books in Madden NFL 23!\r\nControl your impact with every decision in all-new ways. Call the shots in Franchise with free agency and trade logic updates, play your way into the history books in Face of the Franchise: The League, and assemble the most powerful roster in all of Madden Ultimate Team\u2122.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.53819.14523016514306010.f789303b-5ec7-47a7-9e4f-d94c3fcd45b5.98661f78-19d7-45a5-8764-ebe61bb696aa",
-      "Category": "Sports",
-      "OriginalReleaseDate": "2022-08-16",
-      "ProductGroupName": "Madden NFL 23",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblLocalCoop": true,
-        "XblOnlineCoop": true,
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "60fps": true,
-        "SpatialSound": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 1.1,
-      "MetaScore": -1
     },
     {
       "ProductId": "9NW7M71V29DT",
@@ -7755,7 +7755,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.8,
+      "UserScore": 8.2,
       "MetaScore": -1
     },
     {
@@ -7820,6 +7820,34 @@
       "MetaScore": 73
     },
     {
+      "ProductId": "9N2PS831S84N",
+      "DeveloperName": "Render Cube",
+      "PublisherName": "Toplitz Productions",
+      "ProductTitle": "Medieval Dynasty",
+      "ShortTitle": "Medieval Dynasty",
+      "ShortDescription": "Hunt, survive, build and lead in the harsh Middle Ages: Create your own Medieval Dynasty and ensure its long-lasting prosperity or die trying!",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.30751.13947624431918587.6348864b-b823-4363-9d17-7672333870b8.0814e975-f52f-4570-a244-2164e64c09d9",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2022-10-06",
+      "ProductGroupName": "Medieval Dynasty",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Attributes": {
+        "BroadcastSupport": true,
+        "SinglePlayer": true,
+        "XblAchievements": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "RecentlyAdded": false,
+      "GoingToBeDeleted": false,
+      "ComingSoon": false,
+      "UserScore": -1.0,
+      "MetaScore": -1
+    },
+    {
       "ProductId": "9PDDP6ML6XHF",
       "DeveloperName": "Render Cube",
       "PublisherName": "Toplitz Productions",
@@ -7849,34 +7877,6 @@
       "GoingToBeDeleted": false,
       "ComingSoon": false,
       "UserScore": 7.8,
-      "MetaScore": -1
-    },
-    {
-      "ProductId": "9N2PS831S84N",
-      "DeveloperName": "Render Cube",
-      "PublisherName": "Toplitz Productions",
-      "ProductTitle": "Medieval Dynasty",
-      "ShortTitle": "Medieval Dynasty",
-      "ShortDescription": "Hunt, survive, build and lead in the harsh Middle Ages: Create your own Medieval Dynasty and ensure its long-lasting prosperity or die trying!",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.30751.13947624431918587.6348864b-b823-4363-9d17-7672333870b8.0814e975-f52f-4570-a244-2164e64c09d9",
-      "Category": "Action & adventure",
-      "OriginalReleaseDate": "2022-10-06",
-      "ProductGroupName": "Medieval Dynasty",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "Other",
-      "Attributes": {
-        "BroadcastSupport": true,
-        "SinglePlayer": true,
-        "XblAchievements": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": -1.0,
       "MetaScore": -1
     },
     {
@@ -7910,6 +7910,32 @@
       "MetaScore": -1
     },
     {
+      "ProductId": "9MT9Q2MBBZ0X",
+      "DeveloperName": "The Outsiders",
+      "PublisherName": "Funcom",
+      "ProductTitle": "Metal: Hellsinger",
+      "ShortTitle": "Metal: Hellsinger (Xbox One)",
+      "ShortDescription": "Slay to the rhythm of metal and vengeance on an infernal journey through the eight Hells. Make them fear the beat. Metal: Hellsinger is a rhythm FPS bursting with demons, badass weapons, and heavy metal music.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.52817.14211614393053975.a4ffed37-2d8b-4964-b012-03eb22bf47cc.73f7b01a-d730-4271-8afd-2fb9df504dd3",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2022-12-08",
+      "ProductGroupName": "Metal: Hellsinger",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Attributes": {
+        "BroadcastSupport": true,
+        "SinglePlayer": true,
+        "XboxLive": true
+      },
+      "RecentlyAdded": false,
+      "GoingToBeDeleted": true,
+      "ComingSoon": false,
+      "UserScore": 6.8,
+      "MetaScore": -1
+    },
+    {
       "ProductId": "9PDXJP3805DN",
       "DeveloperName": "The Outsiders",
       "PublisherName": "Funcom",
@@ -7936,34 +7962,8 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": true,
       "ComingSoon": false,
-      "UserScore": 8.0,
+      "UserScore": 8.1,
       "MetaScore": 79
-    },
-    {
-      "ProductId": "9MT9Q2MBBZ0X",
-      "DeveloperName": "The Outsiders",
-      "PublisherName": "Funcom",
-      "ProductTitle": "Metal: Hellsinger",
-      "ShortTitle": "Metal: Hellsinger (Xbox One)",
-      "ShortDescription": "Slay to the rhythm of metal and vengeance on an infernal journey through the eight Hells. Make them fear the beat. Metal: Hellsinger is a rhythm FPS bursting with demons, badass weapons, and heavy metal music.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.52817.14211614393053975.a4ffed37-2d8b-4964-b012-03eb22bf47cc.73f7b01a-d730-4271-8afd-2fb9df504dd3",
-      "Category": "Action & adventure",
-      "OriginalReleaseDate": "2022-12-08",
-      "ProductGroupName": "Metal: Hellsinger",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "Other",
-      "Attributes": {
-        "BroadcastSupport": true,
-        "SinglePlayer": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
-      "UserScore": 6.8,
-      "MetaScore": -1
     },
     {
       "ProductId": "9PMQDM08SNK9",
@@ -7997,7 +7997,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.9,
+      "UserScore": 7.8,
       "MetaScore": 90
     },
     {
@@ -8821,31 +8821,40 @@
       "MetaScore": 74
     },
     {
-      "ProductId": "C355T88BBX1S",
-      "DeveloperName": "Ghost Games",
+      "ProductId": "9PP837L3Q75D",
+      "DeveloperName": "Criterion Games",
       "PublisherName": "Electronic Arts",
-      "ProductTitle": "Need for Speed Payback",
-      "ShortTitle": "Need for Speed\u2122 Payback",
-      "ShortDescription": "Need for Speed\u2122, one of the world\u2019s bestselling video game franchises, returns with a vengeance in the new action-driving blockbuster, Need for Speed Payback.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38412.66406111980515345.32ef44be-5899-40c8-9e5d-80147558ea6a.7633a793-447a-49a6-9d5d-4c351bd2ded6",
+      "ProductTitle": "Need for Speed Unbound",
+      "ShortTitle": "Need for Speed\u2122 Unbound",
+      "ShortDescription": "Race against time, outsmart the cops, and take on weekly qualifiers to reach The Grand, Lakeshore's ultimate street racing challenge. Pack your garage with precision-tuned, custom rides and light up the streets with your style and a vibrant global soundtrack.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.31585.14329152328871129.15deab2a-237c-449c-880e-7926330dab80.cbfd82b1-535b-4234-989d-2d04127f0529",
       "Category": "Racing & flying",
-      "OriginalReleaseDate": "2017-11-07",
-      "ProductGroupName": "Need For Speed Payback",
-      "XboxConsoleGenOptimized": "Xbox One",
+      "OriginalReleaseDate": "2022-12-02",
+      "ProductGroupName": "Need for Speed 22",
+      "XboxConsoleGenOptimized": "Xbox Series X",
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "EA Play",
       "Attributes": {
         "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
-        "CapabilityXboxEnhanced": true,
+        "XblCrossPlatformMultiPlayer": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "SharedSplitScreen": true,
+        "60fps": true,
+        "ConsoleGen9Optimized": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblCloudSaves": true,
         "XboxLive": true
       },
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 4.1,
-      "MetaScore": 61
+      "UserScore": 5.2,
+      "MetaScore": 77
     },
     {
       "ProductId": "9NMBJQ0265ZK",
@@ -8969,6 +8978,41 @@
       "MetaScore": 80
     },
     {
+      "ProductId": "9NRDC9PXDQ5N",
+      "DeveloperName": "EA Vancouver",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "NHL 22",
+      "ShortTitle": "NHL\u00ae 22 Xbox One",
+      "ShortDescription": "Powered by Frostbite\u2122, EA SPORTS\u2122 NHL\u00ae22 gets the superstar treatment with a huge leap forward in graphics along with the arrival of Superstar X-Factors that elevates the league\u2019s biggest stars with an all new layer of class-based play. This is breakthrough hockey. ",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.7105.14389534014695141.1e4cd4f9-411a-49c7-8a82-0ef2c6ed6067.98b0705d-51f9-4b07-94cf-109825cca6f1",
+      "Category": "Sports",
+      "OriginalReleaseDate": "2021-10-12",
+      "ProductGroupName": "NHL 22",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "PLN",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblLocalCoop": true,
+        "XblOnlineCoop": true,
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "RecentlyAdded": false,
+      "GoingToBeDeleted": false,
+      "ComingSoon": false,
+      "UserScore": 3.2,
+      "MetaScore": -1
+    },
+    {
       "ProductId": "9MT364N9QK38",
       "DeveloperName": "EA Vancouver",
       "PublisherName": "Electronic Arts",
@@ -9005,19 +9049,19 @@
       "MetaScore": 74
     },
     {
-      "ProductId": "9NRDC9PXDQ5N",
+      "ProductId": "9NV8BHF1N9F4",
       "DeveloperName": "EA Vancouver",
       "PublisherName": "Electronic Arts",
-      "ProductTitle": "NHL 22",
-      "ShortTitle": "NHL\u00ae 22 Xbox One",
-      "ShortDescription": "Powered by Frostbite\u2122, EA SPORTS\u2122 NHL\u00ae22 gets the superstar treatment with a huge leap forward in graphics along with the arrival of Superstar X-Factors that elevates the league\u2019s biggest stars with an all new layer of class-based play. This is breakthrough hockey. ",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.7105.14389534014695141.1e4cd4f9-411a-49c7-8a82-0ef2c6ed6067.98b0705d-51f9-4b07-94cf-109825cca6f1",
+      "ProductTitle": "NHL 23",
+      "ShortTitle": "NHL\u00ae 23 Xbox Series X|S",
+      "ShortDescription": "EA SPORTS\u2122 NHL\u00ae 23 is greater together with the introduction of mixed women\u2019s and men\u2019s teams in HUT, same-gen cross-platform matchmaking planned for WOC in November 2022, 500+ new Last Chance Puck Movement animations, and more. So grab your friends and gear up for the most connected version of Chel yet.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.60327.14403495887145177.0f61b992-e430-42c9-9a35-e19ca4088244.de324808-a0f4-4eea-b1e5-b211029759a7",
       "Category": "Sports",
-      "OriginalReleaseDate": "2021-10-12",
-      "ProductGroupName": "NHL 22",
-      "XboxConsoleGenOptimized": "Xbox One",
+      "OriginalReleaseDate": "2022-10-11",
+      "ProductGroupName": "NHL 23",
+      "XboxConsoleGenOptimized": "Xbox Series X",
       "MSRP": 0.0,
-      "CurrencyCode": "PLN",
+      "CurrencyCode": "USD",
       "Collection": "EA Play",
       "Attributes": {
         "XblLocalCoop": true,
@@ -9027,6 +9071,7 @@
         "BroadcastSupport": true,
         "CapabilityHDR": true,
         "SinglePlayer": true,
+        "ConsoleGen9Optimized": true,
         "XblAchievements": true,
         "XblPresence": true,
         "XblClubs": true,
@@ -9036,8 +9081,8 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 3.2,
-      "MetaScore": -1
+      "UserScore": 2.0,
+      "MetaScore": 71
     },
     {
       "ProductId": "9N7KZFCFZD4W",
@@ -9073,42 +9118,6 @@
       "ComingSoon": false,
       "UserScore": 1.8,
       "MetaScore": -1
-    },
-    {
-      "ProductId": "9NV8BHF1N9F4",
-      "DeveloperName": "EA Vancouver",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "NHL 23",
-      "ShortTitle": "NHL\u00ae 23 Xbox Series X|S",
-      "ShortDescription": "EA SPORTS\u2122 NHL\u00ae 23 is greater together with the introduction of mixed women\u2019s and men\u2019s teams in HUT, same-gen cross-platform matchmaking planned for WOC in November 2022, 500+ new Last Chance Puck Movement animations, and more. So grab your friends and gear up for the most connected version of Chel yet.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.60327.14403495887145177.0f61b992-e430-42c9-9a35-e19ca4088244.de324808-a0f4-4eea-b1e5-b211029759a7",
-      "Category": "Sports",
-      "OriginalReleaseDate": "2022-10-11",
-      "ProductGroupName": "NHL 23",
-      "XboxConsoleGenOptimized": "Xbox Series X",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblLocalCoop": true,
-        "XblOnlineCoop": true,
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "BroadcastSupport": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "ConsoleGen9Optimized": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 2.0,
-      "MetaScore": 71
     },
     {
       "ProductId": "9PDGC1Z6ZHTP",
@@ -9244,6 +9253,36 @@
       "MetaScore": 70
     },
     {
+      "ProductId": "9NCG3X89KRLD",
+      "DeveloperName": "KOEI TECMO GAMES",
+      "PublisherName": "KOEI TECMO AMERICA",
+      "ProductTitle": "Ninja Gaiden: Master Collection",
+      "ShortTitle": "NINJA GAIDEN: Master Collection",
+      "ShortDescription": "3 high speed ninja action titles are now available in one package!",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38624.13564615551113323.88b07054-b685-4f07-9cfe-222ba3ef0e25.18bebe6f-cd50-4ec1-bed3-5ac3bd7d31d1",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2021-06-10",
+      "ProductGroupName": "NINJA GAIDEN: Master Collection",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "PLN",
+      "Collection": "Other",
+      "Attributes": {
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "SinglePlayer": true,
+        "60fps": true,
+        "PcGamePad": true,
+        "XPA": true,
+        "XboxLive": true
+      },
+      "RecentlyAdded": false,
+      "GoingToBeDeleted": false,
+      "ComingSoon": false,
+      "UserScore": 7.2,
+      "MetaScore": 72
+    },
+    {
       "ProductId": "9NZ5QW71X49G",
       "DeveloperName": "KOEI TECMO GAMES",
       "PublisherName": "KOEI TECMO AMERICA",
@@ -9267,36 +9306,6 @@
         "XblAchievements": true,
         "XblClubs": true,
         "XblCloudSaves": true,
-        "XPA": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 7.2,
-      "MetaScore": 72
-    },
-    {
-      "ProductId": "9NCG3X89KRLD",
-      "DeveloperName": "KOEI TECMO GAMES",
-      "PublisherName": "KOEI TECMO AMERICA",
-      "ProductTitle": "Ninja Gaiden: Master Collection",
-      "ShortTitle": "NINJA GAIDEN: Master Collection",
-      "ShortDescription": "3 high speed ninja action titles are now available in one package!",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38624.13564615551113323.88b07054-b685-4f07-9cfe-222ba3ef0e25.18bebe6f-cd50-4ec1-bed3-5ac3bd7d31d1",
-      "Category": "Action & adventure",
-      "OriginalReleaseDate": "2021-06-10",
-      "ProductGroupName": "NINJA GAIDEN: Master Collection",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "PLN",
-      "Collection": "Other",
-      "Attributes": {
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "SinglePlayer": true,
-        "60fps": true,
-        "PcGamePad": true,
         "XPA": true,
         "XboxLive": true
       },
@@ -9379,7 +9388,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.5,
+      "UserScore": 7.6,
       "MetaScore": 77
     },
     {
@@ -9858,7 +9867,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.4,
+      "UserScore": 7.3,
       "MetaScore": 86
     },
     {
@@ -9987,7 +9996,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.9,
+      "UserScore": 8.0,
       "MetaScore": 89
     },
     {
@@ -10024,7 +10033,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.5,
+      "UserScore": 8.2,
       "MetaScore": 94
     },
     {
@@ -10267,7 +10276,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.4,
+      "UserScore": 7.5,
       "MetaScore": 76
     },
     {
@@ -10513,7 +10522,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.8,
+      "UserScore": 7.7,
       "MetaScore": -1
     },
     {
@@ -10633,7 +10642,7 @@
       "RecentlyAdded": true,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.3,
+      "UserScore": 8.7,
       "MetaScore": 90
     },
     {
@@ -11240,7 +11249,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 7.0,
+      "UserScore": 6.3,
       "MetaScore": 71
     },
     {
@@ -11298,8 +11307,8 @@
       "RecentlyAdded": true,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.7,
-      "MetaScore": 90
+      "UserScore": 7.4,
+      "MetaScore": 88
     },
     {
       "ProductId": "9P2N57MC619K",
@@ -12300,8 +12309,8 @@
       "RecentlyAdded": true,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": -1,
-      "MetaScore": -1
+      "UserScore": 6.1,
+      "MetaScore": 86
     },
     {
       "ProductId": "9NT4X7P8B9NB",
@@ -12585,7 +12594,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 9.6,
+      "UserScore": 9.5,
       "MetaScore": 80
     },
     {
@@ -12846,7 +12855,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 6.7,
+      "UserScore": 6.9,
       "MetaScore": -1
     },
     {
@@ -12973,7 +12982,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 4.6,
+      "UserScore": 5.5,
       "MetaScore": 54
     },
     {
@@ -13024,7 +13033,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.7,
+      "UserScore": 8.8,
       "MetaScore": -1
     },
     {
@@ -13374,7 +13383,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 3.9,
+      "UserScore": 3.8,
       "MetaScore": 66
     },
     {
@@ -13458,8 +13467,14 @@
         "XblLocalMultiPlayer": true,
         "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
         "SinglePlayer": true,
         "SharedSplitScreen": true,
+        "60fps": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblCloudSaves": true,
         "XboxLive": true
       },
       "RecentlyAdded": false,
@@ -13485,14 +13500,9 @@
       "Collection": "Other",
       "Attributes": {
         "BroadcastSupport": true,
-        "Capability4k": true,
         "SinglePlayer": true,
-        "CapabilityVRR": true,
-        "60fps": true,
-        "SpatialSound": true,
-        "ConsoleCrossGen": true,
-        "PcGamePad": true,
         "XblAchievements": true,
+        "XblClubs": true,
         "XblCloudSaves": true,
         "XboxLive": true
       },
@@ -13844,7 +13854,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 8.5,
+      "UserScore": 7.7,
       "MetaScore": -1
     },
     {
@@ -13869,7 +13879,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 6.6,
+      "UserScore": 6.4,
       "MetaScore": 79
     },
     {
@@ -14703,7 +14713,7 @@
       "RecentlyAdded": false,
       "GoingToBeDeleted": false,
       "ComingSoon": false,
-      "UserScore": 2.8,
+      "UserScore": 2.9,
       "MetaScore": 68
     },
     {

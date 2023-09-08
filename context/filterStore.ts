@@ -24,6 +24,11 @@ type FilterState = {
   dateMax: any;
   criticMin: any;
   criticMax: any;
+  comingSoon: any;
+  leavingSoon: any;
+  recentlyAdded: any;
+  collectionFilter: any;
+  graphicsFilter: any;
   categoriesFilter: any;
   originalGames: any;
   filteredGames: any;
@@ -36,16 +41,21 @@ type FilterState = {
   setDateMax: any;
   setCriticMin: any;
   setCriticMax: any;
+  setCollectionFilter: any;
+  setGraphicsFilter: any;
   setCategoriesFilter: any;
   setSortOption: any;
   setSearchTerm: any;
   setOriginalGames: any;
   setFilteredGames: any;
   setReleasePlatform: any;
+  setComingSoon: any;
+  setLeavingSoon: any;
+  setRecentlyAdded: any;
   reset: any;
 };
 
-export const useFilterStore = create<FilterState>((set) => ({
+export const useFilterStore: any = create<FilterState>((set) => ({
   reset: () =>
     set({
       scoreMin: null,
@@ -54,7 +64,12 @@ export const useFilterStore = create<FilterState>((set) => ({
       dateMax: null,
       criticMin: null,
       criticMax: null,
+      comingSoon: null,
+      recentlyAdded: null,
+      leavingSoon: null,
       releasePlatform: [],
+      collectionFilter: [],
+      graphicsFilter: [],
       categoriesFilter: [],
       searchTerm: "",
       sortOption: "",
@@ -63,11 +78,16 @@ export const useFilterStore = create<FilterState>((set) => ({
     }),
   scoreMin: null,
   scoreMax: null,
+  comingSoon: null,
+  recentlyAdded: null,
+  leavingSoon: null,
   dateMin: null,
   dateMax: null,
   criticMin: null,
   criticMax: null,
   releasePlatform: [],
+  collectionFilter: [],
+  graphicsFilter: [],
   categoriesFilter: [],
   searchTerm: "",
   sortOption: "",
@@ -78,9 +98,14 @@ export const useFilterStore = create<FilterState>((set) => ({
   setScoreMin: (value: any) => set(() => ({ scoreMin: value })),
   setScoreMax: (value: any) => set(() => ({ scoreMax: value })),
   setDateMin: (value: any) => set(() => ({ dateMin: value })),
+  setComingSoon: (value: any) => set(() => ({ comingSoon: value })),
+  setLeavingSoon: (value: any) => set(() => ({ leavingSoon: value })),
+  setRecentlyAdded: (value: any) => set(() => ({ recentlyAdded: value })),
   setDateMax: (value: any) => set(() => ({ dateMax: value })),
   setCriticMin: (value: any) => set(() => ({ criticMin: value })),
   setCriticMax: (value: any) => set(() => ({ criticMax: value })),
+  setCollectionFilter: (value: any) => set(() => ({ collectionFilter: value })),
+  setGraphicsFilter: (value: any) => set(() => ({ graphicsFilter: value })),
   setCategoriesFilter: (value: any) => set(() => ({ categoriesFilter: value })),
   setReleasePlatform: (value: any) => set(() => ({ releasePlatform: value })),
   setSearchTerm: (value: any) => set(() => ({ searchTerm: value })),

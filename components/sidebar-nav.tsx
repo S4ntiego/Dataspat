@@ -18,6 +18,7 @@ export function SidebarNav({ categories }: any) {
     dateMax,
     criticMin,
     criticMax,
+    collectionFilter,
     categoriesFilter,
     releasePlatform,
     setScoreMin,
@@ -26,17 +27,18 @@ export function SidebarNav({ categories }: any) {
     setDateMax,
     setCriticMin,
     setCriticMax,
+    setComingSoon,
     setCategoriesFilter,
+    setCollectionFilter,
     setReleasePlatform,
+    setLeavingSoon,
+    setRecentlyAdded,
     filteredGames,
     reset,
   } = useFilterStore();
 
   const platforms = ["Xbox 360", "Xbox One", "Xbox Series X"];
-
-  function setPlatformsFilter(arg0: any[]) {
-    throw new Error("Function not implemented.");
-  }
+  const collections = ["EA Play", "Xbox Game Studios", "Bethesda Softworks"];
 
   return (
     <div className="w-full pr-8">
@@ -204,6 +206,103 @@ export function SidebarNav({ categories }: any) {
                   </label>
                 </div>
               ))}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+      <Accordion type="single" collapsible>
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Collection</AccordionTrigger>
+          <AccordionContent>
+            <div className="flex flex-col space-y-2">
+              {collections.map((collection: any) => (
+                <div className="flex items-center space-x-2" key={collection}>
+                  <Checkbox
+                    id={collection}
+                    onCheckedChange={(checked) => {
+                      if (checked) {
+                        setCollectionFilter([...collectionFilter, collection]);
+                      } else {
+                        setCollectionFilter(
+                          collectionFilter.filter((c: any) => c !== collection)
+                        );
+                      }
+                    }}
+                  />
+                  <label
+                    htmlFor={collection}
+                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  >
+                    {collection}
+                  </label>
+                </div>
+              ))}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+      <Accordion type="single" collapsible>
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Availability</AccordionTrigger>
+          <AccordionContent>
+            <div className="flex flex-col space-y-2">
+              <div className="flex items-center space-x-2" key={"ComingSoon"}>
+                <Checkbox
+                  id={"ComingSoon"}
+                  onCheckedChange={(checked) => {
+                    if (checked) {
+                      setComingSoon(true);
+                    } else {
+                      setComingSoon(false);
+                    }
+                  }}
+                />
+                <label
+                  htmlFor={"ComingSoon"}
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  Coming Soon
+                </label>
+              </div>
+              <div className="flex items-center space-x-2" key={"LeavingSoon"}>
+                <Checkbox
+                  id={"LeavingSoon"}
+                  onCheckedChange={(checked) => {
+                    if (checked) {
+                      setLeavingSoon(true);
+                    } else {
+                      setLeavingSoon(false);
+                    }
+                  }}
+                />
+                <label
+                  htmlFor={"LeavingSoon"}
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  Leaving Soon
+                </label>
+              </div>
+              <div
+                className="flex items-center space-x-2"
+                key={"RecentlyAdded"}
+              >
+                <Checkbox
+                  id={"RecentlyAdded"}
+                  onCheckedChange={(checked) => {
+                    if (checked) {
+                      setRecentlyAdded(true);
+                    } else {
+                      setRecentlyAdded(false);
+                    }
+                  }}
+                />
+                <label
+                  htmlFor={"RecentlyAdded"}
+                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                >
+                  Recently Added
+                </label>
+              </div>
             </div>
           </AccordionContent>
         </AccordionItem>

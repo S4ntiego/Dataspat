@@ -21,15 +21,34 @@ interface Game {
   MetaScore: number;
 }
 
+const getTrueKeys = (game: any) => {
+  const keysOfInterest = ["RecentlyAdded", "GoingToBeDeleted", "ComingSoon"];
+  const trueKeys: any = [];
+
+  keysOfInterest.forEach((key) => {
+    if (game[key]) {
+      trueKeys.push(key);
+    }
+  });
+
+  return trueKeys;
+};
+
 const Games = () => {
   const {
     scoreMin,
     scoreMax,
+    comingSoon,
+    recentlyAdded,
+    leavingSoon,
     dateMin,
     dateMax,
     criticMin,
     criticMax,
+    availabilityFilter,
     categoriesFilter,
+    collectionFilter,
+    graphicsFilter,
     searchTerm,
     sortOption,
     originalGames,
@@ -48,7 +67,12 @@ const Games = () => {
     gamesToFilter = gamesToFilter.filter((game: any) => {
       const score = game.UserScore;
       const date = new Date(game.OriginalReleaseDate).getFullYear();
+      const soon = game.ComingSoon;
+      const leaving = game.GoingToBeDeleted;
+      const recent = game.RecentlyAdded;
       const criticScore = game.MetaScore;
+      const collection = game.Collection;
+      const graphics = game.Graphics;
       const category = game.Category;
       const platform = game.XboxConsoleGenOptimized;
 
@@ -59,6 +83,18 @@ const Games = () => {
         (dateMax === null || date <= dateMax) &&
         (criticMin === null || criticScore >= criticMin) &&
         (criticMax === null || criticScore <= criticMax) &&
+        (comingSoon === null ||
+          comingSoon === false ||
+          (comingSoon === true && soon === true)) &&
+        (recentlyAdded === null ||
+          recentlyAdded === false ||
+          (recentlyAdded === true && recent === true)) &&
+        (leavingSoon === null ||
+          leavingSoon === false ||
+          (leavingSoon === true && leaving === true)) &&
+        (collectionFilter.length === 0 ||
+          collectionFilter.includes(collection)) &&
+        (graphicsFilter.length === 0 || graphicsFilter.includes(graphics)) &&
         (categoriesFilter.length === 0 ||
           categoriesFilter.includes(category)) &&
         (releasePlatform.length === 0 || releasePlatform.includes(platform)) &&
@@ -94,8 +130,14 @@ const Games = () => {
     scoreMax,
     dateMin,
     dateMax,
+    comingSoon,
+    leavingSoon,
+    recentlyAdded,
     criticMin,
     criticMax,
+    availabilityFilter,
+    collectionFilter,
+    graphicsFilter,
     categoriesFilter,
     releasePlatform,
     searchTerm,
@@ -112,8 +154,8 @@ const Games = () => {
               key={game.ProductId}
               src={`/resized_images/${game.ProductId}_resized.jpg`}
               alt={game.ProductTitle}
-              width={360}
-              height={540}
+              width={180}
+              height={270}
               className="rounded-[4px]"
             />
             <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
