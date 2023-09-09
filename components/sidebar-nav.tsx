@@ -9,8 +9,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Checkbox } from "./ui/checkbox";
+import data from "../public/updated_games_data.json";
 
-export function SidebarNav({ categories }: any) {
+export function SidebarNav() {
+  const categories = data.categories;
   const {
     scoreMin,
     scoreMax,
@@ -19,6 +21,8 @@ export function SidebarNav({ categories }: any) {
     criticMin,
     criticMax,
     collectionFilter,
+    availabilityFilter,
+    setAvailabilityFilter,
     categoriesFilter,
     releasePlatform,
     setScoreMin,
@@ -34,11 +38,13 @@ export function SidebarNav({ categories }: any) {
     setLeavingSoon,
     setRecentlyAdded,
     filteredGames,
+    setPage,
     reset,
   } = useFilterStore();
 
   const platforms = ["Xbox 360", "Xbox One", "Xbox Series X"];
   const collections = ["EA Play", "Xbox Game Studios", "Bethesda Softworks"];
+  const availabilities = ["ComingSoon", "LeavingSoon", "RecentlyAdded"];
 
   return (
     <div className="w-full pr-8">
@@ -60,19 +66,29 @@ export function SidebarNav({ categories }: any) {
                 placeholder="from"
                 value={scoreMin}
                 aria-label="Min User Score"
-                onChange={(e: any) => setScoreMin(e.target.value)}
+                min="0"
+                max="10"
+                onChange={(e: any) => {
+                  const value = parseFloat(e.target.value);
+                  if (isNaN(value) || (value >= 0 && value <= 10)) {
+                    setScoreMin(isNaN(value) ? null : value);
+                  }
+                }}
               />
               <span className="mx-2">{`-`}</span>
               <Input
                 type="number"
                 placeholder="to"
+                min="0"
+                max="10"
                 value={scoreMax}
                 aria-label="Max User Score"
-                onChange={(e) =>
-                  setScoreMax(
-                    e.target.value !== "" ? Number(e.target.value) : null
-                  )
-                }
+                onChange={(e: any) => {
+                  const value = parseFloat(e.target.value);
+                  if (isNaN(value) || (value >= 0 && value <= 10)) {
+                    setScoreMax(isNaN(value) ? null : value);
+                  }
+                }}
               />
             </div>
           </AccordionContent>
@@ -91,25 +107,31 @@ export function SidebarNav({ categories }: any) {
               <Input
                 type="number"
                 placeholder="from"
+                min="0"
+                max="10"
                 value={criticMin}
                 aria-label="Min Critic Score"
-                onChange={(e) =>
-                  setCriticMin(
-                    e.target.value !== "" ? Number(e.target.value) : null
-                  )
-                }
+                onChange={(e: any) => {
+                  const value = parseFloat(e.target.value);
+                  if (isNaN(value) || (value >= 0 && value <= 100)) {
+                    setCriticMin(isNaN(value) ? null : value);
+                  }
+                }}
               />
               <span className="mx-2">{`-`}</span>
               <Input
                 type="number"
-                placeholder="to"
+                placeholder="from"
+                min="0"
+                max="10"
                 value={criticMax}
                 aria-label="Max Critic Score"
-                onChange={(e) =>
-                  setCriticMax(
-                    e.target.value !== "" ? Number(e.target.value) : null
-                  )
-                }
+                onChange={(e: any) => {
+                  const value = parseFloat(e.target.value);
+                  if (isNaN(value) || (value >= 0 && value <= 100)) {
+                    setCriticMax(isNaN(value) ? null : value);
+                  }
+                }}
               />
             </div>
           </AccordionContent>
@@ -156,6 +178,7 @@ export function SidebarNav({ categories }: any) {
                     onCheckedChange={(checked) => {
                       if (checked) {
                         setCategoriesFilter([...categoriesFilter, category]);
+                        setPage(1);
                       } else {
                         setCategoriesFilter(
                           categoriesFilter.filter((c: any) => c !== category)
@@ -246,63 +269,39 @@ export function SidebarNav({ categories }: any) {
           <AccordionTrigger>Availability</AccordionTrigger>
           <AccordionContent>
             <div className="flex flex-col space-y-2">
-              <div className="flex items-center space-x-2" key={"ComingSoon"}>
-                <Checkbox
-                  id={"ComingSoon"}
-                  onCheckedChange={(checked) => {
-                    if (checked) {
-                      setComingSoon(true);
-                    } else {
-                      setComingSoon(false);
-                    }
-                  }}
-                />
-                <label
-                  htmlFor={"ComingSoon"}
-                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                >
-                  Coming Soon
-                </label>
-              </div>
-              <div className="flex items-center space-x-2" key={"LeavingSoon"}>
-                <Checkbox
-                  id={"LeavingSoon"}
-                  onCheckedChange={(checked) => {
-                    if (checked) {
-                      setLeavingSoon(true);
-                    } else {
-                      setLeavingSoon(false);
-                    }
-                  }}
-                />
-                <label
-                  htmlFor={"LeavingSoon"}
-                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                >
-                  Leaving Soon
-                </label>
-              </div>
-              <div
-                className="flex items-center space-x-2"
-                key={"RecentlyAdded"}
-              >
-                <Checkbox
-                  id={"RecentlyAdded"}
-                  onCheckedChange={(checked) => {
-                    if (checked) {
-                      setRecentlyAdded(true);
-                    } else {
-                      setRecentlyAdded(false);
-                    }
-                  }}
-                />
-                <label
-                  htmlFor={"RecentlyAdded"}
-                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                >
-                  Recently Added
-                </label>
-              </div>
+              {availabilities.map((availability: any) => (
+                <div className="flex items-center space-x-2" key={availability}>
+                  <Checkbox
+                    id={availability}
+                    onCheckedChange={(checked) => {
+                      if (checked) {
+                        setAvailabilityFilter([
+                          ...availabilityFilter,
+                          availability,
+                        ]);
+                      } else {
+                        setAvailabilityFilter(
+                          availabilityFilter.filter(
+                            (c: any) => c !== availability
+                          )
+                        );
+                      }
+                    }}
+                  />
+                  <label
+                    htmlFor={availability}
+                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  >
+                    {availability === "ComingSoon"
+                      ? "Coming Soon"
+                      : availability === "RecentlyAdded"
+                      ? "Recently Added"
+                      : availability === "LeavingSoon"
+                      ? "Leaving Soon"
+                      : availability}
+                  </label>
+                </div>
+              ))}
             </div>
           </AccordionContent>
         </AccordionItem>

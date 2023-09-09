@@ -27,21 +27,17 @@ const Games = () => {
   const {
     scoreMin,
     scoreMax,
-    comingSoon,
-    recentlyAdded,
-    leavingSoon,
+    availabilityFilter,
     dateMin,
     dateMax,
     criticMin,
     criticMax,
-    availabilityFilter,
     categoriesFilter,
     collectionFilter,
     graphicsFilter,
     searchTerm,
     sortOption,
     originalGames,
-    filteredGames,
     releasePlatform,
     setFilteredGames,
     page,
@@ -84,9 +80,6 @@ const Games = () => {
     gamesToFilter = gamesToFilter.filter((game: any) => {
       const score = game.UserScore;
       const date = new Date(game.OriginalReleaseDate).getFullYear();
-      const soon = game.ComingSoon;
-      const leaving = game.GoingToBeDeleted;
-      const recent = game.RecentlyAdded;
       const criticScore = game.MetaScore;
       const collection = game.Collection;
       const graphics = game.Graphics;
@@ -100,15 +93,10 @@ const Games = () => {
         (dateMax === null || date <= dateMax) &&
         (criticMin === null || criticScore >= criticMin) &&
         (criticMax === null || criticScore <= criticMax) &&
-        (comingSoon === null ||
-          comingSoon === false ||
-          (comingSoon === true && soon === true)) &&
-        (recentlyAdded === null ||
-          recentlyAdded === false ||
-          (recentlyAdded === true && recent === true)) &&
-        (leavingSoon === null ||
-          leavingSoon === false ||
-          (leavingSoon === true && leaving === true)) &&
+        (availabilityFilter.length === 0 ||
+          game.Availability.some((availability: string) =>
+            availabilityFilter.includes(availability)
+          )) &&
         (collectionFilter.length === 0 ||
           collectionFilter.includes(collection)) &&
         (graphicsFilter.length === 0 || graphicsFilter.includes(graphics)) &&
@@ -147,12 +135,9 @@ const Games = () => {
     scoreMax,
     dateMin,
     dateMax,
-    comingSoon,
-    leavingSoon,
-    recentlyAdded,
+    availabilityFilter,
     criticMin,
     criticMax,
-    availabilityFilter,
     collectionFilter,
     graphicsFilter,
     categoriesFilter,
@@ -202,30 +187,36 @@ const Games = () => {
                 <div className="">
                   <div
                     className={cn(
-                      game.RecentlyAdded
+                      game.Availability.includes("RecentlyAdded")
                         ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
                         : ""
                     )}
                   >
-                    {game.RecentlyAdded ? "Recently added" : ""}
+                    {game.Availability.includes("RecentlyAdded")
+                      ? "Recently added"
+                      : ""}
                   </div>
                   <div
                     className={cn(
-                      game.GoingToBeDeleted
+                      game.Availability.includes("LeavingSoon")
                         ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
                         : ""
                     )}
                   >
-                    {game.GoingToBeDeleted ? "Leaving soon" : ""}
+                    {game.Availability.includes("LeavingSoon")
+                      ? "Leaving soon"
+                      : ""}
                   </div>
                   <div
                     className={cn(
-                      game.ComingSoon
+                      game.Availability.includes("ComingSoon")
                         ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
                         : ""
                     )}
                   >
-                    {game.ComingSoon ? "Coming soon" : ""}
+                    {game.Availability.includes("ComingSoon")
+                      ? "Coming soon"
+                      : ""}
                   </div>
                 </div>
                 <div className="flex space-x-1">

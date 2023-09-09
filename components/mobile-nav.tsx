@@ -3,7 +3,7 @@
 import * as React from "react";
 import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/navigation";
-import { ViewVerticalIcon } from "@radix-ui/react-icons";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { cn } from "@/lib/utils";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
@@ -11,6 +11,7 @@ import { ScrollArea } from "./ui/scroll-area";
 import { Input } from "./ui/input";
 import { GamesOrder } from "@/components/games-order";
 import { useFilterStore } from "@/context/filterStore";
+import { SidebarNav } from "./sidebar-nav";
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false);
@@ -24,18 +25,13 @@ export function MobileNav() {
             variant="ghost"
             className="mr-4 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
           >
-            <ViewVerticalIcon className="h-5 w-5" />
+            <HamburgerMenuIcon className="h-6 w-6" />
             <span className="sr-only">Toggle Menu</span>
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="pr-0">
-          <MobileLink
-            href="/"
-            className="flex items-center"
-            onOpenChange={setOpen}
-          >
-            <span className="font-bold">Metapass</span>
-          </MobileLink>
+          <p className="font-space text-xl mb-8">Gridtrain</p>
+          <SidebarNav />
           <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
             <div className="flex flex-col space-y-3"></div>
             <div className="flex flex-col space-y-2"></div>

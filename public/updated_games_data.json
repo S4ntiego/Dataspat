@@ -36,9 +36,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.5,
       "MetaScore": 35
     },
@@ -72,9 +70,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.6,
       "MetaScore": 85
     },
@@ -104,9 +100,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 8.3,
       "MetaScore": -1
     },
@@ -135,9 +131,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 79
     },
@@ -168,9 +162,7 @@
         "ConsoleKeyboardMouse": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 86
     },
@@ -181,7 +173,7 @@
       "ProductTitle": "Age of Empires IV: Anniversary Edition",
       "ShortTitle": "Age of Empires IV: Anniversary Edition",
       "ShortDescription": "For years you\u2019ve battled armies and made history your story. Now it\u2019s time to make history once more with a new breakthrough in strategy gaming \u2013 introducing Age of Empires IV: Anniversary Edition, now available on Xbox consoles.* Includes native inputs for Xbox controller, console-specific user interface, and a new tutorial designed for first time players to help achieve easy setup and success.\r\n\r\n*This content is available on Xbox consoles as a free download for current Xbox Game Pass subscribers and owners of Age of Empires IV on PC, excluding Steam purchasers.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.63959.14414177346088864.108aa077-3bb5-4152-b348-a5ab82c914f6.8a8ef1b9-6193-4717-827c-c538d376f926",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.63959.14235977975261210.106699ff-5046-4540-ac72-e248ae2c3818.f61be535-d1e6-46c7-a0b3-338fd9384f08",
       "Category": "Strategy",
       "OriginalReleaseDate": "2023-08-22",
       "ProductGroupName": "Cardinal Product Group",
@@ -198,9 +190,7 @@
         "XblPresence": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": -1
     },
@@ -226,9 +216,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -251,9 +241,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 70
     },
@@ -276,9 +264,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 79
     },
@@ -311,9 +297,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": -1
     },
@@ -344,9 +328,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 77
     },
@@ -381,9 +363,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -411,9 +391,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.0,
       "MetaScore": 65
     },
@@ -449,9 +427,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -492,9 +468,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": 5.2,
       "MetaScore": 74
     },
@@ -528,9 +504,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 81
     },
@@ -571,9 +545,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.1,
       "MetaScore": 69
     },
@@ -614,9 +586,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 77
     },
@@ -644,9 +614,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 87
     },
@@ -678,9 +646,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 85
     },
@@ -712,9 +678,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": 73
     },
@@ -746,9 +710,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.6,
       "MetaScore": 73
     },
@@ -790,9 +752,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 74
     },
@@ -818,9 +778,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 77
     },
@@ -846,9 +804,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 79
     },
@@ -874,9 +830,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 73
     },
@@ -900,9 +854,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 85
     },
@@ -927,9 +879,7 @@
         "XblCrossPlatformMultiPlayer": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 83
     },
@@ -956,44 +906,8 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.0,
-      "MetaScore": -1
-    },
-    {
-      "ProductId": "9PD5BFNZ4V7K",
-      "DeveloperName": "DICE",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "Battlefield 2042",
-      "ShortTitle": "Battlefield\u2122 2042",
-      "ShortDescription": "Never back down in Season 5: New Dawn. Battlefield\u2122 2042 is a first-person shooter that marks the return to the iconic all-out warfare of the franchise.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38194.14160631264571868.4e2a2194-8ea4-4266-ba92-577ebe02fd6b.63900eaf-50ab-41a9-8577-3ebaa902b98b",
-      "Category": "Shooter",
-      "OriginalReleaseDate": "2021-11-12",
-      "ProductGroupName": "Battlefield 2042 (XB1)",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblOnlineCoop": true,
-        "XblOnlineMultiPlayer": true,
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
-        "60fps": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 1.4,
       "MetaScore": -1
     },
     {
@@ -1025,11 +939,41 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.4,
       "MetaScore": 64
+    },
+    {
+      "ProductId": "9PD5BFNZ4V7K",
+      "DeveloperName": "DICE",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "Battlefield 2042",
+      "ShortTitle": "Battlefield\u2122 2042",
+      "ShortDescription": "Never back down in Season 5: New Dawn. Battlefield\u2122 2042 is a first-person shooter that marks the return to the iconic all-out warfare of the franchise.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38194.14160631264571868.4e2a2194-8ea4-4266-ba92-577ebe02fd6b.63900eaf-50ab-41a9-8577-3ebaa902b98b",
+      "Category": "Shooter",
+      "OriginalReleaseDate": "2021-11-12",
+      "ProductGroupName": "Battlefield 2042 (XB1)",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblOnlineCoop": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "60fps": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": 1.4,
+      "MetaScore": -1
     },
     {
       "ProductId": "BRN6BHDHB58J",
@@ -1050,9 +994,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 84
     },
@@ -1077,9 +1019,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 81
     },
@@ -1103,9 +1043,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": 71
     },
@@ -1134,9 +1072,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.2,
       "MetaScore": 78
     },
@@ -1159,9 +1095,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 83
     },
@@ -1184,9 +1118,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.6,
       "MetaScore": 88
     },
@@ -1218,9 +1150,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 72
     },
@@ -1247,9 +1177,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -1272,9 +1200,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 78
     },
@@ -1305,9 +1231,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.0,
       "MetaScore": -1
     },
@@ -1338,9 +1262,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -1364,9 +1286,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -1396,9 +1316,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -1429,9 +1347,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.2,
       "MetaScore": 66
     },
@@ -1456,9 +1372,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -1490,9 +1404,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 83
     },
@@ -1523,9 +1435,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -1548,9 +1460,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.5,
       "MetaScore": 78
     },
@@ -1574,9 +1484,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -1602,9 +1510,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 79
     },
@@ -1632,9 +1538,9 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -1665,9 +1571,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": -1
     },
@@ -1696,9 +1600,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": -1
     },
@@ -1727,9 +1629,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 7.7,
       "MetaScore": 94
     },
@@ -1755,9 +1657,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": -1
     },
@@ -1788,9 +1688,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -1825,9 +1723,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 81
     },
@@ -1855,9 +1751,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 81
     },
@@ -1884,9 +1778,9 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [
+        "ComingSoon"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -1911,9 +1805,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -1943,9 +1835,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 85
     },
@@ -1974,9 +1864,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 75
     },
@@ -2003,9 +1891,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -2038,9 +1924,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -2051,7 +1935,7 @@
       "ProductTitle": "Conan Exiles",
       "ShortTitle": "Conan Exiles",
       "ShortDescription": "An online multiplayer survival game, now with sorcery, set in the lands of Conan the Barbarian. Survive in a vast open world sandbox, build your home into a kingdom, and dominate your enemies in single or multiplayer.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.32579.66261947870001438.2cfbc23b-426c-43d9-9ab1-9f2dcbb1afb6.a3bd3e06-50db-414a-ab95-41f5564a65a5",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.32579.69492393318249993.015f2ca9-1b78-488c-912c-234362475179.d5b19220-828c-4086-ae31-c3185175e7c9",
       "Category": "Action & adventure",
       "OriginalReleaseDate": "2018-05-08",
       "ProductGroupName": "Conan Exiles",
@@ -2070,9 +1954,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": 64
     },
@@ -2096,9 +1978,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.1,
       "MetaScore": -1
     },
@@ -2126,9 +2006,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -2151,9 +2029,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 74
     },
@@ -2176,9 +2052,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 65
     },
@@ -2215,9 +2089,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.2,
       "MetaScore": 60
     },
@@ -2258,9 +2130,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -2287,9 +2157,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -2317,9 +2185,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 83
     },
@@ -2342,9 +2208,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 81
     },
@@ -2367,9 +2231,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 84
     },
@@ -2393,9 +2255,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": 76
     },
@@ -2421,9 +2281,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -2446,9 +2306,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 73
     },
@@ -2472,9 +2330,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 9.2,
       "MetaScore": -1
     },
@@ -2502,9 +2358,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": -1
     },
@@ -2532,9 +2386,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.7,
       "MetaScore": 56
     },
@@ -2566,9 +2418,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -2603,9 +2455,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.8,
       "MetaScore": -1
     },
@@ -2633,9 +2483,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 91
     },
@@ -2659,9 +2507,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": 89
     },
@@ -2684,9 +2530,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.7,
       "MetaScore": 90
     },
@@ -2709,9 +2553,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 78
     },
@@ -2734,9 +2576,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.3,
       "MetaScore": 35
     },
@@ -2767,9 +2607,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 87
     },
@@ -2808,9 +2646,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 89
     },
@@ -2848,9 +2684,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 83
     },
@@ -2889,9 +2723,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.6,
       "MetaScore": 77
     },
@@ -2921,9 +2753,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -2955,9 +2785,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": -1
     },
@@ -2999,9 +2827,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.2,
       "MetaScore": 81
     },
@@ -3032,9 +2858,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.4,
       "MetaScore": 82
     },
@@ -3060,9 +2884,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -3090,9 +2912,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": 88
     },
@@ -3117,9 +2937,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 84
     },
@@ -3146,9 +2964,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 76
     },
@@ -3179,9 +2995,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -3217,9 +3031,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.1,
       "MetaScore": 67
     },
@@ -3247,9 +3059,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": 87
     },
@@ -3282,9 +3092,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.6,
       "MetaScore": -1
     },
@@ -3315,9 +3123,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": -1
     },
@@ -3345,9 +3151,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 77
     },
@@ -3383,9 +3187,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": -1
     },
@@ -3420,9 +3222,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -3450,9 +3250,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.2,
       "MetaScore": -1
     },
@@ -3477,9 +3275,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.3,
       "MetaScore": 85
     },
@@ -3503,9 +3299,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 86
     },
@@ -3528,9 +3322,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -3560,9 +3352,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.1,
       "MetaScore": 82
     },
@@ -3589,9 +3379,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -3618,9 +3406,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": -1
     },
@@ -3648,9 +3434,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.0,
       "MetaScore": -1
     },
@@ -3675,9 +3459,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 65
     },
@@ -3713,9 +3495,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": 76
     },
@@ -3746,9 +3526,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 8.1,
       "MetaScore": -1
     },
@@ -3781,9 +3561,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -3826,9 +3604,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 3.9,
       "MetaScore": 72
     },
@@ -3855,9 +3633,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 9.0,
       "MetaScore": -1
     },
@@ -3897,11 +3673,47 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.8,
       "MetaScore": 88
+    },
+    {
+      "ProductId": "9NSDMZDFNLD4",
+      "DeveloperName": "Codemasters",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "F1 22",
+      "ShortTitle": "F1\u00ae 22 Xbox One",
+      "ShortDescription": "Enter the new era of Formula 1\u00ae in EA SPORTS\u2122 F1\u00ae 22 the official videogame of the 2022 FIA Formula One World Championship\u2122.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.40905.14365296944784963.2a497d60-dea6-4261-ac2c-e43560e1456f.6f5b009b-69da-49f7-8830-b2107137b69c",
+      "Category": "Racing & flying",
+      "OriginalReleaseDate": "2022-06-28",
+      "ProductGroupName": "F1 2022 [XB1 + XBSX]",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "SharedSplitScreen": true,
+        "XboxLiveCrossGenMP": true,
+        "RayTracing": true,
+        "60fps": true,
+        "SpatialSound": true,
+        "DolbyAtmos": true,
+        "DTSX": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": 4.5,
+      "MetaScore": -1
     },
     {
       "ProductId": "9N79LGZV5GHB",
@@ -3939,51 +3751,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.7,
       "MetaScore": 81
-    },
-    {
-      "ProductId": "9NSDMZDFNLD4",
-      "DeveloperName": "Codemasters",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "F1 22",
-      "ShortTitle": "F1\u00ae 22 Xbox One",
-      "ShortDescription": "Enter the new era of Formula 1\u00ae in EA SPORTS\u2122 F1\u00ae 22 the official videogame of the 2022 FIA Formula One World Championship\u2122.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.40905.14365296944784963.2a497d60-dea6-4261-ac2c-e43560e1456f.6f5b009b-69da-49f7-8830-b2107137b69c",
-      "Category": "Racing & flying",
-      "OriginalReleaseDate": "2022-06-28",
-      "ProductGroupName": "F1 2022 [XB1 + XBSX]",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "SharedSplitScreen": true,
-        "XboxLiveCrossGenMP": true,
-        "RayTracing": true,
-        "60fps": true,
-        "SpatialSound": true,
-        "DolbyAtmos": true,
-        "DTSX": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 4.5,
-      "MetaScore": -1
     },
     {
       "ProductId": "C2Q32JM0BPZL",
@@ -4007,9 +3777,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 68
     },
@@ -4036,9 +3804,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 89
     },
@@ -4067,9 +3833,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.6,
       "MetaScore": 80
     },
@@ -4094,9 +3858,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": 93
     },
@@ -4126,9 +3888,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 88
     },
@@ -4158,9 +3918,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.3,
       "MetaScore": 49
     },
@@ -4184,9 +3942,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.7,
       "MetaScore": 84
     },
@@ -4219,9 +3975,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 82
     },
@@ -4255,9 +4009,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 73
     },
@@ -4292,9 +4044,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -4320,9 +4070,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": 70
     },
@@ -4358,9 +4106,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.9,
       "MetaScore": 78
     },
@@ -4395,46 +4141,8 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.4,
-      "MetaScore": -1
-    },
-    {
-      "ProductId": "9NDDMHZRZ0R6",
-      "DeveloperName": "EA Canada",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "FIFA 23",
-      "ShortTitle": "FIFA 23 Standard Edition",
-      "ShortDescription": "EA SPORTS\u2122 FIFA 23 brings The World\u2019s Game to the pitch, with both men\u2019s and women\u2019s FIFA World Cup\u2122 tournaments coming to the game during the season, the addition of women\u2019s club teams, cross-play features**, and new ways to play your favourite modes.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.21020.13550335257385479.4af075db-780e-4e36-9880-9b88a74dc6de.595ea9f5-8f3e-4ad1-b590-3f9e588bf46d",
-      "Category": "Simulation",
-      "OriginalReleaseDate": "2022-09-27",
-      "ProductGroupName": "FIFA 23 [XB1]",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblLocalCoop": true,
-        "XblOnlineCoop": true,
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "SharedSplitScreen": true,
-        "60fps": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 2.5,
       "MetaScore": -1
     },
     {
@@ -4468,11 +4176,43 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.8,
       "MetaScore": 79
+    },
+    {
+      "ProductId": "9NDDMHZRZ0R6",
+      "DeveloperName": "EA Canada",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "FIFA 23",
+      "ShortTitle": "FIFA 23 Standard Edition",
+      "ShortDescription": "EA SPORTS\u2122 FIFA 23 brings The World\u2019s Game to the pitch, with both men\u2019s and women\u2019s FIFA World Cup\u2122 tournaments coming to the game during the season, the addition of women\u2019s club teams, cross-play features**, and new ways to play your favourite modes.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.21020.13550335257385479.4af075db-780e-4e36-9880-9b88a74dc6de.595ea9f5-8f3e-4ad1-b590-3f9e588bf46d",
+      "Category": "Simulation",
+      "OriginalReleaseDate": "2022-09-27",
+      "ProductGroupName": "FIFA 23 [XB1]",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblLocalCoop": true,
+        "XblOnlineCoop": true,
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "SharedSplitScreen": true,
+        "60fps": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": 2.5,
+      "MetaScore": -1
     },
     {
       "ProductId": "BQG162F04T2L",
@@ -4493,9 +4233,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 86
     },
@@ -4525,9 +4263,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 6.8,
       "MetaScore": -1
     },
@@ -4554,9 +4292,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 6.0,
       "MetaScore": 85
     },
@@ -4592,9 +4330,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.7,
       "MetaScore": -1
     },
@@ -4624,9 +4360,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.9,
       "MetaScore": 79
     },
@@ -4654,9 +4388,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": -1
     },
@@ -4695,9 +4427,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 92
     },
@@ -4727,11 +4457,34 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 92
+    },
+    {
+      "ProductId": "9PLKVSWR299F",
+      "DeveloperName": "Turn 10 Studios",
+      "PublisherName": "Xbox Game Studios",
+      "ProductTitle": "Forza Motorsport Standard Edition",
+      "ShortTitle": "Forza Motorsport Standard Edition",
+      "ShortDescription": "Race over 500 real-world cars including modern race cars and more than 100 cars new to Forza Motorsport. Make every lap count across 20 living environments with fan-favorite locations and multiple track layouts to master, each featuring live on-track scoring, fully dynamic time-of-day with weather and unique driving conditions that ensure no two laps ever look or play the same.\u202f ",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.57449.14311721322459352.08838dcd-1049-42ef-a004-b13ad1d41946.4eeb1f6f-f279-4d5b-83b0-8fb4cc7f9aea",
+      "Category": "Racing & flying",
+      "OriginalReleaseDate": "2023-10-09",
+      "ProductGroupName": "Steelhead PG",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Xbox Game Studios",
+      "Attributes": {
+        "BroadcastSupport": true,
+        "XboxLive": true
+      },
+      "Availability": [
+        "ComingSoon"
+      ],
+      "UserScore": -1,
+      "MetaScore": -1
     },
     {
       "ProductId": "9NP539LHJD8S",
@@ -4757,9 +4510,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 84
     },
@@ -4788,9 +4539,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": 7.1,
       "MetaScore": 89
     },
@@ -4819,9 +4570,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 86
     },
@@ -4849,9 +4598,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.9,
       "MetaScore": -1
     },
@@ -4878,9 +4625,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -4910,9 +4655,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 67
     },
@@ -4939,9 +4682,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -4989,9 +4730,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.5,
       "MetaScore": -1
     },
@@ -5022,9 +4761,7 @@
         "XblCrossPlatformCoop": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 94
     },
@@ -5057,9 +4794,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 93
     },
@@ -5092,9 +4827,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 91
     },
@@ -5134,9 +4867,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": 84
     },
@@ -5168,9 +4899,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.7,
       "MetaScore": 79
     },
@@ -5199,9 +4928,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 82
     },
@@ -5238,9 +4965,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 82
     },
@@ -5269,9 +4994,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.3,
       "MetaScore": 50
     },
@@ -5302,9 +5025,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 81
     },
@@ -5331,9 +5052,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.5,
       "MetaScore": -1
     },
@@ -5362,9 +5081,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -5401,9 +5118,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 82
     },
@@ -5430,9 +5145,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.2,
       "MetaScore": 53
     },
@@ -5465,9 +5178,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.9,
       "MetaScore": -1
     },
@@ -5497,9 +5208,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.6,
       "MetaScore": 68
     },
@@ -5529,9 +5238,7 @@
         "ConsoleGen9Optimized": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.0,
       "MetaScore": 79
     },
@@ -5555,9 +5262,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 97
     },
@@ -5588,9 +5293,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": 79
     },
@@ -5628,9 +5331,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 73
     },
@@ -5658,9 +5359,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": -1
     },
@@ -5689,9 +5388,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -5734,9 +5431,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 82
     },
@@ -5766,9 +5461,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": -1
     },
@@ -5804,9 +5497,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 75
     },
@@ -5836,9 +5527,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.0,
       "MetaScore": 56
     },
@@ -5866,9 +5555,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 84
     },
@@ -5910,9 +5597,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 87
     },
@@ -5948,9 +5633,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -5982,9 +5665,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 79
     },
@@ -6011,9 +5692,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 81
     },
@@ -6039,9 +5718,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.6,
       "MetaScore": 53
     },
@@ -6082,9 +5759,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 85
     },
@@ -6113,9 +5788,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.6,
       "MetaScore": 86
     },
@@ -6138,9 +5811,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -6173,9 +5844,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 88
     },
@@ -6203,9 +5872,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.8,
       "MetaScore": 56
     },
@@ -6239,9 +5906,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.9,
       "MetaScore": 87
     },
@@ -6275,9 +5940,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 67
     },
@@ -6306,9 +5969,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 87
     },
@@ -6337,9 +5998,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": 89
     },
@@ -6366,46 +6025,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 62
-    },
-    {
-      "ProductId": "9P825CZVX852",
-      "DeveloperName": "Milestone S.r.l.",
-      "PublisherName": "Milestone S.r.l.",
-      "ProductTitle": "Hot Wheels Unleashed",
-      "ShortTitle": "HOT WHEELS UNLEASHED\u2122 - Game Of The Year Edition",
-      "ShortDescription": "Collect the best vehicles in the Hot Wheels\u2122 universe, build spectacular tracks and dive into breathtaking races.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.48974.14096306671368575.593b97ff-f3e7-4b38-84f9-1fffd758d82c.8dce7e75-b70f-4dd5-aec8-e4612a2290a5",
-      "Category": "Family & kids",
-      "OriginalReleaseDate": "2021-09-27",
-      "ProductGroupName": "HOT WHEELS UNLEASHED",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 389.99,
-      "CurrencyCode": "PLN",
-      "Collection": "Other",
-      "Attributes": {
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "XblCrossPlatformMultiPlayer": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "SharedSplitScreen": true,
-        "XboxLiveCrossGenMP": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 7.3,
-      "MetaScore": -1
     },
     {
       "ProductId": "9NGZ7PN3W8DX",
@@ -6439,11 +6061,42 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 72
+    },
+    {
+      "ProductId": "9P825CZVX852",
+      "DeveloperName": "Milestone S.r.l.",
+      "PublisherName": "Milestone S.r.l.",
+      "ProductTitle": "Hot Wheels Unleashed",
+      "ShortTitle": "HOT WHEELS UNLEASHED\u2122 - Game Of The Year Edition",
+      "ShortDescription": "Collect the best vehicles in the Hot Wheels\u2122 universe, build spectacular tracks and dive into breathtaking races.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.48974.14096306671368575.593b97ff-f3e7-4b38-84f9-1fffd758d82c.8dce7e75-b70f-4dd5-aec8-e4612a2290a5",
+      "Category": "Family & kids",
+      "OriginalReleaseDate": "2021-09-27",
+      "ProductGroupName": "HOT WHEELS UNLEASHED",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 389.99,
+      "CurrencyCode": "PLN",
+      "Collection": "Other",
+      "Attributes": {
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "XblCrossPlatformMultiPlayer": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "SharedSplitScreen": true,
+        "XboxLiveCrossGenMP": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": 7.3,
+      "MetaScore": -1
     },
     {
       "ProductId": "9NBFGKQLMV33",
@@ -6471,9 +6124,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": -1
     },
@@ -6514,9 +6165,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -6545,9 +6194,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -6574,9 +6221,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -6609,9 +6254,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 81
     },
@@ -6637,9 +6280,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -6667,9 +6308,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 89
     },
@@ -6699,9 +6338,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -6728,9 +6365,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 93
     },
@@ -6761,9 +6396,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 83
     },
@@ -6786,9 +6419,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 82
     },
@@ -6822,9 +6453,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": 89
     },
@@ -6859,9 +6488,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 75
     },
@@ -6884,9 +6511,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 67
     },
@@ -6920,9 +6545,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 74
     },
@@ -6950,9 +6573,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [
+        "ComingSoon"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -6985,9 +6608,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.6,
       "MetaScore": 70
     },
@@ -7014,9 +6635,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": 78
     },
@@ -7045,9 +6664,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 86
     },
@@ -7073,9 +6690,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -7106,9 +6721,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 82
     },
@@ -7137,9 +6750,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -7170,9 +6781,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [
+        "ComingSoon"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -7196,9 +6807,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 85
     },
@@ -7227,9 +6836,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -7258,9 +6865,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": 79
     },
@@ -7288,9 +6893,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -7322,9 +6925,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -7352,9 +6953,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 74
     },
@@ -7388,9 +6987,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 0.3,
       "MetaScore": -1
     },
@@ -7425,49 +7022,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 0.6,
       "MetaScore": 70
-    },
-    {
-      "ProductId": "9P0NV2LSS99C",
-      "DeveloperName": "Tiburon",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "Madden NFL 23",
-      "ShortTitle": "Madden NFL 23 Xbox One",
-      "ShortDescription": "Play your way into the history books in Madden NFL 23!\r\nControl your impact with every decision in all-new ways. Call the shots in Franchise with free agency and trade logic updates, play your way into the history books in Face of the Franchise: The League, and assemble the most powerful roster in all of Madden Ultimate Team\u2122.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.53819.14523016514306010.f789303b-5ec7-47a7-9e4f-d94c3fcd45b5.98661f78-19d7-45a5-8764-ebe61bb696aa",
-      "Category": "Sports",
-      "OriginalReleaseDate": "2022-08-16",
-      "ProductGroupName": "Madden NFL 23",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblLocalCoop": true,
-        "XblOnlineCoop": true,
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "60fps": true,
-        "SpatialSound": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 1.1,
-      "MetaScore": -1
     },
     {
       "ProductId": "9MZKW7QMXQRV",
@@ -7503,11 +7060,45 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.0,
       "MetaScore": 70
+    },
+    {
+      "ProductId": "9P0NV2LSS99C",
+      "DeveloperName": "Tiburon",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "Madden NFL 23",
+      "ShortTitle": "Madden NFL 23 Xbox One",
+      "ShortDescription": "Play your way into the history books in Madden NFL 23!\r\nControl your impact with every decision in all-new ways. Call the shots in Franchise with free agency and trade logic updates, play your way into the history books in Face of the Franchise: The League, and assemble the most powerful roster in all of Madden Ultimate Team\u2122.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.53819.14523016514306010.f789303b-5ec7-47a7-9e4f-d94c3fcd45b5.98661f78-19d7-45a5-8764-ebe61bb696aa",
+      "Category": "Sports",
+      "OriginalReleaseDate": "2022-08-16",
+      "ProductGroupName": "Madden NFL 23",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblLocalCoop": true,
+        "XblOnlineCoop": true,
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "60fps": true,
+        "SpatialSound": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": 1.1,
+      "MetaScore": -1
     },
     {
       "ProductId": "9NW7M71V29DT",
@@ -7534,9 +7125,9 @@
         "PcGamePad": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -7559,9 +7150,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.7,
       "MetaScore": 91
     },
@@ -7584,9 +7173,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.9,
       "MetaScore": 96
     },
@@ -7609,9 +7196,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.0,
       "MetaScore": 93
     },
@@ -7643,9 +7228,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 90
     },
@@ -7673,9 +7256,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": 76
     },
@@ -7698,9 +7279,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 72
     },
@@ -7723,9 +7302,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.4,
       "MetaScore": 72
     },
@@ -7752,9 +7329,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": -1
     },
@@ -7788,9 +7363,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.9,
       "MetaScore": 74
     },
@@ -7813,39 +7386,9 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": 73
-    },
-    {
-      "ProductId": "9N2PS831S84N",
-      "DeveloperName": "Render Cube",
-      "PublisherName": "Toplitz Productions",
-      "ProductTitle": "Medieval Dynasty",
-      "ShortTitle": "Medieval Dynasty",
-      "ShortDescription": "Hunt, survive, build and lead in the harsh Middle Ages: Create your own Medieval Dynasty and ensure its long-lasting prosperity or die trying!",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.30751.13947624431918587.6348864b-b823-4363-9d17-7672333870b8.0814e975-f52f-4570-a244-2164e64c09d9",
-      "Category": "Action & adventure",
-      "OriginalReleaseDate": "2022-10-06",
-      "ProductGroupName": "Medieval Dynasty",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "Other",
-      "Attributes": {
-        "BroadcastSupport": true,
-        "SinglePlayer": true,
-        "XblAchievements": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": -1.0,
-      "MetaScore": -1
     },
     {
       "ProductId": "9PDDP6ML6XHF",
@@ -7873,10 +7416,34 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
+      "MetaScore": -1
+    },
+    {
+      "ProductId": "9N2PS831S84N",
+      "DeveloperName": "Render Cube",
+      "PublisherName": "Toplitz Productions",
+      "ProductTitle": "Medieval Dynasty",
+      "ShortTitle": "Medieval Dynasty",
+      "ShortDescription": "Hunt, survive, build and lead in the harsh Middle Ages: Create your own Medieval Dynasty and ensure its long-lasting prosperity or die trying!",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.30751.13947624431918587.6348864b-b823-4363-9d17-7672333870b8.0814e975-f52f-4570-a244-2164e64c09d9",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2022-10-06",
+      "ProductGroupName": "Medieval Dynasty",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Attributes": {
+        "BroadcastSupport": true,
+        "SinglePlayer": true,
+        "XblAchievements": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": -1.0,
       "MetaScore": -1
     },
     {
@@ -7903,9 +7470,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -7929,9 +7494,9 @@
         "SinglePlayer": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": 6.8,
       "MetaScore": -1
     },
@@ -7959,9 +7524,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": 8.1,
       "MetaScore": 79
     },
@@ -7994,9 +7559,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 90
     },
@@ -8026,9 +7589,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.9,
       "MetaScore": 81
     },
@@ -8061,9 +7622,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 74
     },
@@ -8099,9 +7658,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.6,
       "MetaScore": 71
     },
@@ -8132,9 +7689,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -8170,9 +7725,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 88
     },
@@ -8196,9 +7749,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 79
     },
@@ -8222,9 +7773,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.0,
       "MetaScore": 72
     },
@@ -8260,9 +7809,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": 84
     },
@@ -8298,9 +7845,7 @@
         "XblPresence": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.2,
       "MetaScore": -1
     },
@@ -8343,9 +7888,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.7,
       "MetaScore": 87
     },
@@ -8375,9 +7918,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": -1
     },
@@ -8410,9 +7951,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": -1
     },
@@ -8442,9 +7981,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 84
     },
@@ -8471,9 +8008,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.4,
       "MetaScore": -1
     },
@@ -8510,9 +8045,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.4,
       "MetaScore": 86
     },
@@ -8550,9 +8083,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.7,
       "MetaScore": 81
     },
@@ -8586,9 +8117,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.2,
       "MetaScore": 73
     },
@@ -8618,9 +8147,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.6,
       "MetaScore": -1
     },
@@ -8649,9 +8176,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 73
     },
@@ -8685,9 +8210,9 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 7.6,
       "MetaScore": -1
     },
@@ -8716,9 +8241,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 75
     },
@@ -8753,9 +8276,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -8779,9 +8300,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 65
     },
@@ -8814,11 +8333,34 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 74
+    },
+    {
+      "ProductId": "C355T88BBX1S",
+      "DeveloperName": "Ghost Games",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "Need for Speed Payback",
+      "ShortTitle": "Need for Speed\u2122 Payback",
+      "ShortDescription": "Need for Speed\u2122, one of the world\u2019s bestselling video game franchises, returns with a vengeance in the new action-driving blockbuster, Need for Speed Payback.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38412.66406111980515345.32ef44be-5899-40c8-9e5d-80147558ea6a.7633a793-447a-49a6-9d5d-4c351bd2ded6",
+      "Category": "Racing & flying",
+      "OriginalReleaseDate": "2017-11-07",
+      "ProductGroupName": "Need For Speed Payback",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "CapabilityXboxEnhanced": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": 4.1,
+      "MetaScore": 61
     },
     {
       "ProductId": "9PP837L3Q75D",
@@ -8850,9 +8392,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.2,
       "MetaScore": 77
     },
@@ -8882,9 +8422,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 77
     },
@@ -8908,9 +8446,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.8,
       "MetaScore": 75
     },
@@ -8939,9 +8475,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": 81
     },
@@ -8971,46 +8505,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 80
-    },
-    {
-      "ProductId": "9NRDC9PXDQ5N",
-      "DeveloperName": "EA Vancouver",
-      "PublisherName": "Electronic Arts",
-      "ProductTitle": "NHL 22",
-      "ShortTitle": "NHL\u00ae 22 Xbox One",
-      "ShortDescription": "Powered by Frostbite\u2122, EA SPORTS\u2122 NHL\u00ae22 gets the superstar treatment with a huge leap forward in graphics along with the arrival of Superstar X-Factors that elevates the league\u2019s biggest stars with an all new layer of class-based play. This is breakthrough hockey. ",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.7105.14389534014695141.1e4cd4f9-411a-49c7-8a82-0ef2c6ed6067.98b0705d-51f9-4b07-94cf-109825cca6f1",
-      "Category": "Sports",
-      "OriginalReleaseDate": "2021-10-12",
-      "ProductGroupName": "NHL 22",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "PLN",
-      "Collection": "EA Play",
-      "Attributes": {
-        "XblLocalCoop": true,
-        "XblOnlineCoop": true,
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
-        "BroadcastSupport": true,
-        "CapabilityHDR": true,
-        "SinglePlayer": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 3.2,
-      "MetaScore": -1
     },
     {
       "ProductId": "9MT364N9QK38",
@@ -9042,11 +8539,42 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.4,
       "MetaScore": 74
+    },
+    {
+      "ProductId": "9NRDC9PXDQ5N",
+      "DeveloperName": "EA Vancouver",
+      "PublisherName": "Electronic Arts",
+      "ProductTitle": "NHL 22",
+      "ShortTitle": "NHL\u00ae 22 Xbox One",
+      "ShortDescription": "Powered by Frostbite\u2122, EA SPORTS\u2122 NHL\u00ae22 gets the superstar treatment with a huge leap forward in graphics along with the arrival of Superstar X-Factors that elevates the league\u2019s biggest stars with an all new layer of class-based play. This is breakthrough hockey. ",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.7105.14389534014695141.1e4cd4f9-411a-49c7-8a82-0ef2c6ed6067.98b0705d-51f9-4b07-94cf-109825cca6f1",
+      "Category": "Sports",
+      "OriginalReleaseDate": "2021-10-12",
+      "ProductGroupName": "NHL 22",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "PLN",
+      "Collection": "EA Play",
+      "Attributes": {
+        "XblLocalCoop": true,
+        "XblOnlineCoop": true,
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "Availability": [],
+      "UserScore": 3.2,
+      "MetaScore": -1
     },
     {
       "ProductId": "9NV8BHF1N9F4",
@@ -9078,9 +8606,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.0,
       "MetaScore": 71
     },
@@ -9113,9 +8639,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 1.8,
       "MetaScore": -1
     },
@@ -9144,9 +8668,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.3,
       "MetaScore": -1
     },
@@ -9178,9 +8700,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": -1
     },
@@ -9212,9 +8732,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -9246,41 +8764,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": 70
-    },
-    {
-      "ProductId": "9NCG3X89KRLD",
-      "DeveloperName": "KOEI TECMO GAMES",
-      "PublisherName": "KOEI TECMO AMERICA",
-      "ProductTitle": "Ninja Gaiden: Master Collection",
-      "ShortTitle": "NINJA GAIDEN: Master Collection",
-      "ShortDescription": "3 high speed ninja action titles are now available in one package!",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38624.13564615551113323.88b07054-b685-4f07-9cfe-222ba3ef0e25.18bebe6f-cd50-4ec1-bed3-5ac3bd7d31d1",
-      "Category": "Action & adventure",
-      "OriginalReleaseDate": "2021-06-10",
-      "ProductGroupName": "NINJA GAIDEN: Master Collection",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "PLN",
-      "Collection": "Other",
-      "Attributes": {
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "SinglePlayer": true,
-        "60fps": true,
-        "PcGamePad": true,
-        "XPA": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 7.2,
-      "MetaScore": 72
     },
     {
       "ProductId": "9NZ5QW71X49G",
@@ -9309,9 +8795,35 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
+      "UserScore": 7.2,
+      "MetaScore": 72
+    },
+    {
+      "ProductId": "9NCG3X89KRLD",
+      "DeveloperName": "KOEI TECMO GAMES",
+      "PublisherName": "KOEI TECMO AMERICA",
+      "ProductTitle": "Ninja Gaiden: Master Collection",
+      "ShortTitle": "NINJA GAIDEN: Master Collection",
+      "ShortDescription": "3 high speed ninja action titles are now available in one package!",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38624.13564615551113323.88b07054-b685-4f07-9cfe-222ba3ef0e25.18bebe6f-cd50-4ec1-bed3-5ac3bd7d31d1",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2021-06-10",
+      "ProductGroupName": "NINJA GAIDEN: Master Collection",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "PLN",
+      "Collection": "Other",
+      "Attributes": {
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "SinglePlayer": true,
+        "60fps": true,
+        "PcGamePad": true,
+        "XPA": true,
+        "XboxLive": true
+      },
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 72
     },
@@ -9343,9 +8855,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 72
     },
@@ -9385,9 +8895,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 77
     },
@@ -9417,9 +8925,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": -1
     },
@@ -9448,9 +8954,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -9474,9 +8978,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 88
     },
@@ -9517,9 +9019,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.9,
       "MetaScore": 90
     },
@@ -9555,9 +9055,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 73
     },
@@ -9589,9 +9087,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": 83
     },
@@ -9622,9 +9118,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 64
     },
@@ -9654,9 +9148,9 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [
+        "ComingSoon"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -9688,9 +9182,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -9722,9 +9214,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -9749,39 +9239,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": -1,
-      "MetaScore": -1
-    },
-    {
-      "ProductId": "9NPZVDCH73SX",
-      "DeveloperName": "Starbreeze Studios",
-      "PublisherName": "Deep Silver",
-      "ProductTitle": "PAYDAY 3",
-      "ShortTitle": "PAYDAY 3",
-      "ShortDescription": "PAYDAY 3 is the highly anticipated sequel to one of the most popular co-op shooters of all time. Since its release, PAYDAY players have been enjoying the thrill of a perfectly planned and executed heist. This is what makes PAYDAY an intense and co-operative first-person gaming experience like no other.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.41648.13779457877292855.4803a4b4-94cc-4b12-bf91-ad49bcb0c65c.f14df05b-5717-4af8-a8ab-6201e4159608",
-      "Category": "Shooter",
-      "OriginalReleaseDate": "2023-09-21",
-      "ProductGroupName": "PAYDAY 3",
-      "XboxConsoleGenOptimized": "Xbox Series X",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "Other",
-      "Attributes": {
-        "XblOnlineCoop": true,
-        "XblCrossPlatformMultiPlayer": true,
-        "XblCrossPlatformCoop": true,
-        "60fps": true,
-        "ConsoleGen9Optimized": true,
-        "XblPresence": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -9804,9 +9262,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 89
     },
@@ -9831,9 +9287,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 77
     },
@@ -9864,9 +9318,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.3,
       "MetaScore": 86
     },
@@ -9892,9 +9344,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 79
     },
@@ -9925,9 +9375,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.9,
       "MetaScore": 87
     },
@@ -9960,9 +9408,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [
+        "ComingSoon"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -9993,9 +9441,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 89
     },
@@ -10030,9 +9476,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 94
     },
@@ -10066,9 +9510,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [
+        "ComingSoon"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -10093,9 +9537,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -10125,9 +9567,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -10155,9 +9595,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": -1
     },
@@ -10184,9 +9622,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.8,
       "MetaScore": -1
     },
@@ -10213,9 +9649,7 @@
         "XblPresence": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.3,
       "MetaScore": 86
     },
@@ -10244,9 +9678,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 80
     },
@@ -10273,9 +9705,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 76
     },
@@ -10303,9 +9733,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 80
     },
@@ -10328,9 +9756,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": 89
     },
@@ -10361,9 +9787,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.6,
       "MetaScore": 76
     },
@@ -10392,9 +9816,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -10430,9 +9852,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.3,
       "MetaScore": 75
     },
@@ -10461,9 +9881,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 84
     },
@@ -10492,9 +9910,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.4,
       "MetaScore": -1
     },
@@ -10519,9 +9935,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": -1
     },
@@ -10557,9 +9971,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 87
     },
@@ -10600,9 +10012,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -10639,9 +10049,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 8.7,
       "MetaScore": 90
     },
@@ -10665,9 +10075,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.3,
       "MetaScore": 77
     },
@@ -10691,9 +10099,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 81
     },
@@ -10723,9 +10129,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.3,
       "MetaScore": 72
     },
@@ -10760,9 +10164,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -10791,9 +10193,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.2,
       "MetaScore": 85
     },
@@ -10822,9 +10222,7 @@
         "SharedSplitScreen": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 84
     },
@@ -10859,9 +10257,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 68
     },
@@ -10891,9 +10287,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 63
     },
@@ -10928,9 +10322,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.4,
       "MetaScore": 56
     },
@@ -10965,9 +10357,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 73
     },
@@ -10996,9 +10386,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 87
     },
@@ -11030,9 +10418,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -11058,9 +10444,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 71
     },
@@ -11097,9 +10481,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -11124,9 +10506,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 83
     },
@@ -11151,9 +10531,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -11185,9 +10563,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": 64
     },
@@ -11210,9 +10586,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.8,
       "MetaScore": 71
     },
@@ -11223,7 +10597,7 @@
       "ProductTitle": "SD Gundam Battle Alliance",
       "ShortTitle": "SD GUNDAM BATTLE ALLIANCE",
       "ShortDescription": "In SD Gundam Battle Alliance, Mobile Suits and characters from across Mobile Suit Gundam history take center stage in this all-new action RPG.\r\n\r\n\u2022 Combo action with stunning visuals and dynamic animation\r\n\u2022 Strange phenomena known as Breaks are twisting legendary moments from Gundam history, and you're in charge to fix them.\r\n\u2022 Tackle missions with friends in multiplayer!",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.53892.14132093584276498.0623cfba-708a-4af4-a091-8bdc36564a7b.60f97146-ac21-4467-88d7-f21f8edf3407",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.53892.14614111148459073.c42c797c-7f31-4d11-acfb-8a8ed2e1c67b.4733c1f4-8112-45de-9e69-edbd5b92ddec",
       "Category": "Action & adventure",
       "OriginalReleaseDate": "2022-08-25",
       "ProductGroupName": "SD GUNDAM BATTLE ALLIANCE",
@@ -11246,9 +10620,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.3,
       "MetaScore": 71
     },
@@ -11271,9 +10643,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 72
     },
@@ -11304,9 +10674,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 7.4,
       "MetaScore": 88
     },
@@ -11345,9 +10715,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": 69
     },
@@ -11376,9 +10744,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -11407,9 +10773,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.6,
       "MetaScore": -1
     },
@@ -11438,9 +10802,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -11469,9 +10831,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -11500,9 +10860,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -11533,9 +10891,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.1,
       "MetaScore": 66
     },
@@ -11563,9 +10919,9 @@
         "XblPresence": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": 6.5,
       "MetaScore": 86
     },
@@ -11592,9 +10948,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 82
     },
@@ -11617,9 +10971,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": 86
     },
@@ -11644,9 +10996,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 80
     },
@@ -11675,9 +11025,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": -1
     },
@@ -11708,9 +11056,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -11739,9 +11085,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -11782,9 +11126,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.2,
       "MetaScore": 77
     },
@@ -11817,9 +11159,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -11853,9 +11193,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 67
     },
@@ -11888,9 +11226,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": -1
     },
@@ -11918,9 +11254,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.4,
       "MetaScore": 82
     },
@@ -11952,9 +11286,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.1,
       "MetaScore": 67
     },
@@ -11987,9 +11319,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.1,
       "MetaScore": 77
     },
@@ -12023,9 +11353,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.3,
       "MetaScore": -1
     },
@@ -12055,9 +11383,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -12080,9 +11406,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 82
     },
@@ -12105,9 +11429,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 84
     },
@@ -12134,9 +11456,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 4.6,
       "MetaScore": 75
     },
@@ -12165,9 +11485,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.0,
       "MetaScore": 66
     },
@@ -12202,9 +11520,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": -1
     },
@@ -12241,9 +11557,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.1,
       "MetaScore": 78
     },
@@ -12272,9 +11586,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 89
     },
@@ -12306,9 +11618,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 6.1,
       "MetaScore": 86
     },
@@ -12348,9 +11660,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": -1
     },
@@ -12373,9 +11683,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -12405,9 +11713,7 @@
         "XblPresence": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 81
     },
@@ -12418,7 +11724,7 @@
       "ProductTitle": "Story of Seasons: Friends of Mineral Town",
       "ShortTitle": "",
       "ShortDescription": "",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.6565.14111811581049729.880a533e-2f42-478e-9b1b-161a85d1f19a.9b582805-fafb-4a6d-97cb-69f2e0c25514",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.6565.14532628008147139.767e53f4-df17-47fa-a20d-b9a491b98fa3.120be47f-f78d-4772-805a-18dc23ac5bfb",
       "Category": "Simulation",
       "OriginalReleaseDate": "2021-10-26",
       "ProductGroupName": "STORY OF SEASONS: Friends of Mineral Town",
@@ -12432,9 +11738,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 72
     },
@@ -12463,9 +11767,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.8,
       "MetaScore": -1
     },
@@ -12490,44 +11792,9 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 81
-    },
-    {
-      "ProductId": "9PLMGFWCFZ9G",
-      "DeveloperName": "Playful Corp.",
-      "PublisherName": "Xbox Game Studios",
-      "ProductTitle": "Super Lucky's Tale",
-      "ShortTitle": "Super Lucky's Tale",
-      "ShortDescription": "A delightful, playground platformer for all ages that follows Lucky, the ever-optimistic, energetic, and lovable hero, on his quest to find his inner strength and help his sister rescue the Book of Ages from Jinx.  Jinx is the scheming and mysterious villain trying to reshape the world, but for what reason?",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.33701.14315077775214047.aef14d78-c52a-408c-8883-8ecc08036d2e.cd86b1df-9b7a-4511-89c9-2ca7358d6f5e",
-      "Category": "Platformer",
-      "OriginalReleaseDate": "2017-11-07",
-      "ProductGroupName": "Acorn",
-      "XboxConsoleGenOptimized": "Xbox One",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "Xbox Game Studios",
-      "Attributes": {
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "SinglePlayer": true,
-        "CapabilityXboxEnhanced": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
-        "XPA": true,
-        "XboxLive": true
-      },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
-      "UserScore": 7.0,
-      "MetaScore": 64
     },
     {
       "ProductId": "9NP6V9LFVJ87",
@@ -12557,9 +11824,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.2,
       "MetaScore": 83
     },
@@ -12591,9 +11856,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 9.5,
       "MetaScore": 80
     },
@@ -12623,9 +11886,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -12654,9 +11915,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -12689,9 +11948,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": 6.5,
       "MetaScore": -1
     },
@@ -12723,9 +11982,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -12756,9 +12015,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": -1
     },
@@ -12783,9 +12040,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.9,
       "MetaScore": 78
     },
@@ -12819,9 +12074,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.9,
       "MetaScore": 84
     },
@@ -12852,9 +12105,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": -1
     },
@@ -12884,9 +12135,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -12917,9 +12166,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.0,
       "MetaScore": -1
     },
@@ -12949,9 +12196,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 74
     },
@@ -12979,9 +12224,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.5,
       "MetaScore": 54
     },
@@ -13004,9 +12247,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": 70
     },
@@ -13030,9 +12271,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": -1
     },
@@ -13057,9 +12296,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": 94
     },
@@ -13089,9 +12326,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -13125,9 +12360,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 82
     },
@@ -13156,9 +12389,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": 79
     },
@@ -13189,9 +12420,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 9.0,
       "MetaScore": 82
     },
@@ -13222,9 +12451,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 70
     },
@@ -13255,9 +12482,9 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": true,
+      "Availability": [
+        "ComingSoon"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13288,9 +12515,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 71
     },
@@ -13322,9 +12547,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 78
     },
@@ -13353,9 +12576,7 @@
         "XblPresence": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 85
     },
@@ -13380,9 +12601,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 3.8,
       "MetaScore": 66
     },
@@ -13414,9 +12633,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 77
     },
@@ -13440,9 +12657,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13462,24 +12677,16 @@
       "CurrencyCode": "PLN",
       "Collection": "Other",
       "Attributes": {
-        "XblLocalCoop": true,
-        "XblOnlineCoop": true,
-        "XblLocalMultiPlayer": true,
-        "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
-        "Capability4k": true,
-        "CapabilityHDR": true,
         "SinglePlayer": true,
-        "SharedSplitScreen": true,
-        "60fps": true,
+        "ConsoleGen9Optimized": true,
+        "ConsoleCrossGen": true,
         "XblAchievements": true,
         "XblPresence": true,
-        "XblCloudSaves": true,
+        "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13499,16 +12706,19 @@
       "CurrencyCode": "PLN",
       "Collection": "Other",
       "Attributes": {
+        "XblLocalCoop": true,
+        "XblOnlineCoop": true,
+        "XblLocalMultiPlayer": true,
+        "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
+        "XblCrossPlatformMultiPlayer": true,
         "SinglePlayer": true,
-        "XblAchievements": true,
-        "XblClubs": true,
-        "XblCloudSaves": true,
+        "SharedSplitScreen": true,
+        "XblCrossPlatformCoop": true,
+        "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13532,9 +12742,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13558,9 +12766,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13584,9 +12790,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13612,9 +12816,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13647,9 +12849,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -13673,9 +12875,7 @@
         "SinglePlayer": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 81
     },
@@ -13702,9 +12902,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.0,
       "MetaScore": 83
     },
@@ -13734,9 +12932,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": 85
     },
@@ -13761,9 +12957,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.8,
       "MetaScore": 87
     },
@@ -13793,9 +12987,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -13826,9 +13020,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 76
     },
@@ -13851,9 +13043,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.7,
       "MetaScore": -1
     },
@@ -13876,9 +13066,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 79
     },
@@ -13913,9 +13101,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": -1
     },
@@ -13949,9 +13135,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": 63
     },
@@ -13986,9 +13170,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": -1
     },
@@ -14021,9 +13203,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.4,
       "MetaScore": -1
     },
@@ -14054,9 +13234,9 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": true,
-      "ComingSoon": false,
+      "Availability": [
+        "LeavingSoon"
+      ],
       "UserScore": -1.0,
       "MetaScore": 74
     },
@@ -14084,9 +13264,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.5,
       "MetaScore": 72
     },
@@ -14118,9 +13296,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 85
     },
@@ -14153,9 +13329,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -14186,9 +13360,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.5,
       "MetaScore": -1
     },
@@ -14216,9 +13388,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 81
     },
@@ -14241,9 +13411,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 75
     },
@@ -14272,9 +13440,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": 81
     },
@@ -14308,9 +13474,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -14342,9 +13506,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 95
     },
@@ -14374,9 +13536,9 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": true,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [
+        "RecentlyAdded"
+      ],
       "UserScore": 8.2,
       "MetaScore": 80
     },
@@ -14402,9 +13564,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 82
     },
@@ -14429,9 +13589,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.9,
       "MetaScore": 77
     },
@@ -14463,9 +13621,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.6,
       "MetaScore": 84
     },
@@ -14495,9 +13651,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.6,
       "MetaScore": -1
     },
@@ -14522,9 +13676,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": 81
     },
@@ -14554,9 +13706,7 @@
         "XblClubs": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1.0,
       "MetaScore": -1
     },
@@ -14593,9 +13743,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 79
     },
@@ -14621,9 +13769,7 @@
         "CapabilityXboxEnhanced": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.0,
       "MetaScore": 88
     },
@@ -14650,9 +13796,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.1,
       "MetaScore": 79
     },
@@ -14679,9 +13823,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 75
     },
@@ -14710,9 +13852,7 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 2.9,
       "MetaScore": 68
     },
@@ -14737,9 +13877,7 @@
         "GameStreaming": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.8,
       "MetaScore": 83
     },
@@ -14767,9 +13905,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.2,
       "MetaScore": 90
     },
@@ -14797,9 +13933,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.7,
       "MetaScore": -1
     },
@@ -14827,9 +13961,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.5,
       "MetaScore": -1
     },
@@ -14857,9 +13989,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.8,
       "MetaScore": -1
     },
@@ -14886,9 +14016,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.3,
       "MetaScore": 87
     },
@@ -14916,9 +14044,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.0,
       "MetaScore": 81
     },
@@ -14946,9 +14072,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 88
     },
@@ -14983,9 +14107,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 8.3,
       "MetaScore": 83
     },
@@ -15020,9 +14142,7 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.4,
       "MetaScore": 74
     },
@@ -15062,9 +14182,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 6.4,
       "MetaScore": 77
     },
@@ -15100,9 +14218,7 @@
         "XPA": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 5.8,
       "MetaScore": 70
     },
@@ -15125,9 +14241,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": -1,
       "MetaScore": -1
     },
@@ -15150,9 +14264,7 @@
         "BroadcastSupport": true,
         "XboxLive": true
       },
-      "RecentlyAdded": false,
-      "GoingToBeDeleted": false,
-      "ComingSoon": false,
+      "Availability": [],
       "UserScore": 7.1,
       "MetaScore": 76
     }

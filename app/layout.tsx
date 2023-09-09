@@ -10,6 +10,7 @@ import { Inter } from "next/font/google";
 import { Space_Grotesk } from "next/font/google";
 import { Roboto_Mono } from "next/font/google";
 import { Inter_Tight } from "next/font/google";
+import path from "path";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const space = Space_Grotesk({
