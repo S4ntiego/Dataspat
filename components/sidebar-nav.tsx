@@ -174,6 +174,7 @@ export function SidebarNav() {
               {categories.map((category: any) => (
                 <div className="flex items-center space-x-2" key={category}>
                   <Checkbox
+                    checked={categoriesFilter.includes(category)}
                     id={category}
                     onCheckedChange={(checked) => {
                       if (checked) {
@@ -207,6 +208,7 @@ export function SidebarNav() {
                 <div className="flex items-center space-x-2" key={platform}>
                   <Checkbox
                     id={platform}
+                    checked={releasePlatform.includes(platform)}
                     onCheckedChange={(checked) => {
                       if (checked) {
                         setReleasePlatform([...releasePlatform, platform]);
@@ -242,6 +244,7 @@ export function SidebarNav() {
                 <div className="flex items-center space-x-2" key={collection}>
                   <Checkbox
                     id={collection}
+                    checked={collectionFilter.includes(collection)}
                     onCheckedChange={(checked) => {
                       if (checked) {
                         setCollectionFilter([...collectionFilter, collection]);
@@ -273,6 +276,7 @@ export function SidebarNav() {
                 <div className="flex items-center space-x-2" key={availability}>
                   <Checkbox
                     id={availability}
+                    checked={availabilityFilter.includes(availability)}
                     onCheckedChange={(checked) => {
                       if (checked) {
                         setAvailabilityFilter([
