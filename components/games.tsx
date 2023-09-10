@@ -167,11 +167,11 @@ const Games = () => {
       : window.btoa(str);
 
   return (
-    <div className="flex flex-col" ref={gridRef}>
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-8 py-4 lg:py-6">
+    <div className="flex flex-col lg:pl-2" ref={gridRef}>
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 gap-y-8 lg:gap-8 py-4 lg:py-6">
         {gamesToRender.map((game: any) => (
           <div className="flex flex-col" key={game.ProductId}>
-            <div className="relative h-72 w-46">
+            <div className="relative h-64 md:h-72 w-46">
               <Image
                 key={game.ProductId}
                 src={`/resized_images/${game.ProductId}_resized.jpg`}

@@ -31,19 +31,15 @@ export function SidebarNav() {
     setDateMax,
     setCriticMin,
     setCriticMax,
-    setComingSoon,
     setCategoriesFilter,
     setCollectionFilter,
     setReleasePlatform,
-    setLeavingSoon,
-    setRecentlyAdded,
     filteredGames,
     setPage,
-    reset,
   } = useFilterStore();
 
   const platforms = ["Xbox 360", "Xbox One", "Xbox Series X"];
-  const collections = ["EA Play", "Xbox Game Studios", "Bethesda Softworks"];
+  const collections = ["Bethesda Softworks", "EA Play", "Xbox Game Studios"];
   const availabilities = ["ComingSoon", "LeavingSoon", "RecentlyAdded"];
 
   return (
