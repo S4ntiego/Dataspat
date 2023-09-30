@@ -187,34 +187,34 @@ const Games = () => {
                 <div className="">
                   <div
                     className={cn(
-                      game.Availability.includes("RecentlyAdded")
+                      game?.Availability?.includes("RecentlyAdded")
                         ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
                         : ""
                     )}
                   >
-                    {game.Availability.includes("RecentlyAdded")
+                    {game?.Availability?.includes("RecentlyAdded")
                       ? "Recently added"
                       : ""}
                   </div>
                   <div
                     className={cn(
-                      game.Availability.includes("LeavingSoon")
+                      game?.Availability?.includes("LeavingSoon")
                         ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
                         : ""
                     )}
                   >
-                    {game.Availability.includes("LeavingSoon")
+                    {game?.Availability?.includes("LeavingSoon")
                       ? "Leaving soon"
                       : ""}
                   </div>
                   <div
                     className={cn(
-                      game.Availability.includes("ComingSoon")
+                      game?.Availability?.includes("ComingSoon")
                         ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
                         : ""
                     )}
                   >
-                    {game.Availability.includes("ComingSoon")
+                    {game?.Availability?.includes("ComingSoon")
                       ? "Coming soon"
                       : ""}
                   </div>
