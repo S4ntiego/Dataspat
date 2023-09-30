@@ -117,8 +117,8 @@ const Games = () => {
         valA = new Date(a[field]).getTime();
         valB = new Date(b[field]).getTime();
       } else if (field === "title") {
-        valA = a.ProductTitle.toLowerCase();
-        valB = b.ProductTitle.toLowerCase();
+        valA = a.MetaTitle.toLowerCase();
+        valB = b.MetaTitle.toLowerCase();
       } else {
         valA = Number(a[field]);
         valB = Number(b[field]);
@@ -175,7 +175,7 @@ const Games = () => {
               <Image
                 key={game.ProductId}
                 src={`/resized_images/${game.ProductId}_resized.jpg`}
-                alt={game.ProductTitle}
+                alt={game.MetaTitle}
                 placeholder={`data:image/svg+xml;base64,${toBase64(
                   shimmer(300, 400)
                 )}`}
@@ -259,7 +259,7 @@ const Games = () => {
               </div>
               <div>, {game.Category}</div>
             </div>
-            <div className="text-md line-clamp-2">{game.ProductTitle}</div>
+            <div className="text-md line-clamp-2">{game.MetaTitle}</div>
           </div>
         ))}
       </div>
