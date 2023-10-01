@@ -29,6 +29,8 @@ const Games = () => {
     scoreMin,
     scoreMax,
     availabilityFilter,
+    timeMin,
+    timeMax,
     dateMin,
     dateMax,
     criticMin,
@@ -81,6 +83,7 @@ const Games = () => {
     gamesToFilter = gamesToFilter.filter((game: any) => {
       const score = game.UserScore;
       const date = new Date(game.OriginalReleaseDate).getFullYear();
+      const timeToComplete = game.Completion;
       const criticScore = game.MetaScore;
       const collection = game.Collection;
       const graphics = game.Graphics;
@@ -92,6 +95,8 @@ const Games = () => {
         (scoreMax === null || score <= scoreMax) &&
         (dateMin === null || date >= dateMin) &&
         (dateMax === null || date <= dateMax) &&
+        (timeMin === null || timeToComplete >= timeMin) &&
+        (timeMax === null || timeToComplete <= timeMax) &&
         (criticMin === null || criticScore >= criticMin) &&
         (criticMax === null || criticScore <= criticMax) &&
         (availabilityFilter.length === 0 ||
@@ -132,6 +137,8 @@ const Games = () => {
 
     setFilteredGames(gamesToFilter);
   }, [
+    timeMin,
+    timeMax,
     scoreMin,
     scoreMax,
     dateMin,
@@ -253,13 +260,20 @@ const Games = () => {
                 </div>
               </div>
             </div>
-            <div className="flex text-muted-foreground text-[10px] uppercase mt-2 tracking-wide">
-              <div>
-                {new Date(game.OriginalReleaseDate) > today
-                  ? "tba"
-                  : game.OriginalReleaseDate.substring(0, 4)}
+            <div className="flex justify-between">
+              <div className="flex text-muted-foreground text-[10px] uppercase mt-2 tracking-wide">
+                <div>
+                  {new Date(game.OriginalReleaseDate) > today
+                    ? "tba"
+                    : game.OriginalReleaseDate.substring(0, 4)}
+                </div>
+                <div>, {game.Category}</div>
               </div>
-              <div>, {game.Category}</div>
+              <div className="flex text-muted-foreground text-[10px] mt-2 tracking-wide">
+                {game.Completion === 0
+                  ? "tbd"
+                  : `${game.Completion.toFixed(1)}h`}
+              </div>
             </div>
             <div className="text-md line-clamp-2">{game.MetaTitle}</div>
           </div>

@@ -64,6 +64,7 @@ module.exports = {
         space: ["var(--font-space-grotesk)"],
         inter_tight: ["var(--font-inter-tight)"],
         roboto_mono: ["var(--font-roboto-mono)"],
+        bricolage: ["var(--font-bricolage)"],
       },
       keyframes: {
         "accordion-down": {

@@ -21,6 +21,10 @@ export function SidebarNav() {
     criticMin,
     criticMax,
     collectionFilter,
+    timeMin,
+    timeMax,
+    setTimeMin,
+    setTimeMax,
     availabilityFilter,
     setAvailabilityFilter,
     categoriesFilter,
@@ -302,6 +306,47 @@ export function SidebarNav() {
                   </label>
                 </div>
               ))}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+      <Accordion type="single" collapsible>
+        <AccordionItem value="item-1">
+          <AccordionTrigger>
+            <div>
+              Time To Beat{" "}
+              <span className="text-muted-foreground">(Hours)</span>
+            </div>
+          </AccordionTrigger>
+          <AccordionContent>
+            <div className="flex justify-between items-center p-[1px]">
+              <Input
+                type="number"
+                placeholder="from"
+                value={timeMin}
+                aria-label="Min Time To Complete"
+                min="0"
+                onChange={(e: any) => {
+                  const value = parseFloat(e.target.value);
+                  if (isNaN(value) || value >= 0) {
+                    setTimeMin(isNaN(value) ? null : value);
+                  }
+                }}
+              />
+              <span className="mx-2">{`-`}</span>
+              <Input
+                type="number"
+                placeholder="to"
+                min="0"
+                value={timeMax}
+                aria-label="Max Time to Complete"
+                onChange={(e: any) => {
+                  const value = parseFloat(e.target.value);
+                  if (isNaN(value) || value >= 0) {
+                    setTimeMax(isNaN(value) ? null : value);
+                  }
+                }}
+              />
             </div>
           </AccordionContent>
         </AccordionItem>

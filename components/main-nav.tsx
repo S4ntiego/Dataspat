@@ -11,7 +11,7 @@ export function MainNav() {
   return (
     <div className="hidden lg:flex py-4 border-b lg:border-0 lg:mx-0 w-full">
       <div className="relative flex items-center justify-between w-full">
-        <p className="font-space text-xl">Gridtrain</p>
+        <p className="font-bricolage text-2xl">Dataspat</p>
         <div className="flex items-center gap-4">
           <Input
             type="text"

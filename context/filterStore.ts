@@ -8,6 +8,10 @@ type FilterState = {
   totalPages: any;
   scoreMin: any;
   scoreMax: any;
+  timeMin: any;
+  timeMax: any;
+  setTimeMin: any;
+  setTimeMax: any;
   dateMin: any;
   dateMax: any;
   criticMin: any;
@@ -43,6 +47,8 @@ type FilterState = {
 export const useFilterStore: any = create<FilterState>((set, get) => ({
   reset: () =>
     set({
+      timeMin: null,
+      timeMax: null,
       scoreMin: null,
       scoreMax: null,
       dateMin: null,
@@ -59,6 +65,8 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
       filteredGames: data.games,
     }),
   scoreMin: null,
+  timeMin: null,
+  timeMax: null,
   gamesPerPage: 100,
   page: 1,
   availabilityFilter: [],
@@ -96,6 +104,8 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
   setFilteredGames: (games: any) => set({ filteredGames: games }),
   setScoreMin: (value: any) => set(() => ({ scoreMin: value })),
   setScoreMax: (value: any) => set(() => ({ scoreMax: value })),
+  setTimeMin: (value: any) => set(() => ({ timeMin: value })),
+  setTimeMax: (value: any) => set(() => ({ timeMax: value })),
   setDateMin: (value: any) => set(() => ({ dateMin: value })),
   setDateMax: (value: any) => set(() => ({ dateMax: value })),
   setCriticMin: (value: any) => set(() => ({ criticMin: value })),

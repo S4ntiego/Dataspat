@@ -30,6 +30,8 @@ export function GamesOrder() {
           <SelectItem value="OriginalReleaseDate-desc">
             Release Date: Desc
           </SelectItem>
+          <SelectItem value="Completion-asc">Time To Beat: Asc</SelectItem>
+          <SelectItem value="Completion-desc">Time To Beat: Desc</SelectItem>
         </SelectContent>
       </Select>
     </div>

@@ -6,11 +6,15 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Bricolage_Grotesque, Inter } from "next/font/google";
 import { Space_Grotesk } from "next/font/google";
 import { Roboto_Mono } from "next/font/google";
 import { Inter_Tight } from "next/font/google";
 
+const bricolage = Bricolage_Grotesque({
+  variable: "--font-bricolage",
+  subsets: ["latin"],
+});
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const space = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -80,7 +84,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
           inter.variable,
           space.variable,
           roboto_mono.variable,
-          inter_tight.variable
+          inter_tight.variable,
+          bricolage.variable
         )}
       >
         <ThemeProvider
