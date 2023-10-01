@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: ["res.cloudinary.com"],
+    loader: "cloudinary",
+    path: "https://res.cloudinary.com/santiego/image/upload",
     remotePatterns: [
       {
         protocol: "https",

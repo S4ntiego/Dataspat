@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import { useFilterStore } from "@/context/filterStore";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
+import { CldImage } from "next-cloudinary";
 
 interface Game {
   ProductId: string;
@@ -172,14 +173,15 @@ const Games = () => {
         {gamesToRender.map((game: any) => (
           <div className="flex flex-col" key={game.ProductId}>
             <div className="relative h-64 md:h-72 w-46">
-              <Image
+              <CldImage
                 key={game.ProductId}
-                src={`/resized_images/${game.ProductId}_resized.jpg`}
+                src={`v1696179575/${game.ProductId}_resized.jpg`}
                 alt={game.MetaTitle}
                 placeholder={`data:image/svg+xml;base64,${toBase64(
                   shimmer(300, 400)
                 )}`}
                 sizes="50vw"
+                loading="lazy"
                 fill
                 className="rounded-[4px] object-cover w-full h-full"
               />
