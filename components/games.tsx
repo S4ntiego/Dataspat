@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { useFilterStore } from "@/context/filterStore";
 import { cn } from "@/lib/utils";

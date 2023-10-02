@@ -12,6 +12,7 @@ type FilterState = {
   timeMax: any;
   setTimeMin: any;
   setTimeMax: any;
+  currentPageGames: any;
   dateMin: any;
   dateMax: any;
   criticMin: any;
@@ -82,6 +83,7 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
   searchTerm: "",
   sortOption: "",
   originalGames: data.games,
+  currentPageGames: [],
   filteredGames: data.games,
   totalPages: () => Math.ceil(get().filteredGames.length / get().gamesPerPage),
   getCurrentPageGames: () => {
@@ -91,9 +93,13 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
     return filteredGames.slice(start, end);
   },
   setPage: (value: any, callback: any) => {
+    const { gamesPerPage, filteredGames } = get();
     const current_total_pages = get().totalPages();
     const newPage = Math.max(1, Math.min(value, current_total_pages));
-    set({ page: newPage });
+    const start = (newPage - 1) * gamesPerPage;
+    const end = newPage * gamesPerPage;
+    const currentPageGames = filteredGames.slice(start, end);
+    set({ page: newPage, currentPageGames });
 
     // Call the callback function if it's provided
     if (callback) {
@@ -101,7 +107,13 @@ export const useFilterStore: any = create<FilterState>((set, get) => ({
     }
   },
   setOriginalGames: (games: any) => set({ originalGames: games }),
-  setFilteredGames: (games: any) => set({ filteredGames: games }),
+  setFilteredGames: (games: any) => {
+    const { page, gamesPerPage } = get();
+    const start = (page - 1) * gamesPerPage;
+    const end = page * gamesPerPage;
+    const currentPageGames = games.slice(start, end);
+    set({ filteredGames: games, currentPageGames });
+  },
   setScoreMin: (value: any) => set(() => ({ scoreMin: value })),
   setScoreMax: (value: any) => set(() => ({ scoreMax: value })),
   setTimeMin: (value: any) => set(() => ({ timeMin: value })),
