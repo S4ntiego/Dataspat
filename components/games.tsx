@@ -181,7 +181,7 @@ const Games = () => {
             <div className="relative h-64 md:h-72 w-46">
               <CldImage
                 key={game.ProductId}
-                src={`v1696179575/${game.ProductId}_resized.jpg`}
+                src={`v1/games/${game.ProductId}_resized`}
                 alt={game.MetaTitle}
                 placeholder={`data:image/svg+xml;base64,${toBase64(
                   shimmer(300, 400)
@@ -240,7 +240,11 @@ const Games = () => {
                         : "bg-accent text-foreground"
                     )}
                   >
-                    {game.MetaScore === -1 ? "tbd" : game.MetaScore}
+                    {game.MetaScore
+                      ? game.MetaScore === -1
+                        ? "tbd"
+                        : game.MetaScore
+                      : "tbd"}
                   </div>
                   <div
                     className={cn(
@@ -254,7 +258,11 @@ const Games = () => {
                         : "bg-accent text-foreground"
                     )}
                   >
-                    {game.UserScore === -1 ? "tbd" : game.UserScore.toFixed(1)}
+                    {game.UserScore
+                      ? game.UserScore === -1
+                        ? "tbd"
+                        : game.UserScore?.toFixed(1)
+                      : "tbd"}
                   </div>
                 </div>
               </div>
@@ -269,12 +277,16 @@ const Games = () => {
                 <div>, {game.Category}</div>
               </div>
               <div className="flex text-muted-foreground text-[10px] mt-2 tracking-wide">
-                {game.Completion === 0
-                  ? "tbd"
-                  : `${game.Completion.toFixed(1)}h`}
+                {game.Completion
+                  ? game.Completion === 0
+                    ? "tbd"
+                    : `${game.Completion?.toFixed(1)}h`
+                  : "tbd"}
               </div>
             </div>
-            <div className="text-md line-clamp-2">{game.MetaTitle}</div>
+            <div className="text-md line-clamp-2">
+              {game.MetaTitle ? game.MetaTitle : game.ProductTitle}
+            </div>
           </div>
         ))}
       </div>

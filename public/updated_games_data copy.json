@@ -91,20 +91,20 @@
     },
     {
       "ProductId": "9NK78DF207SD",
-      "DeveloperName": "Adam Robinson-Yu",
+      "DeveloperName": "adamgryu",
       "PublisherName": "Whippoorwill Limited",
       "ProductTitle": "A Short Hike",
       "ShortTitle": "A Short Hike",
       "ShortDescription": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.",
       "MainImgUrl": "store-images.s-microsoft.com/image/apps.62646.13662153058855583.d07f97b6-b2ec-4a4c-9bce-a92d676f427c.40fb6d93-d1eb-4f9d-a715-58ac114134fa",
       "Category": "Action & adventure",
-      "OriginalReleaseDate": "2021-11-16",
+      "OriginalReleaseDate": "2020-08-18",
       "ProductGroupName": "",
       "XboxConsoleGenOptimized": "Xbox One",
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": [],
+      "Availability": ["RecentlyAdded"],
       "Attributes": {
         "BroadcastSupport": true,
         "Capability4k": true,
@@ -116,7 +116,15 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "LoadDate": "2023-10-03"
+      "MetaTitle": "A Short Hike",
+      "UserScore": 8.6,
+      "MetaScore": 88,
+      "Added": "2023-08",
+      "Completion": 2.0,
+      "Platforms": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
+      "ScorePlatform": "Nintendo Switch",
+      "UserScoreAmount": 209,
+      "MetaScoreAmount": 17
     },
     {
       "ProductId": "BWVBNCMF22ZK",
@@ -1394,6 +1402,40 @@
       "ScorePlatform": "Xbox One",
       "UserScoreAmount": 729,
       "MetaScoreAmount": 69
+    },
+    {
+      "ProductId": "9P4R2M0NRWNK",
+      "DeveloperName": "Hiding Spot",
+      "PublisherName": "Fellow Traveller",
+      "ProductTitle": "Beacon Pines",
+      "ShortTitle": "Beacon Pines",
+      "ShortDescription": "Beacon Pines is a cute and creepy adventure game. Sneak out late, make new friends, uncover hidden truths, and collect words that will change the course of fate!",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.49864.14588206397851258.078192f2-519f-4a81-b68d-2dbd6199f2c2.762d81ea-0872-4148-a48b-7af70c003da6",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2022-09-22",
+      "ProductGroupName": "",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["LeavingSoon"],
+      "Attributes": {
+        "BroadcastSupport": true,
+        "SinglePlayer": true,
+        "PcGamePad": true,
+        "XblAchievements": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "MetaTitle": "Beacon Pines",
+      "UserScore": 7.4,
+      "MetaScore": 84,
+      "Added": "2022-09",
+      "Completion": 5.0,
+      "Platforms": ["PC", "Xbox Series X", "Xbox One", "Nintendo Switch"],
+      "ScorePlatform": "Nintendo Switch",
+      "UserScoreAmount": 26,
+      "MetaScoreAmount": 16
     },
     {
       "ProductId": "BTXM0C9C3B1S",
@@ -3452,6 +3494,50 @@
       "MetaScoreAmount": 15
     },
     {
+      "ProductId": "9P5ZDVMCJMFD",
+      "DeveloperName": "Konfa Games",
+      "PublisherName": "tinyBuild",
+      "ProductTitle": "Despot's Game",
+      "ShortTitle": "Despot's Game",
+      "ShortDescription": "Roguelike, auto-battler, deep progression, gratuitous violence, pretzels!",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.38798.14634731171917513.ee44ea98-341d-42e8-b67a-c2a4254a08a0.faf223ec-41a3-46fa-b901-935b245c52fc",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2022-09-29",
+      "ProductGroupName": "Despot's Game",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["LeavingSoon"],
+      "Attributes": {
+        "BroadcastSupport": true,
+        "ConsoleGen9Optimized": true,
+        "ConsoleCrossGen": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XblCloudSaves": true,
+        "XPA": true,
+        "XboxLive": true
+      },
+      "MetaTitle": "Despot's Game",
+      "UserScore": 5.7,
+      "MetaScore": 73,
+      "Added": "2022-09",
+      "Completion": 9.5,
+      "Platforms": [
+        "PlayStation 5",
+        "PlayStation 4",
+        "Nintendo Switch",
+        "Xbox Series X",
+        "Xbox One",
+        "PC"
+      ],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 7,
+      "MetaScoreAmount": 7
+    },
+    {
       "ProductId": "9PC4C9NLP3ZD",
       "DeveloperName": "Terry Cavanagh",
       "PublisherName": "Terry Cavanagh",
@@ -4573,7 +4659,7 @@
     {
       "ProductId": "9PC12991NZ5N",
       "DeveloperName": "VestGames",
-      "PublisherName": "Versus Evil, LLC.",
+      "PublisherName": "Versus Evil",
       "ProductTitle": "Eville",
       "ShortTitle": "Eville",
       "ShortDescription": "In this multiplayer social deduction game you can live out your evil side and commit stealthy murders. As a villager, you must unmask the conspirators before you get an axe to your face! No matter what: you will need your social skills to stay alive!",
@@ -4585,7 +4671,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["LeavingSoon"],
+      "Availability": [],
       "Attributes": {
         "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
@@ -4600,7 +4686,21 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "LoadDate": "2023-10-03"
+      "MetaTitle": "Eville",
+      "UserScore": -1.0,
+      "MetaScore": -1,
+      "Added": "2022-10",
+      "Completion": 8.0,
+      "Platforms": [
+        "PC",
+        "Xbox Series X",
+        "Xbox One",
+        "PlayStation 4",
+        "PlayStation 5"
+      ],
+      "ScorePlatform": "Xbox Series X",
+      "UserScoreAmount": "tbd",
+      "MetaScoreAmount": "tbd"
     },
     {
       "ProductId": "9NMFRHJX5JCZ",
@@ -6561,7 +6661,7 @@
     },
     {
       "ProductId": "BT3611GR00CQ",
-      "DeveloperName": "Warner Bros. Games Montreal",
+      "DeveloperName": "WB Games Montreal",
       "PublisherName": "Warner Bros. Games",
       "ProductTitle": "Gotham Knights",
       "ShortTitle": "Gotham Knights",
@@ -6574,7 +6674,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["RecentlyAdded"],
+      "Availability": ["ComingSoon"],
       "Attributes": {
         "XblOnlineCoop": true,
         "Capability4k": true,
@@ -6594,18 +6694,17 @@
       "UserScore": 5.0,
       "MetaScore": 67,
       "Added": "2023-10",
-      "Completion": 16.5,
+      "Completion": 17.0,
       "Platforms": [
+        "PlayStation 5",
+        "Xbox Series X",
         "PC",
         "PlayStation 4",
-        "PlayStation 5",
-        "Xbox One",
-        "Xbox Series X"
+        "Xbox One"
       ],
-      "ScorePlatform": "Playstation 5",
-      "UserScoreAmount": 594,
-      "MetaScoreAmount": 83,
-      "LoadDate": "2023-10-03"
+      "ScorePlatform": "PlayStation 5",
+      "UserScoreAmount": 590,
+      "MetaScoreAmount": 83
     },
     {
       "ProductId": "BPJ686W6S0NH",
@@ -8997,6 +9096,7 @@
       "UserScoreAmount": 525,
       "MetaScoreAmount": 25
     },
+
     {
       "ProductId": "9P0NV2LSS99C",
       "DeveloperName": "EA Tiburon",
@@ -9046,6 +9146,7 @@
       "UserScoreAmount": 217,
       "MetaScoreAmount": 31
     },
+
     {
       "ProductId": "9NW7M71V29DT",
       "DeveloperName": "Graceful Decay",
@@ -10085,6 +10186,47 @@
       "ScorePlatform": "PlayStation 4",
       "UserScoreAmount": 116,
       "MetaScoreAmount": 28
+    },
+    {
+      "ProductId": "9P77VD8MGJX8",
+      "DeveloperName": "Black Mermaid",
+      "PublisherName": "Humble Games",
+      "ProductTitle": "Moonscars",
+      "ShortTitle": "Moonscars",
+      "ShortDescription": "Push the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt\u2014and as you overcome each challenge, new truths will be revealed.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.41801.14609228948314679.57b5d232-e029-48c3-a08c-a51885c8f604.2f27813c-8553-44ab-9d19-d5a20f90d2a6",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2022-09-27",
+      "ProductGroupName": "",
+      "XboxConsoleGenOptimized": "Xbox One",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["LeavingSoon"],
+      "Attributes": {
+        "BroadcastSupport": true,
+        "SinglePlayer": true,
+        "CapabilityVRR": true,
+        "XblAchievements": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "MetaTitle": "Moonscars",
+      "UserScore": 6.3,
+      "MetaScore": 75,
+      "Added": "2022-09",
+      "Completion": 8.5,
+      "Platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation 5",
+        "PlayStation 4",
+        "Xbox Series X",
+        "Xbox One"
+      ],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 33,
+      "MetaScoreAmount": 23
     },
     {
       "ProductId": "BTC0L0BW6LWC",
@@ -11289,6 +11431,55 @@
       "ScorePlatform": "Xbox One",
       "UserScoreAmount": 1,
       "MetaScoreAmount": 76
+    },
+    {
+      "ProductId": "C083G6BGJ334",
+      "DeveloperName": "People Can Fly",
+      "PublisherName": "Square Enix",
+      "ProductTitle": "OUTRIDERS",
+      "ShortTitle": "OUTRIDERS",
+      "ShortDescription": "Square Enix and People Can Fly present OUTRIDERS; a 1-3 player, drop-in-drop-out co-op shooter set in an original, dark and desperate sci-fi universe.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.31989.64676761359365869.4c4dfa98-d983-48f6-8be8-947cb40983a7.6a1da413-6bd0-4711-adc5-3ec94ddb6823",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2021-04-01",
+      "ProductGroupName": "8-Outriders",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["LeavingSoon"],
+      "Attributes": {
+        "XblOnlineCoop": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "CapabilityHDR": true,
+        "SinglePlayer": true,
+        "XboxLiveCrossGenMP": true,
+        "ConsoleGen9Optimized": true,
+        "ConsoleCrossGen": true,
+        "GameStreaming": true,
+        "CapabilityXboxEnhanced": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XPA": true,
+        "XboxLive": true
+      },
+      "MetaTitle": "Outriders",
+      "UserScore": 5.9,
+      "MetaScore": 73,
+      "Added": "2021-04",
+      "Completion": 15.0,
+      "Platforms": [
+        "PlayStation 4",
+        "Xbox One",
+        "PC",
+        "PlayStation 5",
+        "Xbox Series X"
+      ],
+      "ScorePlatform": "PlayStation 5",
+      "UserScoreAmount": 472,
+      "MetaScoreAmount": 53
     },
     {
       "ProductId": "BVJLKDG2TX8H",
@@ -12510,6 +12701,49 @@
       "ScorePlatform": "PlayStation 4",
       "UserScoreAmount": 1,
       "MetaScoreAmount": 76
+    },
+    {
+      "ProductId": "9MZRSLLWKWDV",
+      "DeveloperName": "Mike and Jason",
+      "PublisherName": "Humble Games",
+      "ProductTitle": "Prodeus",
+      "ShortTitle": "Prodeus",
+      "ShortDescription": "Prodeus is a first-person shooter of old, re-imagined using modern rendering techniques and technology. Experience the quality you\u2019d expect from a modern AAA game, designed with retro aesthetics and gameplay that invoke the tech-imposed limits of older hardware.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.37345.13864617007662897.03b7fc2a-1fd2-4210-88c8-75473c498d80.e9736207-6171-46dc-bdb3-3d06992604e4",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2022-09-23",
+      "ProductGroupName": "Prodeus",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["LeavingSoon"],
+      "Attributes": {
+        "XblOnlineCoop": true,
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "SinglePlayer": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "MetaTitle": "Prodeus",
+      "UserScore": 7.6,
+      "MetaScore": 84,
+      "Added": "2021-06",
+      "Completion": 5.5,
+      "Platforms": [
+        "PC",
+        "Nintendo Switch",
+        "PlayStation 4",
+        "PlayStation 5",
+        "Xbox Series X",
+        "Xbox One"
+      ],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 39,
+      "MetaScoreAmount": 18
     },
     {
       "ProductId": "C5HHPG1TXDNG",
@@ -15947,13 +16181,13 @@
       },
       "MetaTitle": "The Lamplighters League",
       "UserScore": -1.0,
-      "MetaScore": 76,
+      "MetaScore": 75,
       "Added": "2023-10",
       "Completion": 0.0,
       "Platforms": ["PC", "Xbox Series X"],
       "ScorePlatform": "PC",
       "UserScoreAmount": "tbd",
-      "MetaScoreAmount": 11
+      "MetaScoreAmount": 10
     },
     {
       "ProductId": "9PMNGB89CLJ2",
@@ -15995,20 +16229,20 @@
     },
     {
       "ProductId": "9NCBTKXHFF8K",
-      "DeveloperName": "Creative Games Computer Graphics Corporation and Neon Doctrine",
-      "PublisherName": "Neon Doctrine",
+      "DeveloperName": "Neon Doctrine",
+      "PublisherName": "Creative Games Computer Graphics Corporation",
       "ProductTitle": "The Legend of Tianding",
       "ShortTitle": "The Legend of Tianding",
       "ShortDescription": "The Legend of Tianding is a sidescrolling action game about Liao Tianding, the legendary Taiwanese Folk Hero. Explore the dazzling streets of Colonial Japanese Taiwan in the early 20th century.",
       "MainImgUrl": "store-images.s-microsoft.com/image/apps.1057.13571267565839258.64c6f711-671b-4bb1-8aea-935b6dc1ede0.f31881be-7d8f-4de7-afef-53394459652a",
       "Category": "Action & adventure",
-      "OriginalReleaseDate": "2022-11-01",
+      "OriginalReleaseDate": "2021-11-01",
       "ProductGroupName": "",
       "XboxConsoleGenOptimized": "Xbox Series X",
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["LeavingSoon"],
+      "Availability": [],
       "Attributes": {
         "BroadcastSupport": true,
         "Capability4k": true,
@@ -16022,7 +16256,23 @@
         "XPA": true,
         "XboxLive": true
       },
-      "LoadDate": "2023-10-03"
+      "MetaTitle": "The Legend of Tianding",
+      "UserScore": 7.8,
+      "MetaScore": 81,
+      "Added": "2022-10",
+      "Completion": 5.0,
+      "Platforms": [
+        "Nintendo Switch",
+        "PC",
+        "PlayStation 4",
+        "Xbox Series X",
+        "PlayStation 5",
+        "iOS (iPhone/iPad)",
+        "Xbox One"
+      ],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 24,
+      "MetaScoreAmount": 10
     },
     {
       "ProductId": "BVTKN6CQ8W5F",
@@ -16932,7 +17182,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["LeavingSoon"],
+      "Availability": [],
       "Attributes": {
         "BroadcastSupport": true,
         "Capability4k": true,
@@ -16942,7 +17192,22 @@
         "XblAchievements": true,
         "XboxLive": true
       },
-      "LoadDate": "2023-10-03"
+      "MetaTitle": "Trek to Yomi",
+      "UserScore": 6.2,
+      "MetaScore": 71,
+      "Added": "2022-05",
+      "Completion": 5.0,
+      "Platforms": [
+        "PlayStation 5",
+        "PC",
+        "Xbox Series X",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 132,
+      "MetaScoreAmount": 53
     },
     {
       "ProductId": "9NLRT31Z4RWM",
@@ -17039,13 +17304,13 @@
       "ShortDescription": "Play as an adorable, yet trouble-making turnip. Avoid paying taxes, solve plantastic puzzles, and take on massive beasts in a journey to tear down a corrupt vegetable government!",
       "MainImgUrl": "store-images.s-microsoft.com/image/apps.150.13918938342247004.3a4e9214-ba82-4550-b1da-17c3eefbdfa4.f925ea20-6b89-443d-9c14-cdf4aec4b580",
       "Category": "Action & adventure",
-      "OriginalReleaseDate": "2022-04-19",
+      "OriginalReleaseDate": "2021-04-22",
       "ProductGroupName": "",
       "XboxConsoleGenOptimized": "Xbox One",
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["LeavingSoon"],
+      "Availability": [],
       "Attributes": {
         "BroadcastSupport": true,
         "Capability4k": true,
@@ -17058,7 +17323,15 @@
         "XPA": true,
         "XboxLive": true
       },
-      "LoadDate": "2023-10-03"
+      "MetaTitle": "Turnip Boy Commits Tax Evasion",
+      "UserScore": 7.9,
+      "MetaScore": 74,
+      "Added": "2022-04",
+      "Completion": 2.0,
+      "Platforms": ["PC", "Nintendo Switch", "Xbox One", "PlayStation 4"],
+      "ScorePlatform": "Nintendo Switch",
+      "UserScoreAmount": 29,
+      "MetaScoreAmount": 14
     },
     {
       "ProductId": "BPBV3PCB0X44",
@@ -17539,6 +17812,48 @@
       "ScorePlatform": "PlayStation 4",
       "UserScoreAmount": 2,
       "MetaScoreAmount": 99
+    },
+    {
+      "ProductId": "9P0B86JN5X28",
+      "DeveloperName": "Wolfeye Studios",
+      "PublisherName": "Devolver Digital",
+      "ProductTitle": "Weird West: Definitive Edition",
+      "ShortTitle": "",
+      "ShortDescription": "",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.15432.14464239229931947.2b5dc5a5-a22e-42eb-bb29-edf828f97c8d.278bd040-8a91-4934-ad97-9b27e10792dc",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2023-05-08",
+      "ProductGroupName": "Weird West",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["LeavingSoon"],
+      "Attributes": {
+        "BroadcastSupport": true,
+        "Capability4k": true,
+        "SinglePlayer": true,
+        "ConsoleGen9Optimized": true,
+        "ConsoleCrossGen": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblClubs": true,
+        "XboxLive": true
+      },
+      "MetaTitle": "Weird West: Definitive Edition",
+      "UserScore": -1.0,
+      "MetaScore": -1,
+      "Added": "2022-03",
+      "Completion": 21.0,
+      "Platforms": [
+        "Xbox Series X",
+        "PlayStation 5",
+        "PlayStation 4",
+        "Nintendo Switch"
+      ],
+      "ScorePlatform": "PlayStation 5",
+      "UserScoreAmount": "tbd",
+      "MetaScoreAmount": "tbd"
     },
     {
       "ProductId": "9N9X9PC8V9CP",
@@ -18271,55 +18586,6 @@
       "ScorePlatform": "PC",
       "UserScoreAmount": 49,
       "MetaScoreAmount": 17
-    },
-    {
-      "ProductId": "9N4BH9FLLMWD",
-      "DeveloperName": "Ryu Ga Gotoku Studio",
-      "PublisherName": "SEGA",
-      "ProductTitle": "Like a Dragon: Ishin!",
-      "ShortTitle": "",
-      "ShortDescription": "1860s Kyo is plagued by vast inequality \u2014 one samurai will change the course of history in his search for justice. Draw your blade and join the revolution in this heated historical adventure.  Pre-order now to add three exclusive weapons to your arsenal.",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.14121.13986316021730261.2a69ea94-8704-4fd3-951c-3403df80be07.e261d67a-1634-4f7d-9e55-dc8fd5c778fe",
-      "Category": "Action & adventure",
-      "OriginalReleaseDate": "2023-02-21",
-      "ProductGroupName": "Like a Dragon",
-      "XboxConsoleGenOptimized": "Xbox Series X",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "Other",
-      "Availability": ["ComingSoon"],
-      "Attributes": {
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "SinglePlayer": true,
-        "CapabilityVRR": true,
-        "60fps": true,
-        "ConsoleGen9Optimized": true,
-        "ConsoleCrossGen": true,
-        "PcGamePad": true,
-        "XblAchievements": true,
-        "XblPresence": true,
-        "XblCloudSaves": true,
-        "XPA": true,
-        "XboxLive": true
-      },
-      "MetaTitle": "Like a Dragon: Ishin!",
-      "UserScore": 7.2,
-      "MetaScore": 81,
-      "Added": "2023-10",
-      "Completion": 24,
-      "Platforms": [
-        "PC",
-        "Playstation 3",
-        "Playstation 4",
-        "Playstation 5",
-        "Xbox One",
-        "Xbox Series X"
-      ],
-      "ScorePlatform": "Playstation 5",
-      "UserScoreAmount": 85,
-      "MetaScoreAmount": 79,
-      "LoadDate": "2023-10-03"
     }
   ]
 }
