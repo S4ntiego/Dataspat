@@ -91,14 +91,14 @@
     },
     {
       "ProductId": "9NK78DF207SD",
-      "DeveloperName": "Adam Robinson-Yu",
+      "DeveloperName": "adamgryu",
       "PublisherName": "Whippoorwill Limited",
       "ProductTitle": "A Short Hike",
       "ShortTitle": "A Short Hike",
       "ShortDescription": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.",
       "MainImgUrl": "store-images.s-microsoft.com/image/apps.62646.13662153058855583.d07f97b6-b2ec-4a4c-9bce-a92d676f427c.40fb6d93-d1eb-4f9d-a715-58ac114134fa",
       "Category": "Action & adventure",
-      "OriginalReleaseDate": "2021-11-16",
+      "OriginalReleaseDate": "2020-08-18",
       "ProductGroupName": "",
       "XboxConsoleGenOptimized": "Xbox One",
       "MSRP": 0.0,
@@ -116,7 +116,15 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
-      "LoadDate": "2023-10-03"
+      "MetaTitle": "A Short Hike",
+      "UserScore": 8.6,
+      "MetaScore": 88,
+      "Added": "2023-08",
+      "Completion": 2.0,
+      "Platforms": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
+      "ScorePlatform": "Nintendo Switch",
+      "UserScoreAmount": 209,
+      "MetaScoreAmount": 17
     },
     {
       "ProductId": "BWVBNCMF22ZK",
@@ -4600,6 +4608,21 @@
         "XblCloudSaves": true,
         "XboxLive": true
       },
+      "MetaTitle": "Eville",
+      "UserScore": -1.0,
+      "MetaScore": -1,
+      "Added": "2022-10",
+      "Completion": 8.0,
+      "Platforms": [
+        "PC",
+        "Xbox Series X",
+        "Xbox One",
+        "PlayStation 4",
+        "PlayStation 5"
+      ],
+      "ScorePlatform": "Xbox Series X",
+      "UserScoreAmount": "tbd",
+      "MetaScoreAmount": "tbd",
       "LoadDate": "2023-10-03"
     },
     {
@@ -16022,6 +16045,23 @@
         "XPA": true,
         "XboxLive": true
       },
+      "MetaTitle": "The Legend of Tianding",
+      "UserScore": 7.8,
+      "MetaScore": 81,
+      "Added": "2022-10",
+      "Completion": 5.0,
+      "Platforms": [
+        "Nintendo Switch",
+        "PC",
+        "PlayStation 4",
+        "Xbox Series X",
+        "PlayStation 5",
+        "iOS (iPhone/iPad)",
+        "Xbox One"
+      ],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 24,
+      "MetaScoreAmount": 10,
       "LoadDate": "2023-10-03"
     },
     {
@@ -16942,6 +16982,22 @@
         "XblAchievements": true,
         "XboxLive": true
       },
+      "MetaTitle": "Trek to Yomi",
+      "UserScore": 6.2,
+      "MetaScore": 71,
+      "Added": "2022-05",
+      "Completion": 5.0,
+      "Platforms": [
+        "PlayStation 5",
+        "PC",
+        "Xbox Series X",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 132,
+      "MetaScoreAmount": 53,
       "LoadDate": "2023-10-03"
     },
     {
@@ -17058,6 +17114,15 @@
         "XPA": true,
         "XboxLive": true
       },
+      "MetaTitle": "Turnip Boy Commits Tax Evasion",
+      "UserScore": 7.9,
+      "MetaScore": 74,
+      "Added": "2022-04",
+      "Completion": 2.0,
+      "Platforms": ["PC", "Nintendo Switch", "Xbox One", "PlayStation 4"],
+      "ScorePlatform": "Nintendo Switch",
+      "UserScoreAmount": 29,
+      "MetaScoreAmount": 14,
       "LoadDate": "2023-10-03"
     },
     {

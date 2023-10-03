@@ -181,7 +181,7 @@ const Games = () => {
             <div className="relative h-64 md:h-72 w-46">
               <CldImage
                 key={game.ProductId}
-                src={`v1/games/${game.ProductId}_resized`}
+                src={`games/${game.ProductId}_resized`}
                 alt={game.MetaTitle}
                 placeholder={`data:image/svg+xml;base64,${toBase64(
                   shimmer(300, 400)
