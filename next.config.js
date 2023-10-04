@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     domains: ["res.cloudinary.com"],
     loader: "cloudinary",
-    path: "https://res.cloudinary.com/dy7s2xhrd/image/upload",
+    path: "https://res.cloudinary.com/dy7s2xhrd/image/upload/",
     remotePatterns: [
       {
         protocol: "https",

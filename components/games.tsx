@@ -5,6 +5,7 @@ import { useFilterStore } from "@/context/filterStore";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import { CldImage } from "next-cloudinary";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 interface Game {
   ProductId: string;
@@ -175,10 +176,10 @@ const Games = () => {
 
   return (
     <div className="flex flex-col lg:pl-2" ref={gridRef}>
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 gap-y-8 lg:gap-8 py-4 lg:py-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 gap-y-8 xl:gap-8 py-4 lg:py-6">
         {gamesToRender.map((game: any) => (
           <div className="flex flex-col" key={game.ProductId}>
-            <div className="relative h-64 md:h-72 w-46">
+            <AspectRatio ratio={300 / 450} className="h-full">
               <CldImage
                 key={game.ProductId}
                 src={`games/${game.ProductId}_resized`}
@@ -186,17 +187,21 @@ const Games = () => {
                 placeholder={`data:image/svg+xml;base64,${toBase64(
                   shimmer(300, 400)
                 )}`}
-                sizes="50vw"
-                loading="lazy"
+                format={"auto"}
+                quality={40}
                 fill
-                className="rounded-[4px] object-cover w-full h-full"
+                sizes="(max-width: 768px) 100vw,
+          (max-width: 1200px) 75vw,
+          50vw"
+                loading="lazy"
+                className="rounded-[4px] object-cover h-full relative"
               />
-              <div className="absolute bottom-1.5 w-full flex justify-between px-1.5">
-                <div className="">
+              <div className="absolute bottom-1.5 w-full flex justify-between px-1">
+                <div className="mr-1">
                   <div
                     className={cn(
                       game?.Availability?.includes("RecentlyAdded")
-                        ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
+                        ? "text-[10px] md:text-[8px] xl:text-[9px] justify-left items-center p-2 rounded-[4px] bg-muted/80 flex"
                         : ""
                     )}
                   >
@@ -207,7 +212,7 @@ const Games = () => {
                   <div
                     className={cn(
                       game?.Availability?.includes("LeavingSoon")
-                        ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
+                        ? "text-[10px] md:text-[8px] xl:text-[9px] justify-left items-center p-2 rounded-[4px] bg-muted/80 flex"
                         : ""
                     )}
                   >
@@ -218,7 +223,7 @@ const Games = () => {
                   <div
                     className={cn(
                       game?.Availability?.includes("ComingSoon")
-                        ? "text-xs justify-left items-center p-2 rounded-[4px] bg-muted/80 hidden md:flex"
+                        ? "text-[10px] md:text-[8px] xl:text-[9px] justify-left items-center p-2 rounded-[4px] bg-muted/80 flex"
                         : ""
                     )}
                   >
@@ -266,9 +271,9 @@ const Games = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </AspectRatio>
             <div className="flex justify-between">
-              <div className="flex text-muted-foreground text-[10px] uppercase mt-2 tracking-wide">
+              <div className="flex text-muted-foreground text-[10px] md:text-[9px] xl:text-[10px] uppercase mt-2 tracking-wide">
                 <div>
                   {new Date(game.OriginalReleaseDate) > today
                     ? "tba"
@@ -276,7 +281,7 @@ const Games = () => {
                 </div>
                 <div>, {game.Category}</div>
               </div>
-              <div className="flex text-muted-foreground text-[10px] mt-2 tracking-wide">
+              <div className="flex text-muted-foreground text-[10px] md:text-[9px] xl:text-[10px] mt-2 tracking-wide">
                 {game.Completion
                   ? game.Completion === 0
                     ? "tbd"

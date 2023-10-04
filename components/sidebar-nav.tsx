@@ -62,6 +62,12 @@ export function SidebarNav() {
           <AccordionContent>
             <div className="flex justify-between items-center p-[1px]">
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 type="number"
                 placeholder="from"
                 value={scoreMin}
@@ -77,6 +83,12 @@ export function SidebarNav() {
               />
               <span className="mx-2">{`-`}</span>
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 type="number"
                 placeholder="to"
                 min="0"
@@ -105,14 +117,22 @@ export function SidebarNav() {
           <AccordionContent>
             <div className="flex justify-between items-center p-[1px]">
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 188 ||
+                    e.keyCode === 190 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 type="number"
                 placeholder="from"
                 min="0"
-                max="10"
+                max="100"
                 value={criticMin}
                 aria-label="Min Critic Score"
                 onChange={(e: any) => {
-                  const value = parseFloat(e.target.value);
+                  const value = parseInt(e.target.value, 10);
                   if (isNaN(value) || (value >= 0 && value <= 100)) {
                     setCriticMin(isNaN(value) ? null : value);
                   }
@@ -120,14 +140,22 @@ export function SidebarNav() {
               />
               <span className="mx-2">{`-`}</span>
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 188 ||
+                    e.keyCode === 190 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 type="number"
                 placeholder="from"
                 min="0"
-                max="10"
+                max="100"
                 value={criticMax}
                 aria-label="Max Critic Score"
                 onChange={(e: any) => {
-                  const value = parseFloat(e.target.value);
+                  const value = parseInt(e.target.value, 10);
                   if (isNaN(value) || (value >= 0 && value <= 100)) {
                     setCriticMax(isNaN(value) ? null : value);
                   }
@@ -143,24 +171,54 @@ export function SidebarNav() {
           <AccordionContent>
             <div className="flex justify-between items-center p-[1px]">
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 188 ||
+                    e.keyCode === 190 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 id="minReleaseYear"
                 type="number"
+                min="1993"
+                max="2100"
                 placeholder="from"
                 value={dateMin}
                 aria-label="Min Release Year"
-                onChange={(e) =>
-                  setDateMin(e.target.value !== "" ? e.target.value : null)
-                }
+                onChange={(e: any) => {
+                  if (
+                    e.target.value === "" ||
+                    (e.target.value >= 0 && e.target.value <= 2100)
+                  ) {
+                    setDateMin(e.target.value === "" ? null : e.target.value);
+                  }
+                }}
               />
               <span className="mx-2">{`-`}</span>
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 188 ||
+                    e.keyCode === 190 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 type="number"
                 placeholder="to"
                 value={dateMax}
+                min="1993"
+                max="2100"
                 aria-label="Max Release Year"
-                onChange={(e) =>
-                  setDateMax(e.target.value !== "" ? e.target.value : null)
-                }
+                onChange={(e: any) => {
+                  if (
+                    e.target.value === "" ||
+                    (e.target.value >= 0 && e.target.value <= 2100)
+                  ) {
+                    setDateMax(e.target.value === "" ? null : e.target.value);
+                  }
+                }}
               />
             </div>
           </AccordionContent>
@@ -321,6 +379,12 @@ export function SidebarNav() {
           <AccordionContent>
             <div className="flex justify-between items-center p-[1px]">
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 type="number"
                 placeholder="from"
                 value={timeMin}
@@ -335,6 +399,12 @@ export function SidebarNav() {
               />
               <span className="mx-2">{`-`}</span>
               <Input
+                onKeyDown={(e) =>
+                  (e.keyCode === 69 ||
+                    e.keyCode === 187 ||
+                    e.keyCode === 189) &&
+                  e.preventDefault()
+                }
                 type="number"
                 placeholder="to"
                 min="0"
