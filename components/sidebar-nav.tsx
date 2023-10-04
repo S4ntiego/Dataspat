@@ -392,7 +392,7 @@ export function SidebarNav() {
                 min="0"
                 onChange={(e: any) => {
                   const value = parseFloat(e.target.value);
-                  if (isNaN(value) || value >= 0) {
+                  if (isNaN(value) || (value >= 0 && value <= 2000)) {
                     setTimeMin(isNaN(value) ? null : value);
                   }
                 }}
@@ -412,7 +412,7 @@ export function SidebarNav() {
                 aria-label="Max Time to Complete"
                 onChange={(e: any) => {
                   const value = parseFloat(e.target.value);
-                  if (isNaN(value) || value >= 0) {
+                  if (isNaN(value) || (value >= 0 && value <= 2000)) {
                     setTimeMax(isNaN(value) ? null : value);
                   }
                 }}
