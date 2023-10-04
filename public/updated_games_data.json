@@ -3865,7 +3865,7 @@
       "ShortDescription": "You\u2019re a marine\u2014one of Earth\u2019s best\u2014recently assigned to the Union Aerospace Corporation (UAC) research facility on Mars. When an experiment malfunctions and creates a portal to Hell, the base is overrun by blood-thirsty demons. You must shoot your way out to survive.",
       "MainImgUrl": "store-images.s-microsoft.com/image/apps.22940.14303655336501012.2beb08d9-395e-453b-b5e3-0d4ac24d9d15.0a18faa9-5741-4971-99ce-55b5f0925b78",
       "Category": "Shooter",
-      "OriginalReleaseDate": "2017-11-10",
+      "OriginalReleaseDate": "1993-12-10",
       "ProductGroupName": "id Software (Classics)",
       "XboxConsoleGenOptimized": "Xbox One",
       "MSRP": 0.0,
@@ -3886,15 +3886,25 @@
         "XPA": true,
         "XboxLive": true
       },
-      "MetaTitle": "DOOM",
+      "MetaTitle": "DOOM (1993)",
       "UserScore": 8.5,
-      "MetaScore": 79,
+      "MetaScore": 82,
       "Added": "2021-03",
       "Completion": 4.5,
-      "Platforms": ["PC", "Xbox One", "PlayStation 4", "Nintendo Switch"],
-      "ScorePlatform": "Nintendo Switch",
-      "UserScoreAmount": 621,
-      "MetaScoreAmount": 73
+      "Platforms": [
+        "PC",
+        "Xbox One",
+        "PlayStation 4",
+        "Nintendo Switch",
+        "iOS (iPhone/iPad)",
+        "PlayStation",
+        "Xbox 360",
+        "Game Boy Advance",
+        "Playstation 3"
+      ],
+      "ScorePlatform": "Xbox 360",
+      "UserScoreAmount": 159,
+      "MetaScoreAmount": 26
     },
     {
       "ProductId": "9NSL68D814GC",
