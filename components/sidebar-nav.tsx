@@ -12,6 +12,7 @@ import { Checkbox } from "./ui/checkbox";
 import data from "../public/updated_games_data.json";
 
 export function SidebarNav() {
+  const lastUpdate = data.last_modified;
   const categories = data.categories;
   const {
     scoreMin,
@@ -48,6 +49,8 @@ export function SidebarNav() {
 
   return (
     <div className="w-full pr-8">
+      <p className="text-sm">Last update: {lastUpdate.slice(0, 10)}</p>
+      <Separator className="my-3" />
       <p className="text-muted-foreground text-sm">
         {filteredGames.length} {filteredGames.length === 1 ? "game" : "games"}
       </p>

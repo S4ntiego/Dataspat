@@ -254,7 +254,7 @@ const Games = () => {
                   <div
                     className={cn(
                       "rounded-md h-8 w-8 flex items-center justify-center text-xs font-bold transition-colors text-background",
-                      game.UserScore >= 7.5
+                      game.UserScore >= 7.0
                         ? "bg-[#65CC33]"
                         : game.UserScore >= 5.0
                         ? "bg-[#FFCC33]"

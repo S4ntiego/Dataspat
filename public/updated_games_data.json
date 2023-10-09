@@ -15,6 +15,7 @@
     "Sports",
     "Strategy"
   ],
+  "last_modified": "2023-10-09 21:41:38",
   "games": [
     {
       "ProductId": "BRL7GC0GP1BM",
@@ -215,7 +216,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Xbox Game Studios",
-      "Availability": [],
+      "Availability": ["RecentlyAdded"],
       "Attributes": {
         "XblOnlineCoop": true,
         "XblOnlineMultiPlayer": true,
@@ -233,7 +234,8 @@
       "Platforms": ["Xbox One", "PC", "Xbox Series X"],
       "ScorePlatform": "Xbox Series X",
       "UserScoreAmount": 26,
-      "MetaScoreAmount": 5
+      "MetaScoreAmount": 5,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "9NCX7DGDZGF4",
@@ -250,7 +252,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["RecentlyAdded"],
+      "Availability": [],
       "Attributes": {
         "BroadcastSupport": true,
         "SinglePlayer": true,
@@ -272,7 +274,8 @@
       ],
       "ScorePlatform": "PC",
       "UserScoreAmount": 31,
-      "MetaScoreAmount": 21
+      "MetaScoreAmount": 21,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "BSNZHRCKC13J",
@@ -1750,7 +1753,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["RecentlyAdded"],
+      "Availability": [],
       "Attributes": {
         "XblLocalCoop": true,
         "XblOnlineCoop": true,
@@ -1771,7 +1774,8 @@
       "Platforms": ["PC", "Xbox One", "PlayStation 4", "Nintendo Switch"],
       "ScorePlatform": "Xbox One",
       "UserScoreAmount": "tbd",
-      "MetaScoreAmount": "tbd"
+      "MetaScoreAmount": "tbd",
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "BRT1K9FV4LRR",
@@ -2237,40 +2241,6 @@
       "MetaScoreAmount": 60
     },
     {
-      "ProductId": "9NH213LRNGPC",
-      "DeveloperName": "Colossal Order",
-      "PublisherName": "Paradox Interactive",
-      "ProductTitle": "Cities: Skylines II",
-      "ShortTitle": "Cities: Skylines II",
-      "ShortDescription": "Raise a city from the ground up and transform it into a thriving metropolis with the most realistic city builder ever. Push your creativity and problem-solving to build on a scale you've never experienced. With deep simulation and a living economy, this is world-building without limits. \r\n",
-      "MainImgUrl": "store-images.s-microsoft.com/image/apps.63682.13634315545997806.0ef3250f-bf0d-4cde-8ecf-d75d393a11c4.b194f113-4b91-41b7-8a33-a2495dd957c9",
-      "Category": "Simulation",
-      "OriginalReleaseDate": "2023-10-24",
-      "ProductGroupName": "Cities: Skylines II",
-      "XboxConsoleGenOptimized": "Xbox Series X",
-      "MSRP": 0.0,
-      "CurrencyCode": "USD",
-      "Collection": "Other",
-      "Availability": ["ComingSoon"],
-      "Attributes": {
-        "BroadcastSupport": true,
-        "Capability4k": true,
-        "SinglePlayer": true,
-        "ConsoleGen9Optimized": true,
-        "XblAchievements": true,
-        "XboxLive": true
-      },
-      "MetaTitle": "Cities: Skylines II",
-      "UserScore": -1.0,
-      "MetaScore": -1,
-      "Added": "2023-10",
-      "Completion": 0.0,
-      "Platforms": ["PC", "PlayStation 5", "Xbox Series X"],
-      "ScorePlatform": "PC",
-      "UserScoreAmount": "tbd",
-      "MetaScoreAmount": "tbd"
-    },
-    {
       "ProductId": "9N6F97F9WGL0",
       "DeveloperName": "Jump Over The Age",
       "PublisherName": "Fellow Traveller",
@@ -2340,8 +2310,8 @@
         "XboxLive": true
       },
       "MetaTitle": "Cocoon",
-      "UserScore": -1.0,
-      "MetaScore": 89,
+      "UserScore": 8.5,
+      "MetaScore": 88,
       "Added": "2023-09",
       "Completion": 3.5,
       "Platforms": [
@@ -2353,8 +2323,8 @@
         "PlayStation 4"
       ],
       "ScorePlatform": "PC",
-      "UserScoreAmount": "tbd",
-      "MetaScoreAmount": 28
+      "UserScoreAmount": 75,
+      "MetaScoreAmount": 34
     },
     {
       "ProductId": "9N17CM38WNN8",
@@ -4573,7 +4543,7 @@
         "XboxLive": true
       },
       "MetaTitle": "EVERSPACE 2",
-      "UserScore": 7.9,
+      "UserScore": 8.0,
       "MetaScore": 81,
       "Added": "2023-04",
       "Completion": 22.0,
@@ -4585,7 +4555,7 @@
         "PlayStation 5"
       ],
       "ScorePlatform": "PC",
-      "UserScoreAmount": 58,
+      "UserScoreAmount": 61,
       "MetaScoreAmount": 40
     },
     {
@@ -6825,7 +6795,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": [],
+      "Availability": ["RecentlyAdded"],
       "Attributes": {
         "BroadcastSupport": true,
         "SinglePlayer": true,
@@ -6852,7 +6822,8 @@
       ],
       "ScorePlatform": "Nintendo Switch",
       "UserScoreAmount": 376,
-      "MetaScoreAmount": 46
+      "MetaScoreAmount": 46,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "9PJTHRNVH62H",
@@ -6981,7 +6952,7 @@
         "XboxLive": true
       },
       "MetaTitle": "Gunfire Reborn",
-      "UserScore": 6.9,
+      "UserScore": 7.1,
       "MetaScore": 75,
       "Added": "2022-10",
       "Completion": 3.0,
@@ -6995,7 +6966,7 @@
         "PlayStation 5"
       ],
       "ScorePlatform": "Xbox Series X",
-      "UserScoreAmount": 14,
+      "UserScoreAmount": 15,
       "MetaScoreAmount": 10
     },
     {
@@ -7879,7 +7850,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": [],
+      "Availability": ["RecentlyAdded"],
       "Attributes": {
         "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
@@ -7904,7 +7875,8 @@
       ],
       "ScorePlatform": "PC",
       "UserScoreAmount": 159,
-      "MetaScoreAmount": 60
+      "MetaScoreAmount": 60,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "9PM3NVB3PXG0",
@@ -8740,7 +8712,7 @@
         "XboxLive": true
       },
       "MetaTitle": "Lies of P",
-      "UserScore": 8.0,
+      "UserScore": 8.1,
       "MetaScore": 80,
       "Added": "2023-09",
       "Completion": 18.0,
@@ -8752,8 +8724,8 @@
         "PlayStation 4"
       ],
       "ScorePlatform": "PlayStation 5",
-      "UserScoreAmount": 478,
-      "MetaScoreAmount": 65
+      "UserScoreAmount": 700,
+      "MetaScoreAmount": 68
     },
     {
       "ProductId": "BTQMHK78ZPF9",
@@ -11415,7 +11387,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": [],
+      "Availability": ["RecentlyAdded"],
       "Attributes": {
         "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
@@ -11428,7 +11400,7 @@
         "XboxLive": true
       },
       "MetaTitle": "Party Animals",
-      "UserScore": 8.4,
+      "UserScore": 8.2,
       "MetaScore": 77,
       "Added": "2023-09",
       "Completion": 1.0,
@@ -11440,8 +11412,9 @@
         "Xbox Series X"
       ],
       "ScorePlatform": "PC",
-      "UserScoreAmount": 48,
-      "MetaScoreAmount": 16
+      "UserScoreAmount": 59,
+      "MetaScoreAmount": 16,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "9N3TF03KNTBD",
@@ -11602,10 +11575,10 @@
         "XboxLive": true
       },
       "MetaTitle": "Payday 3",
-      "UserScore": 2.5,
-      "MetaScore": 69,
+      "UserScore": 2.9,
+      "MetaScore": 67,
       "Added": "2023-09",
-      "Completion": 0.0,
+      "Completion": 6.0,
       "Platforms": [
         "PlayStation 4",
         "Xbox One",
@@ -11614,8 +11587,8 @@
         "PlayStation 5"
       ],
       "ScorePlatform": "PC",
-      "UserScoreAmount": 216,
-      "MetaScoreAmount": 29
+      "UserScoreAmount": 249,
+      "MetaScoreAmount": 38
     },
     {
       "ProductId": "BSCCQL7DZ9KD",
@@ -12689,7 +12662,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Bethesda Softworks",
-      "Availability": ["RecentlyAdded"],
+      "Availability": [],
       "Attributes": {
         "XblLocalCoop": true,
         "XblOnlineCoop": true,
@@ -12716,7 +12689,8 @@
       "Platforms": ["PlayStation", "Nintendo 64", "PC"],
       "ScorePlatform": "PC",
       "UserScoreAmount": 287,
-      "MetaScoreAmount": 287
+      "MetaScoreAmount": 287,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "BPNDKQN84N6L",
@@ -14870,14 +14844,14 @@
         "XboxLive": true
       },
       "MetaTitle": "Starfield",
-      "UserScore": 6.6,
-      "MetaScore": 84,
+      "UserScore": 6.7,
+      "MetaScore": 83,
       "Added": "2023-09",
       "Completion": 20.0,
       "Platforms": ["PC", "Xbox Series X"],
       "ScorePlatform": "Xbox Series X",
-      "UserScoreAmount": 9,
-      "MetaScoreAmount": 82
+      "UserScoreAmount": 10153,
+      "MetaScoreAmount": 86
     },
     {
       "ProductId": "9NT4X7P8B9NB",
@@ -15965,7 +15939,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["ComingSoon"],
+      "Availability": ["RecentlyAdded"],
       "Attributes": {
         "BroadcastSupport": true,
         "Capability4k": true,
@@ -15979,14 +15953,15 @@
         "XboxLive": true
       },
       "MetaTitle": "The Lamplighters League",
-      "UserScore": -1.0,
-      "MetaScore": 76,
+      "UserScore": 6.4,
+      "MetaScore": 75,
       "Added": "2023-10",
       "Completion": 0.0,
       "Platforms": ["PC", "Xbox Series X"],
       "ScorePlatform": "PC",
-      "UserScoreAmount": "tbd",
-      "MetaScoreAmount": 11
+      "UserScoreAmount": 13,
+      "MetaScoreAmount": 15,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "9PMNGB89CLJ2",
@@ -16157,7 +16132,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": [],
+      "Availability": ["RecentlyAdded"],
       "Attributes": {
         "XblOnlineCoop": true,
         "XblOnlineMultiPlayer": true,
@@ -16185,7 +16160,8 @@
       ],
       "ScorePlatform": "PC",
       "UserScoreAmount": 91,
-      "MetaScoreAmount": 28
+      "MetaScoreAmount": 28,
+      "LastChangeDate": "2023-10-09"
     },
     {
       "ProductId": "BQR7QS0F8SJ3",
@@ -18395,6 +18371,87 @@
       "UserScoreAmount": 85,
       "MetaScoreAmount": 79,
       "LoadDate": "2023-10-03"
+    },
+    {
+      "ProductId": "9PLK75782446",
+      "DeveloperName": "Triangle Studios",
+      "PublisherName": "Curve Games",
+      "ProductTitle": "From Space",
+      "ShortTitle": "",
+      "ShortDescription": "From Space is a solo and co-op action-shooter for squads up to four players. Take on the challenge of liberating the earth from an alien infestation with your friends, using over-the-top weaponry in a post-apolcayptic world with awesomely stylized graphics. The apocalypse has never been so much fun!",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.16759.14311843146455225.858b9bb0-aedd-46ab-907b-4002100e6620.36f89050-9225-4e01-9aec-06d3b388bca4",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2023-10-12",
+      "ProductGroupName": "From Space",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["ComingSoon"],
+      "Attributes": {
+        "XblOnlineMultiPlayer": true,
+        "BroadcastSupport": true,
+        "SinglePlayer": true,
+        "XboxLiveCrossGenMP": true,
+        "XblAchievements": true,
+        "XblPresence": true,
+        "XblCloudSaves": true,
+        "XboxLive": true
+      },
+      "LoadDate": "2023-10-09",
+      "MetaTitle": "From Space",
+      "UserScore": -1.0,
+      "MetaScore": -1,
+      "Added": "2023-10",
+      "Completion": 6.0,
+      "Platforms": ["PC", "Xbox One", "Xbox Series X", "Nintendo Switch"],
+      "ScorePlatform": "tbd",
+      "UserScoreAmount": "tbd",
+      "MetaScoreAmount": "tbd"
+    },
+    {
+      "ProductId": "9NT3WC6RKBVQ",
+      "DeveloperName": "Fatshark",
+      "PublisherName": "Fatshark",
+      "ProductTitle": "Warhammer 40,000: Darktide",
+      "ShortTitle": "",
+      "ShortDescription": "Take back the city of Tertium from hordes of bloodthirsty foes in this intense and brutal action shooter. Warhammer 40,000: Darktide is the new co-op focused experience from the award-winning team behind the Vermintide series.\r\n\r\nAs Tertium falls, Rejects Will Rise.",
+      "MainImgUrl": "store-images.s-microsoft.com/image/apps.45862.14421726920549205.4ed1a8ed-1549-4013-8769-b57c45ca99b5.353eafe7-074e-479e-8f87-a93b482e3f6c",
+      "Category": "Action & adventure",
+      "OriginalReleaseDate": "2023-10-04",
+      "ProductGroupName": "Warhammer 40,000: Darktide",
+      "XboxConsoleGenOptimized": "Xbox Series X",
+      "MSRP": 0.0,
+      "CurrencyCode": "USD",
+      "Collection": "Other",
+      "Availability": ["RecentlyAdded"],
+      "Attributes": {
+        "XblOnlineCoop": true,
+        "BroadcastSupport": true,
+        "XblCrossPlatformMultiPlayer": true,
+        "Capability4k": true,
+        "XblCrossPlatformCoop": true,
+        "RayTracing": true,
+        "60fps": true,
+        "SpatialSound": true,
+        "DolbyAtmos": true,
+        "DTSX": true,
+        "ConsoleGen9Optimized": true,
+        "XblAchievements": true,
+        "XblCloudSaves": true,
+        "XPA": true,
+        "XboxLive": true
+      },
+      "LoadDate": "2023-10-09",
+      "MetaTitle": "Warhammer 40,000: Darktide",
+      "UserScore": 4.7,
+      "MetaScore": 74,
+      "Added": "2023-10",
+      "Completion": 27.5,
+      "Platforms": ["PC", "Xbox Series X"],
+      "ScorePlatform": "PC",
+      "UserScoreAmount": 130,
+      "MetaScoreAmount": 74
     }
   ]
 }
