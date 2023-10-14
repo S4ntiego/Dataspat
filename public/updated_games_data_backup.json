@@ -15,7 +15,7 @@
     "Sports",
     "Strategy"
   ],
-  "last_modified": "2023-10-14 11:27:43",
+  "last_modified": "2023-10-09 21:41:38",
   "games": [
     {
       "ProductId": "BRL7GC0GP1BM",
@@ -5659,7 +5659,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Xbox Game Studios",
-      "Availability": ["RecentlyAdded"],
+      "Availability": ["ComingSoon"],
       "Attributes": {
         "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
@@ -5677,15 +5677,14 @@
         "XboxLive": true
       },
       "MetaTitle": "Forza Motorsport",
-      "UserScore": 7.8,
-      "MetaScore": 85,
+      "UserScore": -1.0,
+      "MetaScore": -1,
       "Added": "2023-10",
       "Completion": 0.0,
       "Platforms": ["Xbox Series X", "PC"],
       "ScorePlatform": "Xbox Series X",
-      "UserScoreAmount": 387,
-      "MetaScoreAmount": 72,
-      "LastChangeDate": "2023-10-14"
+      "UserScoreAmount": "tbd",
+      "MetaScoreAmount": "tbd"
     },
     {
       "ProductId": "9NP539LHJD8S",
@@ -18388,7 +18387,7 @@
       "MSRP": 0.0,
       "CurrencyCode": "USD",
       "Collection": "Other",
-      "Availability": ["RecentlyAdded"],
+      "Availability": ["ComingSoon"],
       "Attributes": {
         "XblOnlineMultiPlayer": true,
         "BroadcastSupport": true,
@@ -18408,8 +18407,7 @@
       "Platforms": ["PC", "Xbox One", "Xbox Series X", "Nintendo Switch"],
       "ScorePlatform": "tbd",
       "UserScoreAmount": "tbd",
-      "MetaScoreAmount": "tbd",
-      "LastChangeDate": "2023-10-14"
+      "MetaScoreAmount": "tbd"
     },
     {
       "ProductId": "9NT3WC6RKBVQ",
